@@ -1,0 +1,27 @@
+//Fle: C_SWI_Handler.c
+
+void C_SWI_Handler(unsigned swi_num, unsigned *regs)
+{
+  //Need to figure out the regs pointer to status, fd, buf, and count
+  unsigned *reg1 = regs + 0x4;
+  unsigned *reg2 = reg1 + 0x4;
+  unsigned *reg3 = reg2
+	switch (swi_num){
+	  //exit syscall
+		case 1:
+		  //args: int status
+		  exit();
+			break;
+	  //read syscall
+		case 3:	
+		  //args: int fd, void *buf, size_t count 
+		  read();
+			break;
+			//write syscall
+		case 4:	
+		  //args: int fd, const void *buf, size_t count
+		  write();
+			break
+		default: break;
+	}
+}

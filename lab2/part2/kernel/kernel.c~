@@ -1,0 +1,52 @@
+/*
+ * kernel.c: Kernel main (entry) function
+ *
+ * Author: Laura Bloch <lrbloch@andrew.cmu.edu>
+ *         Wale Desalu <adesalu@andrew.cmu.edu>
+ *	   Kylie Fisher <kafisher@andrew.cmu.edu>
+ * Date:   10/23 21:13
+ */
+
+int main(int argc, char *argv[]) {
+	/* Needs more code. */
+	// go to 0x08 --location of LDR command ( vector table )
+	unsigned long int *pointer;
+	unsigned long int oldInstr;
+	unsigned long int newInstr;
+	unsigned long int ubootSwiAddr;
+	unsigned long int s_addr;
+	pointer = 0x08;
+	sp = 0xa2fffffc;
+	oldInstr = *pointer;
+	//verify that oldInstr & 0xfffff000 corresponds to ldr pc [pc, #imm12]
+	if((oldInstr & 0xfe1ff000) != 0xe41ff000) {
+		printf("Unrecognized instruction\n");
+		return 0xbadc0de;
+	}
+
+	// use *pointer to get address of UBoot's SWI Handler	
+	// get pos/neg offset by checking oldInstr & 0x00800000 
+	if((oldInstr & 0x00800000) == 0x00800000) 
+		ubootSwiAddr = (oldInstr & 0xfff) + 0x10
+	else ubootSwiAddr = 0x10 - (oldInstr & 0xfff);
+	s_addr = (unsigned) &S_Handler;//try to remove & if doesnt work
+	//at ubootSwiAddr put in LDR pc, [pc, #-4]
+	*(ubootSwiAddr) = e51ff004;
+	//put in s_addr at the next addr
+	*(ubootSwiAddr + 4) = s_addr;
+	// push argc and argv onto the stack
+	*(sp) = 0x0;
+	for(int i = argc; i > 0; i--)
+	{
+		sp -= 4;
+		*(sp + 4*i) = argv[i - 1];
+	}
+	sp -= 4;
+	*(sp) = argc;
+	// call assembly function
+	Load_User_Prog(sp);
+	// restore data at ubootSwiAddr + 4
+	*(ubootSwiAddr) = oldInstr;
+	*(ubootSwiAddr + 4) = oldInstr2;
+	return -255;
+}
