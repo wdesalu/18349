@@ -1,0 +1,5 @@
+/home/ubuntu/18349/lab3/tasks/libc/swi/time.o: \
+ /home/ubuntu/18349/lab3/tasks/libc/swi/time.S \
+ /home/ubuntu/18349/lab3/tasks/libc/include/asm.h
+
+/home/ubuntu/18349/lab3/tasks/libc/include/asm.h:

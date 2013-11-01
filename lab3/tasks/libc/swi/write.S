@@ -10,7 +10,7 @@
  */
 
 #include <asm.h>
-#include <bits.h>
+#include <bits/swi.h>
 
 	.file "write.S"
 	.text
