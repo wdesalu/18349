@@ -1,20 +1,20 @@
-/home/ubuntu/18349/lab3/tasks/libc/stdio/hexdump.o: \
- /home/ubuntu/18349/lab3/tasks/libc/stdio/hexdump.c \
- /home/ubuntu/18349/lab3/tasks/libc/include/ctype.h \
- /home/ubuntu/18349/lab3/tasks/libc/include/inline.h \
- /home/ubuntu/18349/lab3/tasks/libc/include/stdio.h \
- /home/ubuntu/18349/lab3/tasks/libc/include/stdarg.h \
- /home/ubuntu/18349/lab3/tasks/libc/include/sys/types.h \
- /home/ubuntu/18349/lab3/tasks/libc/include/bits/types.h
+/home/root/lab3-support/tasks/libc/stdio/hexdump.o:  \
+ /home/root/lab3-support/tasks/libc/stdio/hexdump.c \
+  /home/root/lab3-support/tasks/libc/include/ctype.h \
+  /home/root/lab3-support/tasks/libc/include/inline.h \
+  /home/root/lab3-support/tasks/libc/include/stdio.h \
+  /home/root/lab3-support/tasks/libc/include/stdarg.h \
+  /home/root/lab3-support/tasks/libc/include/sys/types.h \
+  /home/root/lab3-support/tasks/libc/include/bits/types.h
 
-/home/ubuntu/18349/lab3/tasks/libc/include/ctype.h:
+/home/root/lab3-support/tasks/libc/include/ctype.h:
 
-/home/ubuntu/18349/lab3/tasks/libc/include/inline.h:
+/home/root/lab3-support/tasks/libc/include/inline.h:
 
-/home/ubuntu/18349/lab3/tasks/libc/include/stdio.h:
+/home/root/lab3-support/tasks/libc/include/stdio.h:
 
-/home/ubuntu/18349/lab3/tasks/libc/include/stdarg.h:
+/home/root/lab3-support/tasks/libc/include/stdarg.h:
 
-/home/ubuntu/18349/lab3/tasks/libc/include/sys/types.h:
+/home/root/lab3-support/tasks/libc/include/sys/types.h:
 
-/home/ubuntu/18349/lab3/tasks/libc/include/bits/types.h:
+/home/root/lab3-support/tasks/libc/include/bits/types.h:

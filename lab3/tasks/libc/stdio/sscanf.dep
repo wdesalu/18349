@@ -1,17 +1,17 @@
-/home/ubuntu/18349/lab3/tasks/libc/stdio/sscanf.o: \
- /home/ubuntu/18349/lab3/tasks/libc/stdio/sscanf.c \
- /home/ubuntu/18349/lab3/tasks/libc/include/stdio.h \
- /home/ubuntu/18349/lab3/tasks/libc/include/stdarg.h \
- /home/ubuntu/18349/lab3/tasks/libc/include/sys/types.h \
- /home/ubuntu/18349/lab3/tasks/libc/include/bits/types.h \
- /home/ubuntu/18349/lab3/tasks/libc/stdio/doscan.h
+/home/root/lab3-support/tasks/libc/stdio/sscanf.o:  \
+ /home/root/lab3-support/tasks/libc/stdio/sscanf.c \
+  /home/root/lab3-support/tasks/libc/include/stdio.h \
+  /home/root/lab3-support/tasks/libc/include/stdarg.h \
+  /home/root/lab3-support/tasks/libc/include/sys/types.h \
+  /home/root/lab3-support/tasks/libc/include/bits/types.h \
+  /home/root/lab3-support/tasks/libc/stdio/doscan.h
 
-/home/ubuntu/18349/lab3/tasks/libc/include/stdio.h:
+/home/root/lab3-support/tasks/libc/include/stdio.h:
 
-/home/ubuntu/18349/lab3/tasks/libc/include/stdarg.h:
+/home/root/lab3-support/tasks/libc/include/stdarg.h:
 
-/home/ubuntu/18349/lab3/tasks/libc/include/sys/types.h:
+/home/root/lab3-support/tasks/libc/include/sys/types.h:
 
-/home/ubuntu/18349/lab3/tasks/libc/include/bits/types.h:
+/home/root/lab3-support/tasks/libc/include/bits/types.h:
 
-/home/ubuntu/18349/lab3/tasks/libc/stdio/doscan.h:
+/home/root/lab3-support/tasks/libc/stdio/doscan.h:

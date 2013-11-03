@@ -1,5 +1,5 @@
-/home/ubuntu/18349/lab3/tasks/exit/exit.o: \
- /home/ubuntu/18349/lab3/tasks/exit/exit.S \
- /home/ubuntu/18349/lab3/tasks/libc/include/bits/swi.h
+/home/root/lab3-support/tasks/exit/exit.o:  \
+ /home/root/lab3-support/tasks/exit/exit.S \
+  /home/root/lab3-support/tasks/libc/include/bits/swi.h
 
-/home/ubuntu/18349/lab3/tasks/libc/include/bits/swi.h:
+/home/root/lab3-support/tasks/libc/include/bits/swi.h:

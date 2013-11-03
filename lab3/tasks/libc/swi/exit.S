@@ -13,6 +13,7 @@
 #include <bits/swi.h>
 
 	.file "exit.S"
+	.global exit
 
-FUNC(exit)
+exit:
 	swi	EXIT_SWI

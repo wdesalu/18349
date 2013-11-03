@@ -1,17 +1,17 @@
-/home/ubuntu/18349/lab3/tasks/libc/raise.o: \
- /home/ubuntu/18349/lab3/tasks/libc/raise.c \
- /home/ubuntu/18349/lab3/tasks/libc/include/stdio.h \
- /home/ubuntu/18349/lab3/tasks/libc/include/stdarg.h \
- /home/ubuntu/18349/lab3/tasks/libc/include/sys/types.h \
- /home/ubuntu/18349/lab3/tasks/libc/include/bits/types.h \
- /home/ubuntu/18349/lab3/tasks/libc/include/stdlib.h
+/home/root/lab3-support/tasks/libc/raise.o:  \
+ /home/root/lab3-support/tasks/libc/raise.c \
+  /home/root/lab3-support/tasks/libc/include/stdio.h \
+  /home/root/lab3-support/tasks/libc/include/stdarg.h \
+  /home/root/lab3-support/tasks/libc/include/sys/types.h \
+  /home/root/lab3-support/tasks/libc/include/bits/types.h \
+  /home/root/lab3-support/tasks/libc/include/stdlib.h
 
-/home/ubuntu/18349/lab3/tasks/libc/include/stdio.h:
+/home/root/lab3-support/tasks/libc/include/stdio.h:
 
-/home/ubuntu/18349/lab3/tasks/libc/include/stdarg.h:
+/home/root/lab3-support/tasks/libc/include/stdarg.h:
 
-/home/ubuntu/18349/lab3/tasks/libc/include/sys/types.h:
+/home/root/lab3-support/tasks/libc/include/sys/types.h:
 
-/home/ubuntu/18349/lab3/tasks/libc/include/bits/types.h:
+/home/root/lab3-support/tasks/libc/include/bits/types.h:
 
-/home/ubuntu/18349/lab3/tasks/libc/include/stdlib.h:
+/home/root/lab3-support/tasks/libc/include/stdlib.h:

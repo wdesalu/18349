@@ -1,0 +1,23 @@
+/home/root/lab3-support/kernel/read.o:  \
+ /home/root/lab3-support/kernel/read.c \
+  /home/root/lab3-support/kernel/include/bits/errno.h \
+  /home/root/lab3-support/kernel/include/bits/swi.h \
+  /home/root/lab3-support/kernel/include/bits/fileno.h \
+  /home/root/lab3-support/uboot/include/exports.h \
+  /home/root/lab3-support/kernel/include/types.h \
+  /home/root/lab3-support/kernel/include/stdarg.h \
+  /home/root/lab3-support/uboot/include/_exports.h
+
+/home/root/lab3-support/kernel/include/bits/errno.h:
+
+/home/root/lab3-support/kernel/include/bits/swi.h:
+
+/home/root/lab3-support/kernel/include/bits/fileno.h:
+
+/home/root/lab3-support/uboot/include/exports.h:
+
+/home/root/lab3-support/kernel/include/types.h:
+
+/home/root/lab3-support/kernel/include/stdarg.h:
+
+/home/root/lab3-support/uboot/include/_exports.h:

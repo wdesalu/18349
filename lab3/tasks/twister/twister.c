@@ -18,6 +18,7 @@ extern int three;
 
 int main(int argc, char** argv)
 {
+/*
 	const char hello[] = "Hello";
 	const char goodbye[] = "Goodbye";
 	const char mynum[] = "1234";
@@ -56,6 +57,6 @@ int main(int argc, char** argv)
 	if (num != 1234)
 		printf("failure!\n");
 	printf("%d\n", num);
-
+*/
 	return 0;
 }
