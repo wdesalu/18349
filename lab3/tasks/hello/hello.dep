@@ -1,14 +1,13 @@
-/home/root/lab3-support/tasks/hello/hello.o:  \
- /home/root/lab3-support/tasks/hello/hello.c \
-  /home/root/lab3-support/tasks/libc/include/unistd.h \
-  /home/root/lab3-support/tasks/libc/include/bits/fileno.h \
-  /home/root/lab3-support/tasks/libc/include/sys/types.h \
-  /home/root/lab3-support/tasks/libc/include/bits/types.h
+/home/root/lab3/tasks/hello/hello.o: /home/root/lab3/tasks/hello/hello.c \
+  /home/root/lab3/tasks/libc/include/unistd.h \
+  /home/root/lab3/tasks/libc/include/bits/fileno.h \
+  /home/root/lab3/tasks/libc/include/sys/types.h \
+  /home/root/lab3/tasks/libc/include/bits/types.h
 
-/home/root/lab3-support/tasks/libc/include/unistd.h:
+/home/root/lab3/tasks/libc/include/unistd.h:
 
-/home/root/lab3-support/tasks/libc/include/bits/fileno.h:
+/home/root/lab3/tasks/libc/include/bits/fileno.h:
 
-/home/root/lab3-support/tasks/libc/include/sys/types.h:
+/home/root/lab3/tasks/libc/include/sys/types.h:
 
-/home/root/lab3-support/tasks/libc/include/bits/types.h:
+/home/root/lab3/tasks/libc/include/bits/types.h:

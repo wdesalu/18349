@@ -1,5 +1,4 @@
-/home/root/lab3-support/kernel/exit.o:  \
- /home/root/lab3-support/kernel/exit.c \
-  /home/root/lab3-support/kernel/load_user_prog.h
+/home/root/lab3/kernel/exit.o: /home/root/lab3/kernel/exit.c \
+  /home/root/lab3/kernel/include/load_user_prog.h
 
-/home/root/lab3-support/kernel/load_user_prog.h:
+/home/root/lab3/kernel/include/load_user_prog.h:

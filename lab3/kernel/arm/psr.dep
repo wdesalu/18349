@@ -1,11 +1,10 @@
-/home/root/lab3-support/kernel/arm/psr.o:  \
- /home/root/lab3-support/kernel/arm/psr.c \
-  /home/root/lab3-support/kernel/include/types.h \
-  /home/root/lab3-support/kernel/include/arm/psr.h \
-  /home/root/lab3-support/kernel/include/inline.h
+/home/root/lab3/kernel/arm/psr.o: /home/root/lab3/kernel/arm/psr.c \
+  /home/root/lab3/kernel/include/types.h \
+  /home/root/lab3/kernel/include/arm/psr.h \
+  /home/root/lab3/kernel/include/inline.h
 
-/home/root/lab3-support/kernel/include/types.h:
+/home/root/lab3/kernel/include/types.h:
 
-/home/root/lab3-support/kernel/include/arm/psr.h:
+/home/root/lab3/kernel/include/arm/psr.h:
 
-/home/root/lab3-support/kernel/include/inline.h:
+/home/root/lab3/kernel/include/inline.h:

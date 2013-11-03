@@ -1,5 +1,4 @@
-/home/root/lab3-support/kernel/start.o:  \
- /home/root/lab3-support/kernel/start.S \
-  /home/root/lab3-support/kernel/include/asm.h
+/home/root/lab3/kernel/start.o: /home/root/lab3/kernel/start.S \
+  /home/root/lab3/kernel/include/asm.h
 
-/home/root/lab3-support/kernel/include/asm.h:
+/home/root/lab3/kernel/include/asm.h:

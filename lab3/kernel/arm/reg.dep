@@ -1,11 +1,10 @@
-/home/root/lab3-support/kernel/arm/reg.o:  \
- /home/root/lab3-support/kernel/arm/reg.c \
-  /home/root/lab3-support/kernel/include/types.h \
-  /home/root/lab3-support/kernel/include/arm/reg.h \
-  /home/root/lab3-support/kernel/include/inline.h
+/home/root/lab3/kernel/arm/reg.o: /home/root/lab3/kernel/arm/reg.c \
+  /home/root/lab3/kernel/include/types.h \
+  /home/root/lab3/kernel/include/arm/reg.h \
+  /home/root/lab3/kernel/include/inline.h
 
-/home/root/lab3-support/kernel/include/types.h:
+/home/root/lab3/kernel/include/types.h:
 
-/home/root/lab3-support/kernel/include/arm/reg.h:
+/home/root/lab3/kernel/include/arm/reg.h:
 
-/home/root/lab3-support/kernel/include/inline.h:
+/home/root/lab3/kernel/include/inline.h:

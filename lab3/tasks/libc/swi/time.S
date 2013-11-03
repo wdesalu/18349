@@ -1,15 +1,17 @@
 /** @file time.S
  *
  * @brief time sycall wrapper
+ * @authors: adesalu, kafisher, lrbloch
+ * @date: 11/3/13
  *
- * @author Kartik Subramanian <ksubrama@andrew.cmu.edu>
- * @date 2008-10-31
  */
 
 #include <asm.h>
 #include <bits/swi.h>
 
 	.file "time.S"
+	.text
+	.global time
 
 FUNC(time)
 	swi	TIME_SWI

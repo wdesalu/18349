@@ -1,11 +1,11 @@
-/home/root/lab3-support/tasks/libc/string/strchr.o:  \
- /home/root/lab3-support/tasks/libc/string/strchr.c \
-  /home/root/lab3-support/tasks/libc/include/string.h \
-  /home/root/lab3-support/tasks/libc/include/sys/types.h \
-  /home/root/lab3-support/tasks/libc/include/bits/types.h
+/home/root/lab3/tasks/libc/string/strchr.o:  \
+ /home/root/lab3/tasks/libc/string/strchr.c \
+  /home/root/lab3/tasks/libc/include/string.h \
+  /home/root/lab3/tasks/libc/include/sys/types.h \
+  /home/root/lab3/tasks/libc/include/bits/types.h
 
-/home/root/lab3-support/tasks/libc/include/string.h:
+/home/root/lab3/tasks/libc/include/string.h:
 
-/home/root/lab3-support/tasks/libc/include/sys/types.h:
+/home/root/lab3/tasks/libc/include/sys/types.h:
 
-/home/root/lab3-support/tasks/libc/include/bits/types.h:
+/home/root/lab3/tasks/libc/include/bits/types.h:

@@ -2,14 +2,16 @@
  *
  * @brief sleep sycall wrapper
  *
- * @author Kartik Subramanian <ksubrama@andrew.cmu.edu>
- * @date 2008-10-31
+ * @authors adesalu, kafisher, lrbloch
+ * @date 11/3/13
  */
 
 #include <asm.h>
 #include <bits/swi.h>
 
 	.file "sleep.S"
+	.text
+	.global sleep
 
 FUNC(sleep)
 	swi	SLEEP_SWI

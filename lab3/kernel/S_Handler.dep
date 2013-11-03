@@ -1,2 +1,1 @@
-/home/root/lab3-support/kernel/S_Handler.o:  \
- /home/root/lab3-support/kernel/S_Handler.S
+/home/root/lab3/kernel/S_Handler.o: /home/root/lab3/kernel/S_Handler.S

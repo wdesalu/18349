@@ -1,5 +1,5 @@
-/home/root/lab3-support/tasks/libc/stdlib/rand.o:  \
- /home/root/lab3-support/tasks/libc/stdlib/rand.c \
-  /home/root/lab3-support/tasks/libc/include/stdlib.h
+/home/root/lab3/tasks/libc/stdlib/rand.o:  \
+ /home/root/lab3/tasks/libc/stdlib/rand.c \
+  /home/root/lab3/tasks/libc/include/stdlib.h
 
-/home/root/lab3-support/tasks/libc/include/stdlib.h:
+/home/root/lab3/tasks/libc/include/stdlib.h:

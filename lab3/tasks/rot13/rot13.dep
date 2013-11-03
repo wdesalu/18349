@@ -1,0 +1,22 @@
+/home/root/lab3/tasks/rot13/rot13.o: /home/root/lab3/tasks/rot13/rot13.c \
+  /home/root/lab3/tasks/libc/include/stdlib.h \
+  /home/root/lab3/tasks/libc/include/errno.h \
+  /home/root/lab3/tasks/libc/include/bits/errno.h \
+  /home/root/lab3/tasks/libc/include/unistd.h \
+  /home/root/lab3/tasks/libc/include/bits/fileno.h \
+  /home/root/lab3/tasks/libc/include/sys/types.h \
+  /home/root/lab3/tasks/libc/include/bits/types.h
+
+/home/root/lab3/tasks/libc/include/stdlib.h:
+
+/home/root/lab3/tasks/libc/include/errno.h:
+
+/home/root/lab3/tasks/libc/include/bits/errno.h:
+
+/home/root/lab3/tasks/libc/include/unistd.h:
+
+/home/root/lab3/tasks/libc/include/bits/fileno.h:
+
+/home/root/lab3/tasks/libc/include/sys/types.h:
+
+/home/root/lab3/tasks/libc/include/bits/types.h:
