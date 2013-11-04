@@ -39,6 +39,11 @@
 #ifndef ASSEMBLER
 
 /* Add your C code here.  Put your group name at the top! */
+void addTimer();
+void startTimer();
+unsigned int get_clock();
+volatile unsigned int* get_vclock();
+
 
 #endif /* ASSEMBLER */
 

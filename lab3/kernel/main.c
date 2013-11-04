@@ -93,8 +93,8 @@ int kmain(int argc, char** argv, uint32_t table)
 	*(ubootSwiAddr) = (unsigned long int) oldInstr;
 	*(ubootSwiAddr + 1) = (unsigned long int) oldInstr2;
 
-	//*(ubootIrqAddr) = (unsigned long int) oldIrq;
-	//*(ubootIrqAddr+1) = (unsigned long int) oldIrq2;
+	*(ubootIrqAddr) = (unsigned long int) oldIrq;
+	*(ubootIrqAddr+1) = (unsigned long int) oldIrq2;
 
 	return exitVal;
 }
