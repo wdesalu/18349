@@ -23,6 +23,9 @@ int kmain(int argc, char** argv, uint32_t table)
 	unsigned long int *irq_addr, oldIrq, oldIrq2, *ubootIrqAddr;
 	unsigned long int *pointer, *sp, *ubootSwiAddr;
 	unsigned long int *irqPointer;
+	unsigned long int *icmrAddr = 0x40D00004;
+	unsigned long int *iclrAddr = 0x40D00008;
+	unsigned long int oldIcmr, oldIclr;
 
 	// go to 0x08: location of LDR command (vector table)
 	pointer = (unsigned long int*) 0x08;
@@ -34,6 +37,10 @@ int kmain(int argc, char** argv, uint32_t table)
 	//store current vector table instructions
 	oldInstr = *pointer;
 	oldInstr2 = *(pointer+1);
+
+	//store current ICMR, ICLR
+	oldIcmr = *icmrAddr;
+	oldIclr = *iclrAddr;
 
 	// verify that oldInstr corresponds to ldr pc, [pc, #imm12]
 	//ignore the don't cares (hence 0xfe1ff000 instead of 0xfffff000)
@@ -85,7 +92,10 @@ int kmain(int argc, char** argv, uint32_t table)
 	*(ubootIrqAddr) = 0xe51ff004;
 	// put addr of our I_Handler at next line to load into pc
 	//*(ubootIrqAddr+1) = (unsigned) &I_Handler;
-
+	
+	// set ICMR,ICLR to receive OS_TIMER IRQs
+	// calls Set_Timer_Regs.S, puts icmrAddr in r0, iclrAddr in r1
+	Set_Timer_Regs(icmrAddr,iclrAddr);
 	// call assembly function to load usedr program
 	exitVal = (int)load_user_prog(argc, argv);
 
