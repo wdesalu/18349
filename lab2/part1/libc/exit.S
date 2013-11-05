@@ -1,8 +1,8 @@
 @ exit.S: exit sycall wrapper
 @
-@ Authors: Group Member 1 <email address>
-@          Group Member 2 <email address>
-@ Date:    The current time & date
+@ Authors: lrbloch, kafisher, adesalu
+@ Date:    11/3/13
+
 #include <bits/swi.h>
 
 	.file	"exit.S"
@@ -10,5 +10,4 @@
 
 	.global	exit
 exit:
-	@ Needs more code.
 	swi EXIT_SWI
