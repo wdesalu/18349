@@ -2,4 +2,5 @@
 
 unsigned long time() {
 //	return get_clock();
+	return 0;
 }
