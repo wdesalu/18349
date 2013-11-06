@@ -1,0 +1,39 @@
+# lrbloch
+# adesalu
+# kafisher
+
+#removed all 'mov' statements as they were unnecessary "shuffling" of registers
+#no need for stmfd, not used
+
+	instead of:
+		mov r2, #0 	; load immediate value 0 into r2
+		cmp r2, r3	; compare r3 (dest string length) with 0
+		bge .L11	; branch to end if length <= 0
+	replaced with:
+		subs r2, r3, #1 	; load length-1 into r2, update cpsr
+		ble .L11		; branch to end if length-1 <= 0
+
+#Combined .L9 & .L7 into .L9 and .L10, where .L9 initializes values and .L10 executes the loop
+
+.L9:
+        ldrb    ip, [r1, r2]    ; can load the first letter of dest immediately into ip instead of r3
+        mov     r4, ip          ; store ip in a local reg so you can mess with it w/o affecting it
+.L10:
+        sub     r4, r4, #23		; uses r4 instead of ip so as to not affect ip's value
+        cmp     r4, #22			
+        bgt     .L10
+.L13:
+        ldrb    r3, [r0, r4]    	; uses r0 and r4: r4 holds what ip used to hold, r0 had been moved into r5
+				; no need to load [r1, r2] into r6: it's already in ip (see .L9)
+        cmp     r3, ip          	; same comparison, regs have changed
+        strneb  ip, [r0, r4]    	; same command, regs have changed
+.L4:
+	#changed to a count-down loop in order to use subS and avoid an extra instruction for cmp
+        subs    r2, r2, #1     	; r2 (maxIndex), decrements from 7 to 0
+        bpl     .L9             	; if 0, done!
+.L11:
+        #restore context and leave
+	#no need for ldmfd, not used
+        mov pc, lr
+        .size   strTable, .-strTable
+        .ident  "GCC: (GNU) 3.4.5"

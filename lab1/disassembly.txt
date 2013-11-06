@@ -1,0 +1,30 @@
+adesalu
+kafisher
+lrbloch
+
+1. What is the entry point address of the program? (Hint: The readeIf program may provide a clue)
+
+0x82ac
+
+2. What is the name of the first function branched to in the program?
+
+call_gmon_start
+
+3. What is the key difference between the output of objdump -d(hello-d.txt) and objdump -D(hello-bigd.txt)
+
+"-D"- disassembles contents of all sections, not just of those expected
+"-d"- disassembles the sections that are expected to contain instructions
+
+4. Is the interpretation of the instructions under the .rodata section of hello-bigd.txt correct? What does this interpretation mean?
+
+Assembly:
+ 00020001
+ 6c6c6548
+ 6f77206f
+ 21646c72
+ 00000000
+
+Translation: ????Hello world!????
+
+The intepretation is in little endian representation and provides the same string that we programmed the hello file to print out with extra padding.
+

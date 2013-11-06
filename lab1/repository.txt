@@ -1,0 +1,20 @@
+adesalu
+lrbloch
+kafisher
+
+1. Discounting hidden files, what are the files that are in the repository? What are their names? What are their contents?
+
+File: crimpers
+Contents: 42
+
+File: wire
+Contents: strippers
+
+2. What is the userid of the person (an ex-TA) who committed those files? 
+
+ksubrama
+
+3. When did (s)he commit them (date and time) and what was the commit message? 
+
+Time:09/17/2008 07:52:43-0400
+Commit Message: Pins!
