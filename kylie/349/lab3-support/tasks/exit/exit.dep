@@ -1,0 +1,5 @@
+/home/ubuntu/349/lab3-support/tasks/exit/exit.o:  \
+ /home/ubuntu/349/lab3-support/tasks/exit/exit.S \
+  /home/ubuntu/349/lab3-support/tasks/libc/include/bits/swi.h
+
+/home/ubuntu/349/lab3-support/tasks/libc/include/bits/swi.h:

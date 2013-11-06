@@ -1,0 +1,5 @@
+/home/ubuntu/349/lab3-support/kernel/exit.o:  \
+ /home/ubuntu/349/lab3-support/kernel/exit.c \
+  /home/ubuntu/349/lab3-support/kernel/load_user_prog.h
+
+/home/ubuntu/349/lab3-support/kernel/load_user_prog.h:

@@ -1,0 +1,11 @@
+/home/ubuntu/349/lab3-support/tasks/libc/string/strcat.o:  \
+ /home/ubuntu/349/lab3-support/tasks/libc/string/strcat.c \
+  /home/ubuntu/349/lab3-support/tasks/libc/include/string.h \
+  /home/ubuntu/349/lab3-support/tasks/libc/include/sys/types.h \
+  /home/ubuntu/349/lab3-support/tasks/libc/include/bits/types.h
+
+/home/ubuntu/349/lab3-support/tasks/libc/include/string.h:
+
+/home/ubuntu/349/lab3-support/tasks/libc/include/sys/types.h:
+
+/home/ubuntu/349/lab3-support/tasks/libc/include/bits/types.h:

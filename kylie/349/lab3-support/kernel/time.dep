@@ -1,0 +1,5 @@
+/home/ubuntu/349/lab3-support/kernel/time.o:  \
+ /home/ubuntu/349/lab3-support/kernel/time.c \
+  /home/ubuntu/349/lab3-support/kernel/include/arm/timer.h
+
+/home/ubuntu/349/lab3-support/kernel/include/arm/timer.h:

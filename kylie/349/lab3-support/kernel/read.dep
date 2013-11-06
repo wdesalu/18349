@@ -1,0 +1,23 @@
+/home/ubuntu/349/lab3-support/kernel/read.o:  \
+ /home/ubuntu/349/lab3-support/kernel/read.c \
+  /home/ubuntu/349/lab3-support/kernel/include/bits/errno.h \
+  /home/ubuntu/349/lab3-support/kernel/include/bits/swi.h \
+  /home/ubuntu/349/lab3-support/kernel/include/bits/fileno.h \
+  /home/ubuntu/349/lab3-support/uboot/include/exports.h \
+  /home/ubuntu/349/lab3-support/kernel/include/types.h \
+  /home/ubuntu/349/lab3-support/kernel/include/stdarg.h \
+  /home/ubuntu/349/lab3-support/uboot/include/_exports.h
+
+/home/ubuntu/349/lab3-support/kernel/include/bits/errno.h:
+
+/home/ubuntu/349/lab3-support/kernel/include/bits/swi.h:
+
+/home/ubuntu/349/lab3-support/kernel/include/bits/fileno.h:
+
+/home/ubuntu/349/lab3-support/uboot/include/exports.h:
+
+/home/ubuntu/349/lab3-support/kernel/include/types.h:
+
+/home/ubuntu/349/lab3-support/kernel/include/stdarg.h:
+
+/home/ubuntu/349/lab3-support/uboot/include/_exports.h:

@@ -1,0 +1,8 @@
+/home/ubuntu/349/lab3-support/tasks/libc/swi/sleep.o:  \
+ /home/ubuntu/349/lab3-support/tasks/libc/swi/sleep.S \
+  /home/ubuntu/349/lab3-support/tasks/libc/include/asm.h \
+  /home/ubuntu/349/lab3-support/tasks/libc/include/bits/swi.h
+
+/home/ubuntu/349/lab3-support/tasks/libc/include/asm.h:
+
+/home/ubuntu/349/lab3-support/tasks/libc/include/bits/swi.h:

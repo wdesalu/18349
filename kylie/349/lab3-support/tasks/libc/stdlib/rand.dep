@@ -1,0 +1,5 @@
+/home/ubuntu/349/lab3-support/tasks/libc/stdlib/rand.o:  \
+ /home/ubuntu/349/lab3-support/tasks/libc/stdlib/rand.c \
+  /home/ubuntu/349/lab3-support/tasks/libc/include/stdlib.h
+
+/home/ubuntu/349/lab3-support/tasks/libc/include/stdlib.h:

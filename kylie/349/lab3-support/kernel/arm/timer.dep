@@ -1,0 +1,14 @@
+/home/ubuntu/349/lab3-support/kernel/arm/timer.o:  \
+ /home/ubuntu/349/lab3-support/kernel/arm/timer.c \
+  /home/ubuntu/349/lab3-support/kernel/include/arm/timer.h \
+  /home/ubuntu/349/lab3-support/kernel/include/arm/reg.h \
+  /home/ubuntu/349/lab3-support/kernel/include/inline.h \
+  /home/ubuntu/349/lab3-support/kernel/include/types.h
+
+/home/ubuntu/349/lab3-support/kernel/include/arm/timer.h:
+
+/home/ubuntu/349/lab3-support/kernel/include/arm/reg.h:
+
+/home/ubuntu/349/lab3-support/kernel/include/inline.h:
+
+/home/ubuntu/349/lab3-support/kernel/include/types.h:

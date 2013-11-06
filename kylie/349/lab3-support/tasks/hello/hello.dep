@@ -1,0 +1,14 @@
+/home/ubuntu/349/lab3-support/tasks/hello/hello.o:  \
+ /home/ubuntu/349/lab3-support/tasks/hello/hello.c \
+  /home/ubuntu/349/lab3-support/tasks/libc/include/unistd.h \
+  /home/ubuntu/349/lab3-support/tasks/libc/include/bits/fileno.h \
+  /home/ubuntu/349/lab3-support/tasks/libc/include/sys/types.h \
+  /home/ubuntu/349/lab3-support/tasks/libc/include/bits/types.h
+
+/home/ubuntu/349/lab3-support/tasks/libc/include/unistd.h:
+
+/home/ubuntu/349/lab3-support/tasks/libc/include/bits/fileno.h:
+
+/home/ubuntu/349/lab3-support/tasks/libc/include/sys/types.h:
+
+/home/ubuntu/349/lab3-support/tasks/libc/include/bits/types.h:

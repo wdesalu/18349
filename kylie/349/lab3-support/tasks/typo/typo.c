@@ -1,0 +1,25 @@
+/** @file typo.c
+ *
+ * @brief Echos characters back with timing data.
+ *
+ * Links to libc.
+ */
+
+#include <unistd.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+	while(1) {
+		printf("Enter string:\n");	
+		char buf[1024];
+		unsigned int start_time = time();
+		size_t len = read(0, buf, 1024);
+		unsigned int end_time = time();
+		
+		write(1, buf, len);
+		printf("time: %d", (int)(end_time - start_time)/1000);
+		printf(".%d\n", (int)(end_time = start_time)%1000);
+	}
+	return 0;
+}
