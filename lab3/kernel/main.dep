@@ -8,6 +8,7 @@
   /home/root/lab3/kernel/include/arm/exception.h \
   /home/root/lab3/kernel/include/arm/interrupt.h \
   /home/root/lab3/kernel/include/arm/timer.h \
+  /home/root/lab3/kernel/include/arm/reg.h \
   /home/root/lab3/kernel/include/S_Handler.h \
   /home/root/lab3/kernel/include/load_user_prog.h
 
@@ -28,6 +29,8 @@
 /home/root/lab3/kernel/include/arm/interrupt.h:
 
 /home/root/lab3/kernel/include/arm/timer.h:
+
+/home/root/lab3/kernel/include/arm/reg.h:
 
 /home/root/lab3/kernel/include/S_Handler.h:
 

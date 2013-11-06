@@ -1,3 +1,6 @@
+@Authors: kafisher, lrbloch, adesalu
+@Date: 10/25/13
+
 #include <bits/swi.h>
 
 	.file 	"write.S"

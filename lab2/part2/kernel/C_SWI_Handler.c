@@ -1,7 +1,6 @@
 /*
-#include "write.c"
-#include "read.c"
-#include "exit.c"
+ * authors: lrbloch, adesalu, kafisher
+ * date: 10/25/13
 */
 #include "S_Handler.h"
 #include <exports.h>

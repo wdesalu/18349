@@ -1,0 +1,4 @@
+/home/root/lab3/kernel/sleep.o: /home/root/lab3/kernel/sleep.c \
+  /home/root/lab3/kernel/include/arm/timer.h
+
+/home/root/lab3/kernel/include/arm/timer.h:

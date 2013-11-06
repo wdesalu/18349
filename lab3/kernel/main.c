@@ -8,6 +8,7 @@
 #include <arm/exception.h>
 #include <arm/interrupt.h>
 #include <arm/timer.h>
+#include <arm/reg.h>
 #include <S_Handler.h>
 #include <load_user_prog.h>
 
@@ -23,6 +24,10 @@ int kmain(int argc, char** argv, uint32_t table)
 	unsigned long int *irq_addr, oldIrq, oldIrq2, *ubootIrqAddr;
 	unsigned long int *pointer, *sp, *ubootSwiAddr;
 	unsigned long int *irqPointer;
+	unsigned long int *icmrAddr = (unsigned long int*) 0x40D00004;
+	unsigned long int *iclrAddr = (unsigned long int*) 0x40D00008;
+	unsigned long int *oierAddr = (unsigned long int*) 0x40A0001C;
+	unsigned long int oldIcmr, oldIclr, oldOier;
 
 	// go to 0x08: location of LDR command (vector table)
 	pointer = (unsigned long int*) 0x08;
@@ -34,6 +39,11 @@ int kmain(int argc, char** argv, uint32_t table)
 	//store current vector table instructions
 	oldInstr = *pointer;
 	oldInstr2 = *(pointer+1);
+
+	//store current ICMR, ICLR, OIER
+	oldIcmr = *icmrAddr;
+	oldIclr = *iclrAddr;
+	oldOier = *oierAddr;
 
 	// verify that oldInstr corresponds to ldr pc, [pc, #imm12]
 	//ignore the don't cares (hence 0xfe1ff000 instead of 0xfffff000)
@@ -85,7 +95,11 @@ int kmain(int argc, char** argv, uint32_t table)
 	*(ubootIrqAddr) = 0xe51ff004;
 	// put addr of our I_Handler at next line to load into pc
 	//*(ubootIrqAddr+1) = (unsigned) &I_Handler;
-
+	
+	// set ICMR,ICLR,OIER to receive OS_TIMER IRQs
+	reg_set((size_t)icmrAddr,0x3c000000);
+	reg_set((size_t)iclrAddr,0x3c000000);
+	reg_set((size_t)oierAddr,0x1);
 	// call assembly function to load usedr program
 	exitVal = (int)load_user_prog(argc, argv);
 
