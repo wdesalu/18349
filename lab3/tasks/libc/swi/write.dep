@@ -1,8 +1,8 @@
-/home/root/lab3/tasks/libc/swi/write.o:  \
- /home/root/lab3/tasks/libc/swi/write.S \
-  /home/root/lab3/tasks/libc/include/asm.h \
-  /home/root/lab3/tasks/libc/include/bits/swi.h
+/home/wale/Documents/18349/lab3/tasks/libc/swi/write.o:  \
+ /home/wale/Documents/18349/lab3/tasks/libc/swi/write.S \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/asm.h \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/bits/swi.h
 
-/home/root/lab3/tasks/libc/include/asm.h:
+/home/wale/Documents/18349/lab3/tasks/libc/include/asm.h:
 
-/home/root/lab3/tasks/libc/include/bits/swi.h:
+/home/wale/Documents/18349/lab3/tasks/libc/include/bits/swi.h:

@@ -35,15 +35,14 @@
 #define OSTMR_OIER_E3         0x00000008   /* Enable match 3 */
 
 #define OSTMR_FREQ            3686400      /* Oscillator frequency in hz */
+#define OSTMR_FREQ_VERDEX     3250000      /* Oscillator frequency verdex in Hz */
 
 #ifndef ASSEMBLER
 
-/* Add your C code here.  Put your group name at the top! */
-void addTimer();
-void startTimer();
+void addTimer(int a);
+void initializeTimer();
 unsigned int get_clock();
 volatile unsigned int* get_vclock();
-
 
 #endif /* ASSEMBLER */
 

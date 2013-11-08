@@ -8,6 +8,8 @@
 #include <errno.h>
 #include <unistd.h>
 #include "bits/fileno.h"
+#include <stdio.h>
+
 
 int main(int argc, char* argv[]) {
 	char block[256];
@@ -15,6 +17,7 @@ int main(int argc, char* argv[]) {
 	int numLetters;
 	int i, out;
 	char introString[40]="\nEnter characters to rotate:\n";
+	printf("Started rot13\n");
 
 	// Perform rot13 on the string the user types at runtime
 	while(1) {
@@ -49,5 +52,6 @@ int main(int argc, char* argv[]) {
 		while(out < numLetters)
 			out+= write(STDOUT_FILENO, &block[out-1], (numLetters - out) * sizeof(char));	
 	} 
+	printf("Ended rot13\n");
 	return 0;
 }

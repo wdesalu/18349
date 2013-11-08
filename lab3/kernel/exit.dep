@@ -1,4 +1,5 @@
-/home/root/lab3/kernel/exit.o: /home/root/lab3/kernel/exit.c \
-  /home/root/lab3/kernel/include/load_user_prog.h
+/home/wale/Documents/18349/lab3/kernel/exit.o:  \
+ /home/wale/Documents/18349/lab3/kernel/exit.c \
+  /home/wale/Documents/18349/lab3/kernel/load_user_prog.h
 
-/home/root/lab3/kernel/include/load_user_prog.h:
+/home/wale/Documents/18349/lab3/kernel/load_user_prog.h:

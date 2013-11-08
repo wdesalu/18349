@@ -1,4 +1,5 @@
-/home/root/lab3/tasks/libc/crt0.o: /home/root/lab3/tasks/libc/crt0.S \
-  /home/root/lab3/tasks/libc/include/asm.h
+/home/wale/Documents/18349/lab3/tasks/libc/crt0.o:  \
+ /home/wale/Documents/18349/lab3/tasks/libc/crt0.S \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/asm.h
 
-/home/root/lab3/tasks/libc/include/asm.h:
+/home/wale/Documents/18349/lab3/tasks/libc/include/asm.h:

@@ -1,13 +1,14 @@
-/home/root/lab3/uboot/stubs.o: /home/root/lab3/uboot/stubs.c \
-  /home/root/lab3/uboot/include/exports.h \
-  /home/root/lab3/kernel/include/types.h \
-  /home/root/lab3/kernel/include/stdarg.h \
-  /home/root/lab3/uboot/include/_exports.h
+/home/wale/Documents/18349/lab3/uboot/stubs.o:  \
+ /home/wale/Documents/18349/lab3/uboot/stubs.c \
+  /home/wale/Documents/18349/lab3/uboot/include/exports.h \
+  /home/wale/Documents/18349/lab3/kernel/include/types.h \
+  /home/wale/Documents/18349/lab3/kernel/include/stdarg.h \
+  /home/wale/Documents/18349/lab3/uboot/include/_exports.h
 
-/home/root/lab3/uboot/include/exports.h:
+/home/wale/Documents/18349/lab3/uboot/include/exports.h:
 
-/home/root/lab3/kernel/include/types.h:
+/home/wale/Documents/18349/lab3/kernel/include/types.h:
 
-/home/root/lab3/kernel/include/stdarg.h:
+/home/wale/Documents/18349/lab3/kernel/include/stdarg.h:
 
-/home/root/lab3/uboot/include/_exports.h:
+/home/wale/Documents/18349/lab3/uboot/include/_exports.h:

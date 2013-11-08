@@ -1,5 +1,7 @@
-CC      = gcc
-AR      = ar
+CCPREFIX = arm-linux-
+
+CC      = $(CCPREFIX)gcc
+AR      = $(CCPREFIX)ar
 CFLAGS  = -O2 -ffreestanding -Wall -Werror -nostdinc -I include
 ASFLAGS = -nostdinc -I include
 

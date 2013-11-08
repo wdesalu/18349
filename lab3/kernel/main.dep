@@ -1,37 +1,41 @@
-/home/root/lab3/kernel/main.o: /home/root/lab3/kernel/main.c \
-  /home/root/lab3/uboot/include/exports.h \
-  /home/root/lab3/kernel/include/types.h \
-  /home/root/lab3/kernel/include/stdarg.h \
-  /home/root/lab3/uboot/include/_exports.h \
-  /home/root/lab3/kernel/include/arm/psr.h \
-  /home/root/lab3/kernel/include/inline.h \
-  /home/root/lab3/kernel/include/arm/exception.h \
-  /home/root/lab3/kernel/include/arm/interrupt.h \
-  /home/root/lab3/kernel/include/arm/timer.h \
-  /home/root/lab3/kernel/include/arm/reg.h \
-  /home/root/lab3/kernel/include/S_Handler.h \
-  /home/root/lab3/kernel/include/load_user_prog.h
+/home/wale/Documents/18349/lab3/kernel/main.o:  \
+ /home/wale/Documents/18349/lab3/kernel/main.c \
+  /home/wale/Documents/18349/lab3/uboot/include/exports.h \
+  /home/wale/Documents/18349/lab3/kernel/include/types.h \
+  /home/wale/Documents/18349/lab3/kernel/include/stdarg.h \
+  /home/wale/Documents/18349/lab3/uboot/include/_exports.h \
+  /home/wale/Documents/18349/lab3/kernel/include/arm/psr.h \
+  /home/wale/Documents/18349/lab3/kernel/include/inline.h \
+  /home/wale/Documents/18349/lab3/kernel/include/arm/exception.h \
+  /home/wale/Documents/18349/lab3/kernel/include/arm/interrupt.h \
+  /home/wale/Documents/18349/lab3/kernel/include/arm/timer.h \
+  /home/wale/Documents/18349/lab3/kernel/include/arm/reg.h \
+  /home/wale/Documents/18349/lab3/kernel/S_Handler.h \
+  /home/wale/Documents/18349/lab3/kernel/I_Handler.h \
+  /home/wale/Documents/18349/lab3/kernel/load_user_prog.h
 
-/home/root/lab3/uboot/include/exports.h:
+/home/wale/Documents/18349/lab3/uboot/include/exports.h:
 
-/home/root/lab3/kernel/include/types.h:
+/home/wale/Documents/18349/lab3/kernel/include/types.h:
 
-/home/root/lab3/kernel/include/stdarg.h:
+/home/wale/Documents/18349/lab3/kernel/include/stdarg.h:
 
-/home/root/lab3/uboot/include/_exports.h:
+/home/wale/Documents/18349/lab3/uboot/include/_exports.h:
 
-/home/root/lab3/kernel/include/arm/psr.h:
+/home/wale/Documents/18349/lab3/kernel/include/arm/psr.h:
 
-/home/root/lab3/kernel/include/inline.h:
+/home/wale/Documents/18349/lab3/kernel/include/inline.h:
 
-/home/root/lab3/kernel/include/arm/exception.h:
+/home/wale/Documents/18349/lab3/kernel/include/arm/exception.h:
 
-/home/root/lab3/kernel/include/arm/interrupt.h:
+/home/wale/Documents/18349/lab3/kernel/include/arm/interrupt.h:
 
-/home/root/lab3/kernel/include/arm/timer.h:
+/home/wale/Documents/18349/lab3/kernel/include/arm/timer.h:
 
-/home/root/lab3/kernel/include/arm/reg.h:
+/home/wale/Documents/18349/lab3/kernel/include/arm/reg.h:
 
-/home/root/lab3/kernel/include/S_Handler.h:
+/home/wale/Documents/18349/lab3/kernel/S_Handler.h:
 
-/home/root/lab3/kernel/include/load_user_prog.h:
+/home/wale/Documents/18349/lab3/kernel/I_Handler.h:
+
+/home/wale/Documents/18349/lab3/kernel/load_user_prog.h:

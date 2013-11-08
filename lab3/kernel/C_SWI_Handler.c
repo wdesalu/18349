@@ -1,14 +1,16 @@
-/*
- * authors: adesalu, kafisher, lrbloch
- * date: 11/3/13
- */
-#include <S_Handler.h>
+#include "S_Handler.h"
 #include <exports.h>
 #include <bits/swi.h>
-#include <C_SWI_Handler.h>
+
+void exit(int status);
+ssize_t read(int fd, void* buf, size_t count);
+ssize_t write(int fd, void* buf, size_t count);
+unsigned long time();
+void sleep(int s);	
 
 void C_SWI_Handler(unsigned swi_num, unsigned *regs)
 {
+	printf("in C_SWI_Handler.\n");
 	switch (swi_num){
 		case  EXIT_SWI: 
 			exit(*regs);
@@ -23,9 +25,8 @@ void C_SWI_Handler(unsigned swi_num, unsigned *regs)
 			regs[0] = time();
 			break;
 		case SLEEP_SWI:
-			regs[0] = sleep((int)regs[0]);
-			break; 
-		// undefined: exit with status -1
+			sleep((int)regs[0]);
+			break;
 		default: 
 			exit(-1); 
 			 break;

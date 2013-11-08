@@ -4,19 +4,21 @@
 volatile uint32_t timer;
 
 
-void startTimer() {
-        timer = 0;
+void initializeTimer() {
+	timer = 0;
 }
 
-void addTimer() {
-        timer++;
+
+void addTimer(int time) {
+	timer += time;
 }
 
 unsigned int get_clock() {
-        return timer;
+	return timer;
 }
 
 volatile unsigned int* get_vclock() {
-        return &timer;
+	return &timer;
 }
+
 

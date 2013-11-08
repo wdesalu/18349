@@ -1,4 +1,5 @@
-/home/root/lab3/tasks/exit/exit.o: /home/root/lab3/tasks/exit/exit.S \
-  /home/root/lab3/tasks/libc/include/bits/swi.h
+/home/wale/Documents/18349/lab3/tasks/exit/exit.o:  \
+ /home/wale/Documents/18349/lab3/tasks/exit/exit.S \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/bits/swi.h
 
-/home/root/lab3/tasks/libc/include/bits/swi.h:
+/home/wale/Documents/18349/lab3/tasks/libc/include/bits/swi.h:

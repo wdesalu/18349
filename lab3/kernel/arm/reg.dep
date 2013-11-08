@@ -1,10 +1,11 @@
-/home/root/lab3/kernel/arm/reg.o: /home/root/lab3/kernel/arm/reg.c \
-  /home/root/lab3/kernel/include/types.h \
-  /home/root/lab3/kernel/include/arm/reg.h \
-  /home/root/lab3/kernel/include/inline.h
+/home/wale/Documents/18349/lab3/kernel/arm/reg.o:  \
+ /home/wale/Documents/18349/lab3/kernel/arm/reg.c \
+  /home/wale/Documents/18349/lab3/kernel/include/types.h \
+  /home/wale/Documents/18349/lab3/kernel/include/arm/reg.h \
+  /home/wale/Documents/18349/lab3/kernel/include/inline.h
 
-/home/root/lab3/kernel/include/types.h:
+/home/wale/Documents/18349/lab3/kernel/include/types.h:
 
-/home/root/lab3/kernel/include/arm/reg.h:
+/home/wale/Documents/18349/lab3/kernel/include/arm/reg.h:
 
-/home/root/lab3/kernel/include/inline.h:
+/home/wale/Documents/18349/lab3/kernel/include/inline.h:

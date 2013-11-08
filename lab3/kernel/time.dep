@@ -1,4 +1,5 @@
-/home/root/lab3/kernel/time.o: /home/root/lab3/kernel/time.c \
-  /home/root/lab3/kernel/include/arm/timer.h
+/home/wale/Documents/18349/lab3/kernel/time.o:  \
+ /home/wale/Documents/18349/lab3/kernel/time.c \
+  /home/wale/Documents/18349/lab3/kernel/include/arm/timer.h
 
-/home/root/lab3/kernel/include/arm/timer.h:
+/home/wale/Documents/18349/lab3/kernel/include/arm/timer.h:

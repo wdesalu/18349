@@ -1,11 +1,11 @@
-/home/root/lab3/tasks/libc/string/strspn.o:  \
- /home/root/lab3/tasks/libc/string/strspn.c \
-  /home/root/lab3/tasks/libc/include/string.h \
-  /home/root/lab3/tasks/libc/include/sys/types.h \
-  /home/root/lab3/tasks/libc/include/bits/types.h
+/home/wale/Documents/18349/lab3/tasks/libc/string/strspn.o:  \
+ /home/wale/Documents/18349/lab3/tasks/libc/string/strspn.c \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/string.h \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/sys/types.h \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/bits/types.h
 
-/home/root/lab3/tasks/libc/include/string.h:
+/home/wale/Documents/18349/lab3/tasks/libc/include/string.h:
 
-/home/root/lab3/tasks/libc/include/sys/types.h:
+/home/wale/Documents/18349/lab3/tasks/libc/include/sys/types.h:
 
-/home/root/lab3/tasks/libc/include/bits/types.h:
+/home/wale/Documents/18349/lab3/tasks/libc/include/bits/types.h:

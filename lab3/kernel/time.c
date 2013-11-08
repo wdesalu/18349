@@ -1,6 +1,7 @@
 #include <arm/timer.h>
 
 unsigned long time() {
-//	return get_clock();
-	return 0;
+
+  //Gets the time in milliseconds since boot
+  return get_clock();
 }

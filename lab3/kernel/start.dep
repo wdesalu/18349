@@ -1,4 +1,5 @@
-/home/root/lab3/kernel/start.o: /home/root/lab3/kernel/start.S \
-  /home/root/lab3/kernel/include/asm.h
+/home/wale/Documents/18349/lab3/kernel/start.o:  \
+ /home/wale/Documents/18349/lab3/kernel/start.S \
+  /home/wale/Documents/18349/lab3/kernel/include/asm.h
 
-/home/root/lab3/kernel/include/asm.h:
+/home/wale/Documents/18349/lab3/kernel/include/asm.h:

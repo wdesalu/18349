@@ -1,20 +1,20 @@
-/home/root/lab3/tasks/libc/stdlib/strtol.o:  \
- /home/root/lab3/tasks/libc/stdlib/strtol.c \
-  /home/root/lab3/tasks/libc/include/stdlib.h \
-  /home/root/lab3/tasks/libc/include/ctype.h \
-  /home/root/lab3/tasks/libc/include/inline.h \
-  /home/root/lab3/tasks/libc/include/string.h \
-  /home/root/lab3/tasks/libc/include/sys/types.h \
-  /home/root/lab3/tasks/libc/include/bits/types.h
+/home/wale/Documents/18349/lab3/tasks/libc/stdlib/strtol.o:  \
+ /home/wale/Documents/18349/lab3/tasks/libc/stdlib/strtol.c \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/stdlib.h \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/ctype.h \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/inline.h \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/string.h \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/sys/types.h \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/bits/types.h
 
-/home/root/lab3/tasks/libc/include/stdlib.h:
+/home/wale/Documents/18349/lab3/tasks/libc/include/stdlib.h:
 
-/home/root/lab3/tasks/libc/include/ctype.h:
+/home/wale/Documents/18349/lab3/tasks/libc/include/ctype.h:
 
-/home/root/lab3/tasks/libc/include/inline.h:
+/home/wale/Documents/18349/lab3/tasks/libc/include/inline.h:
 
-/home/root/lab3/tasks/libc/include/string.h:
+/home/wale/Documents/18349/lab3/tasks/libc/include/string.h:
 
-/home/root/lab3/tasks/libc/include/sys/types.h:
+/home/wale/Documents/18349/lab3/tasks/libc/include/sys/types.h:
 
-/home/root/lab3/tasks/libc/include/bits/types.h:
+/home/wale/Documents/18349/lab3/tasks/libc/include/bits/types.h:

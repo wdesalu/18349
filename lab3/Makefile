@@ -3,7 +3,7 @@
 #
 
 # Change this to blank if you are on the gumstix
-#CCPREFIX = arm-linux-
+CCPREFIX = arm-linux-
 #CCPREFIX =
 
 MAKEFLAGS += -rR
