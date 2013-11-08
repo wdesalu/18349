@@ -1,0 +1,14 @@
+/home/ubuntu/18349/wale/lab3/kernel/arm/timer.o:  \
+ /home/ubuntu/18349/wale/lab3/kernel/arm/timer.c \
+  /home/ubuntu/18349/wale/lab3/kernel/include/arm/timer.h \
+  /home/ubuntu/18349/wale/lab3/kernel/include/arm/reg.h \
+  /home/ubuntu/18349/wale/lab3/kernel/include/inline.h \
+  /home/ubuntu/18349/wale/lab3/kernel/include/types.h
+
+/home/ubuntu/18349/wale/lab3/kernel/include/arm/timer.h:
+
+/home/ubuntu/18349/wale/lab3/kernel/include/arm/reg.h:
+
+/home/ubuntu/18349/wale/lab3/kernel/include/inline.h:
+
+/home/ubuntu/18349/wale/lab3/kernel/include/types.h:

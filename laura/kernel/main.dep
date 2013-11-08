@@ -1,0 +1,44 @@
+/home/ubuntu/18349/wale/lab3/kernel/main.o:  \
+ /home/ubuntu/18349/wale/lab3/kernel/main.c \
+  /home/ubuntu/18349/wale/lab3/uboot/include/exports.h \
+  /home/ubuntu/18349/wale/lab3/kernel/include/types.h \
+  /home/ubuntu/18349/wale/lab3/kernel/include/stdarg.h \
+  /home/ubuntu/18349/wale/lab3/uboot/include/_exports.h \
+  /home/ubuntu/18349/wale/lab3/kernel/include/arm/psr.h \
+  /home/ubuntu/18349/wale/lab3/kernel/include/inline.h \
+  /home/ubuntu/18349/wale/lab3/kernel/include/arm/exception.h \
+  /home/ubuntu/18349/wale/lab3/kernel/include/arm/interrupt.h \
+  /home/ubuntu/18349/wale/lab3/kernel/include/arm/timer.h \
+  /home/ubuntu/18349/wale/lab3/kernel/include/arm/reg.h \
+  /home/ubuntu/18349/wale/lab3/kernel/include/S_Handler.h \
+  /home/ubuntu/18349/wale/lab3/kernel/include/I_Handler.h \
+  /home/ubuntu/18349/wale/lab3/kernel/include/init_irq.h \
+  /home/ubuntu/18349/wale/lab3/kernel/include/load_user_prog.h
+
+/home/ubuntu/18349/wale/lab3/uboot/include/exports.h:
+
+/home/ubuntu/18349/wale/lab3/kernel/include/types.h:
+
+/home/ubuntu/18349/wale/lab3/kernel/include/stdarg.h:
+
+/home/ubuntu/18349/wale/lab3/uboot/include/_exports.h:
+
+/home/ubuntu/18349/wale/lab3/kernel/include/arm/psr.h:
+
+/home/ubuntu/18349/wale/lab3/kernel/include/inline.h:
+
+/home/ubuntu/18349/wale/lab3/kernel/include/arm/exception.h:
+
+/home/ubuntu/18349/wale/lab3/kernel/include/arm/interrupt.h:
+
+/home/ubuntu/18349/wale/lab3/kernel/include/arm/timer.h:
+
+/home/ubuntu/18349/wale/lab3/kernel/include/arm/reg.h:
+
+/home/ubuntu/18349/wale/lab3/kernel/include/S_Handler.h:
+
+/home/ubuntu/18349/wale/lab3/kernel/include/I_Handler.h:
+
+/home/ubuntu/18349/wale/lab3/kernel/include/init_irq.h:
+
+/home/ubuntu/18349/wale/lab3/kernel/include/load_user_prog.h:

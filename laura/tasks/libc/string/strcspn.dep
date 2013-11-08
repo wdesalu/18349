@@ -1,0 +1,11 @@
+/home/ubuntu/18349/wale/lab3/tasks/libc/string/strcspn.o:  \
+ /home/ubuntu/18349/wale/lab3/tasks/libc/string/strcspn.c \
+  /home/ubuntu/18349/wale/lab3/tasks/libc/include/string.h \
+  /home/ubuntu/18349/wale/lab3/tasks/libc/include/sys/types.h \
+  /home/ubuntu/18349/wale/lab3/tasks/libc/include/bits/types.h
+
+/home/ubuntu/18349/wale/lab3/tasks/libc/include/string.h:
+
+/home/ubuntu/18349/wale/lab3/tasks/libc/include/sys/types.h:
+
+/home/ubuntu/18349/wale/lab3/tasks/libc/include/bits/types.h:
