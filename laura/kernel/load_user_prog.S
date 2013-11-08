@@ -11,13 +11,13 @@ load_user_prog:
 	STR	sp, [r2]
 
 	@irq mode
-	MRS	r3, cpsr
-	BIC	r3, r3, #0xFF
-	ADD	r3, r3, #0xD9 @no fucking idea what this should be
-	MSR	cpsr, r3
-	MSR	cpsr, #0x12
-	LDR	sp, =0xA1000000
-	MSR	cpsr, #0x13
+	@MRS	r3, cpsr
+	@BIC	r3, r3, #0xFF
+	@ADD	r3, r3, #0xD9 @no fucking idea what this should be
+	@MSR	cpsr, r3
+	@MSR	cpsr, #0x12
+	@LDR	sp, =0xA1000000
+	@MSR	cpsr, #0x13
 
 	@user mode
 	MRS	r3, cpsr @change mode

@@ -42,7 +42,6 @@ int kmain(int argc, char** argv, uint32_t table)
 
 	ubootSwiAddr = (unsigned long int*) *(s_addr);
 
-
 	oldIrq = *irqPointer;
 	oldIrq2 = *(irqPointer+1);
 
@@ -52,12 +51,14 @@ int kmain(int argc, char** argv, uint32_t table)
 	}
 
 	if((oldIrq & 0x00800000) == 0x00800000)
-		irq_addr = (unsigned long int*) ((oldIrq & 0xfff) + 0x10);
+		irq_addr = (unsigned long int*) ((oldIrq & 0xfff) + 0x20);
 	else
-		irq_addr = (unsigned long int*) (0x10 - (oldIrq & 0xfff));
+		irq_addr = (unsigned long int*) (0x20 - (oldIrq & 0xfff));
 
+//	irq_addr = (unsigned long int *) 0x34;
 	ubootIrqAddr = (unsigned long int*) *(irq_addr);
-
+	printf("irqAddr = %x\n", (unsigned int) irq_addr);	
+	printf("ubootIrqAddr = %x\n", (unsigned int) ubootIrqAddr);
 	*(ubootSwiAddr) = 0xe51ff004;
 	*(ubootSwiAddr + 1) = (unsigned) &S_Handler;
 
@@ -74,7 +75,7 @@ int kmain(int argc, char** argv, uint32_t table)
 	//make interrupts irq
 	reg_write(INT_ICLR_ADDR, 0x0);
 	// set match reg
-	reg_write(OSTMR_OSMR_ADDR(0), 3250);
+	reg_write(OSTMR_OSMR_ADDR(0), OSTMR_FREQ_VERDEX);
 	// enable os timer interrupt for match 0 reg
 	reg_write(OSTMR_OIER_ADDR, OSTMR_OIER_E0);
 	// set clock reg to 0
@@ -82,7 +83,7 @@ int kmain(int argc, char** argv, uint32_t table)
 	//clear status reg
 	reg_write(OSTMR_OSSR_ADDR, 0x0);
 	//printf("tit");
-	
+	printf("OSCR = %d\n", reg_read(OSTMR_OSCR_ADDR));	
 	printf("loading user program\n");
 	load_user_prog(argc, argv);
 	printf("user program loaded: initializing irq.\n");
@@ -90,7 +91,7 @@ int kmain(int argc, char** argv, uint32_t table)
 	printf("irq initialized, starting user program. \n");
 	//load_user_prog(argc, argv);
 	exitVal = (int)start_user_prog(argc, argv);
-
+	printf("user program finished. \n");
 	*(ubootSwiAddr) = (unsigned long int) oldInstr;
 	*(ubootSwiAddr + 1) = (unsigned long int) oldInstr2;
 
@@ -101,7 +102,7 @@ int kmain(int argc, char** argv, uint32_t table)
 	reg_write(INT_ICMR_ADDR, ICMR);
 	reg_write(INT_ICLR_ADDR, ICLR);
 	reg_write(OSTMR_OIER_ADDR, OIER);
-
+	printf("\ncame back to main.c\n");
 	return exitVal;
 }
 
