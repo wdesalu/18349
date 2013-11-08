@@ -1,8 +1,8 @@
-/home/ubuntu/18349/wale/lab3/tasks/libc/swi/write.o:  \
- /home/ubuntu/18349/wale/lab3/tasks/libc/swi/write.S \
-  /home/ubuntu/18349/wale/lab3/tasks/libc/include/asm.h \
-  /home/ubuntu/18349/wale/lab3/tasks/libc/include/bits/swi.h
+/home/ubuntu/18349/laura/tasks/libc/swi/write.o:  \
+ /home/ubuntu/18349/laura/tasks/libc/swi/write.S \
+  /home/ubuntu/18349/laura/tasks/libc/include/asm.h \
+  /home/ubuntu/18349/laura/tasks/libc/include/bits/swi.h
 
-/home/ubuntu/18349/wale/lab3/tasks/libc/include/asm.h:
+/home/ubuntu/18349/laura/tasks/libc/include/asm.h:
 
-/home/ubuntu/18349/wale/lab3/tasks/libc/include/bits/swi.h:
+/home/ubuntu/18349/laura/tasks/libc/include/bits/swi.h:

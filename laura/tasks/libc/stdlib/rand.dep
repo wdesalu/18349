@@ -1,5 +1,5 @@
-/home/ubuntu/18349/wale/lab3/tasks/libc/stdlib/rand.o:  \
- /home/ubuntu/18349/wale/lab3/tasks/libc/stdlib/rand.c \
-  /home/ubuntu/18349/wale/lab3/tasks/libc/include/stdlib.h
+/home/ubuntu/18349/laura/tasks/libc/stdlib/rand.o:  \
+ /home/ubuntu/18349/laura/tasks/libc/stdlib/rand.c \
+  /home/ubuntu/18349/laura/tasks/libc/include/stdlib.h
 
-/home/ubuntu/18349/wale/lab3/tasks/libc/include/stdlib.h:
+/home/ubuntu/18349/laura/tasks/libc/include/stdlib.h:

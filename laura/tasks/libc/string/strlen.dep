@@ -1,11 +1,11 @@
-/home/ubuntu/18349/wale/lab3/tasks/libc/string/strlen.o:  \
- /home/ubuntu/18349/wale/lab3/tasks/libc/string/strlen.c \
-  /home/ubuntu/18349/wale/lab3/tasks/libc/include/string.h \
-  /home/ubuntu/18349/wale/lab3/tasks/libc/include/sys/types.h \
-  /home/ubuntu/18349/wale/lab3/tasks/libc/include/bits/types.h
+/home/ubuntu/18349/laura/tasks/libc/string/strlen.o:  \
+ /home/ubuntu/18349/laura/tasks/libc/string/strlen.c \
+  /home/ubuntu/18349/laura/tasks/libc/include/string.h \
+  /home/ubuntu/18349/laura/tasks/libc/include/sys/types.h \
+  /home/ubuntu/18349/laura/tasks/libc/include/bits/types.h
 
-/home/ubuntu/18349/wale/lab3/tasks/libc/include/string.h:
+/home/ubuntu/18349/laura/tasks/libc/include/string.h:
 
-/home/ubuntu/18349/wale/lab3/tasks/libc/include/sys/types.h:
+/home/ubuntu/18349/laura/tasks/libc/include/sys/types.h:
 
-/home/ubuntu/18349/wale/lab3/tasks/libc/include/bits/types.h:
+/home/ubuntu/18349/laura/tasks/libc/include/bits/types.h:

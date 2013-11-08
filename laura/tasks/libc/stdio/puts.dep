@@ -1,23 +1,23 @@
-/home/ubuntu/18349/wale/lab3/tasks/libc/stdio/puts.o:  \
- /home/ubuntu/18349/wale/lab3/tasks/libc/stdio/puts.c \
-  /home/ubuntu/18349/wale/lab3/tasks/libc/include/stdio.h \
-  /home/ubuntu/18349/wale/lab3/tasks/libc/include/stdarg.h \
-  /home/ubuntu/18349/wale/lab3/tasks/libc/include/sys/types.h \
-  /home/ubuntu/18349/wale/lab3/tasks/libc/include/bits/types.h \
-  /home/ubuntu/18349/wale/lab3/tasks/libc/include/string.h \
-  /home/ubuntu/18349/wale/lab3/tasks/libc/include/unistd.h \
-  /home/ubuntu/18349/wale/lab3/tasks/libc/include/bits/fileno.h
+/home/ubuntu/18349/laura/tasks/libc/stdio/puts.o:  \
+ /home/ubuntu/18349/laura/tasks/libc/stdio/puts.c \
+  /home/ubuntu/18349/laura/tasks/libc/include/stdio.h \
+  /home/ubuntu/18349/laura/tasks/libc/include/stdarg.h \
+  /home/ubuntu/18349/laura/tasks/libc/include/sys/types.h \
+  /home/ubuntu/18349/laura/tasks/libc/include/bits/types.h \
+  /home/ubuntu/18349/laura/tasks/libc/include/string.h \
+  /home/ubuntu/18349/laura/tasks/libc/include/unistd.h \
+  /home/ubuntu/18349/laura/tasks/libc/include/bits/fileno.h
 
-/home/ubuntu/18349/wale/lab3/tasks/libc/include/stdio.h:
+/home/ubuntu/18349/laura/tasks/libc/include/stdio.h:
 
-/home/ubuntu/18349/wale/lab3/tasks/libc/include/stdarg.h:
+/home/ubuntu/18349/laura/tasks/libc/include/stdarg.h:
 
-/home/ubuntu/18349/wale/lab3/tasks/libc/include/sys/types.h:
+/home/ubuntu/18349/laura/tasks/libc/include/sys/types.h:
 
-/home/ubuntu/18349/wale/lab3/tasks/libc/include/bits/types.h:
+/home/ubuntu/18349/laura/tasks/libc/include/bits/types.h:
 
-/home/ubuntu/18349/wale/lab3/tasks/libc/include/string.h:
+/home/ubuntu/18349/laura/tasks/libc/include/string.h:
 
-/home/ubuntu/18349/wale/lab3/tasks/libc/include/unistd.h:
+/home/ubuntu/18349/laura/tasks/libc/include/unistd.h:
 
-/home/ubuntu/18349/wale/lab3/tasks/libc/include/bits/fileno.h:
+/home/ubuntu/18349/laura/tasks/libc/include/bits/fileno.h:

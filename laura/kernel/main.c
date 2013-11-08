@@ -74,7 +74,7 @@ int kmain(int argc, char** argv, uint32_t table)
 	//make interrupts irq
 	reg_write(INT_ICLR_ADDR, 0x0);
 	// set match reg
-	reg_write(OSTMR_OSMR_ADDR(0), 32500);
+	reg_write(OSTMR_OSMR_ADDR(0), 3250);
 	// enable os timer interrupt for match 0 reg
 	reg_write(OSTMR_OIER_ADDR, OSTMR_OIER_E0);
 	// set clock reg to 0
@@ -82,9 +82,12 @@ int kmain(int argc, char** argv, uint32_t table)
 	//clear status reg
 	reg_write(OSTMR_OSSR_ADDR, 0x0);
 	//printf("tit");
-
+	
+	printf("loading user program\n");
 	load_user_prog(argc, argv);
+	printf("user program loaded: initializing irq.\n");
 	init_irq();
+	printf("irq initialized, starting user program. \n");
 	//load_user_prog(argc, argv);
 	exitVal = (int)start_user_prog(argc, argv);
 
