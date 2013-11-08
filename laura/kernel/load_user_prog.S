@@ -1,12 +1,10 @@
 .global load_user_prog
 .global exit_to_kernel
-.global start_user_prog
+@.global start_user_prog
 .comm saved_r8 4,4
 
 load_user_prog:
 	STMFD	sp!, {r1-r7,r9-r11, lr}
-	LDR	r2, =saved_r8
-	STR	r8, [r2]
 	LDR	r2, =kernel_sp
 	STR	sp, [r2]
 
@@ -35,8 +33,8 @@ load_user_prog:
 	STMFD	sp!, {r3}
 	BNE	stack
 	STMFD	sp!, {r4}
-	B	exit_to_kernel
-
+	@B	exit_to_kernel
+	
 start_user_prog:
 	LDR	pc, =0xA0000000
 

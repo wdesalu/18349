@@ -18,14 +18,14 @@ int kmain(int argc, char** argv, uint32_t table)
 	global_data = table;
 
 	unsigned long int oldInstr, oldInstr2, exitVal, *s_addr;
-	unsigned long int *irq_addr, oldIrq, oldIrq2, *ubootIrqAddr;
+//	unsigned long int *irq_addr, oldIrq, oldIrq2, *ubootIrqAddr;
 	unsigned long int *pointer, *ubootSwiAddr;
-	unsigned long int *irqPointer;
-	uint32_t ICMR, ICLR, OIER;
+//	unsigned long int *irqPointer;
+//	uint32_t ICMR, ICLR, OIER;
 
 
 	pointer = (unsigned long int*) 0x08;
-	irqPointer = (unsigned long int*) 0x18;
+//	irqPointer = (unsigned long int*) 0x18;
 	initializeTimer();
 
 	oldInstr = *pointer;
@@ -42,7 +42,7 @@ int kmain(int argc, char** argv, uint32_t table)
 
 	ubootSwiAddr = (unsigned long int*) *(s_addr);
 
-	oldIrq = *irqPointer;
+/*	oldIrq = *irqPointer;
 	oldIrq2 = *(irqPointer+1);
 
 	//printf("hello");
@@ -55,14 +55,14 @@ int kmain(int argc, char** argv, uint32_t table)
 	else
 		irq_addr = (unsigned long int*) (0x20 - (oldIrq & 0xfff));
 
-//	irq_addr = (unsigned long int *) 0x34;
+	irq_addr = (unsigned long int *) 0x34;
 	ubootIrqAddr = (unsigned long int*) *(irq_addr);
 	printf("irqAddr = %x\n", (unsigned int) irq_addr);	
 	printf("ubootIrqAddr = %x\n", (unsigned int) ubootIrqAddr);
-	*(ubootSwiAddr) = 0xe51ff004;
+*/	*(ubootSwiAddr) = 0xe51ff004;
 	*(ubootSwiAddr + 1) = (unsigned) &S_Handler;
 
-	*(ubootIrqAddr) = 0xe51ff004;
+/*	*(ubootIrqAddr) = 0xe51ff004;
 	*(ubootIrqAddr+1) = (unsigned) &I_Handler;
 
 	//printf("hey");
@@ -89,12 +89,13 @@ int kmain(int argc, char** argv, uint32_t table)
 	printf("user program loaded: initializing irq.\n");
 	init_irq();
 	printf("irq initialized, starting user program. \n");
-	//load_user_prog(argc, argv);
-	exitVal = (int)start_user_prog(argc, argv);
+	*/
+//	load_user_prog(argc, argv);
+	exitVal = (int)load_user_prog(argc, argv);
 	printf("user program finished. \n");
 	*(ubootSwiAddr) = (unsigned long int) oldInstr;
 	*(ubootSwiAddr + 1) = (unsigned long int) oldInstr2;
-
+/*
 	*(ubootIrqAddr) = (unsigned long int) oldIrq;
 	*(ubootIrqAddr+1) = (unsigned long int) oldIrq2;
 
@@ -103,6 +104,7 @@ int kmain(int argc, char** argv, uint32_t table)
 	reg_write(INT_ICLR_ADDR, ICLR);
 	reg_write(OSTMR_OIER_ADDR, OIER);
 	printf("\ncame back to main.c\n");
+*/
 	return exitVal;
 }
 
