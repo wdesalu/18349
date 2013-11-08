@@ -1,0 +1,26 @@
+/home/wale/Documents/18349/lab3/kernel/C_IRQ_Handler.o:  \
+ /home/wale/Documents/18349/lab3/kernel/C_IRQ_Handler.c \
+  /home/wale/Documents/18349/lab3/uboot/include/exports.h \
+  /home/wale/Documents/18349/lab3/kernel/include/types.h \
+  /home/wale/Documents/18349/lab3/kernel/include/stdarg.h \
+  /home/wale/Documents/18349/lab3/uboot/include/_exports.h \
+  /home/wale/Documents/18349/lab3/kernel/include/arm/interrupt.h \
+  /home/wale/Documents/18349/lab3/kernel/include/arm/timer.h \
+  /home/wale/Documents/18349/lab3/kernel/include/arm/reg.h \
+  /home/wale/Documents/18349/lab3/kernel/include/inline.h
+
+/home/wale/Documents/18349/lab3/uboot/include/exports.h:
+
+/home/wale/Documents/18349/lab3/kernel/include/types.h:
+
+/home/wale/Documents/18349/lab3/kernel/include/stdarg.h:
+
+/home/wale/Documents/18349/lab3/uboot/include/_exports.h:
+
+/home/wale/Documents/18349/lab3/kernel/include/arm/interrupt.h:
+
+/home/wale/Documents/18349/lab3/kernel/include/arm/timer.h:
+
+/home/wale/Documents/18349/lab3/kernel/include/arm/reg.h:
+
+/home/wale/Documents/18349/lab3/kernel/include/inline.h:

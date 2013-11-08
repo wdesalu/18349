@@ -1,9 +1,9 @@
-CC      = gcc
+CC      = arm-linux-gcc
 OBJCOPY = objcopy
 CFLAGS  = -O2 -ffreestanding -Wall -Werror -nostdinc -g -I ../libc/include -I ./uboot/include
 LDFLAGS = -nostdlib -Wl,-N,-Ttext,$(LOAD_ADDR) 
 
-LOAD_ADDR = 0xa2000000
+LOAD_ADDR = 0xa0000000
 
 STUBS   = ../../part2/uboot/stubs.o
 CRT0    = ../libc/crt0.o
