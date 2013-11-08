@@ -1,0 +1,23 @@
+/home/wale/Documents/18349/lab3/kernel/read.o:  \
+ /home/wale/Documents/18349/lab3/kernel/read.c \
+  /home/wale/Documents/18349/lab3/kernel/include/bits/errno.h \
+  /home/wale/Documents/18349/lab3/kernel/include/bits/swi.h \
+  /home/wale/Documents/18349/lab3/kernel/include/bits/fileno.h \
+  /home/wale/Documents/18349/lab3/uboot/include/exports.h \
+  /home/wale/Documents/18349/lab3/kernel/include/types.h \
+  /home/wale/Documents/18349/lab3/kernel/include/stdarg.h \
+  /home/wale/Documents/18349/lab3/uboot/include/_exports.h
+
+/home/wale/Documents/18349/lab3/kernel/include/bits/errno.h:
+
+/home/wale/Documents/18349/lab3/kernel/include/bits/swi.h:
+
+/home/wale/Documents/18349/lab3/kernel/include/bits/fileno.h:
+
+/home/wale/Documents/18349/lab3/uboot/include/exports.h:
+
+/home/wale/Documents/18349/lab3/kernel/include/types.h:
+
+/home/wale/Documents/18349/lab3/kernel/include/stdarg.h:
+
+/home/wale/Documents/18349/lab3/uboot/include/_exports.h:

@@ -1,0 +1,11 @@
+/home/wale/Documents/18349/lab3/kernel/arm/psr.o:  \
+ /home/wale/Documents/18349/lab3/kernel/arm/psr.c \
+  /home/wale/Documents/18349/lab3/kernel/include/types.h \
+  /home/wale/Documents/18349/lab3/kernel/include/arm/psr.h \
+  /home/wale/Documents/18349/lab3/kernel/include/inline.h
+
+/home/wale/Documents/18349/lab3/kernel/include/types.h:
+
+/home/wale/Documents/18349/lab3/kernel/include/arm/psr.h:
+
+/home/wale/Documents/18349/lab3/kernel/include/inline.h:

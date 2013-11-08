@@ -1,0 +1,29 @@
+/home/wale/Documents/18349/lab3/tasks/rot13/rot13.o:  \
+ /home/wale/Documents/18349/lab3/tasks/rot13/rot13.c \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/stdlib.h \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/errno.h \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/bits/errno.h \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/unistd.h \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/bits/fileno.h \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/sys/types.h \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/bits/types.h \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/stdio.h \
+  /home/wale/Documents/18349/lab3/tasks/libc/include/stdarg.h
+
+/home/wale/Documents/18349/lab3/tasks/libc/include/stdlib.h:
+
+/home/wale/Documents/18349/lab3/tasks/libc/include/errno.h:
+
+/home/wale/Documents/18349/lab3/tasks/libc/include/bits/errno.h:
+
+/home/wale/Documents/18349/lab3/tasks/libc/include/unistd.h:
+
+/home/wale/Documents/18349/lab3/tasks/libc/include/bits/fileno.h:
+
+/home/wale/Documents/18349/lab3/tasks/libc/include/sys/types.h:
+
+/home/wale/Documents/18349/lab3/tasks/libc/include/bits/types.h:
+
+/home/wale/Documents/18349/lab3/tasks/libc/include/stdio.h:
+
+/home/wale/Documents/18349/lab3/tasks/libc/include/stdarg.h:

@@ -1,0 +1,5 @@
+/home/wale/Documents/18349/lab3/kernel/sleep.o:  \
+ /home/wale/Documents/18349/lab3/kernel/sleep.c \
+  /home/wale/Documents/18349/lab3/kernel/include/arm/timer.h
+
+/home/wale/Documents/18349/lab3/kernel/include/arm/timer.h:
