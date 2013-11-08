@@ -1,0 +1,11 @@
+/home/ubuntu/18349/laura_newStart/tasks/libc/string/strcspn.o:  \
+ /home/ubuntu/18349/laura_newStart/tasks/libc/string/strcspn.c \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/string.h \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/sys/types.h \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/bits/types.h
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/string.h:
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/sys/types.h:
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/bits/types.h:

@@ -1,0 +1,20 @@
+/home/ubuntu/18349/laura_newStart/kernel/C_SWI_Handler.o:  \
+ /home/ubuntu/18349/laura_newStart/kernel/C_SWI_Handler.c \
+  /home/ubuntu/18349/laura_newStart/kernel/S_Handler.h \
+  /home/ubuntu/18349/laura_newStart/uboot/include/exports.h \
+  /home/ubuntu/18349/laura_newStart/kernel/include/types.h \
+  /home/ubuntu/18349/laura_newStart/kernel/include/stdarg.h \
+  /home/ubuntu/18349/laura_newStart/uboot/include/_exports.h \
+  /home/ubuntu/18349/laura_newStart/kernel/include/bits/swi.h
+
+/home/ubuntu/18349/laura_newStart/kernel/S_Handler.h:
+
+/home/ubuntu/18349/laura_newStart/uboot/include/exports.h:
+
+/home/ubuntu/18349/laura_newStart/kernel/include/types.h:
+
+/home/ubuntu/18349/laura_newStart/kernel/include/stdarg.h:
+
+/home/ubuntu/18349/laura_newStart/uboot/include/_exports.h:
+
+/home/ubuntu/18349/laura_newStart/kernel/include/bits/swi.h:

@@ -1,0 +1,23 @@
+/home/ubuntu/18349/laura_newStart/tasks/rot13/rot13.o:  \
+ /home/ubuntu/18349/laura_newStart/tasks/rot13/rot13.c \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/stdlib.h \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/errno.h \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/bits/errno.h \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/unistd.h \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/bits/fileno.h \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/sys/types.h \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/bits/types.h
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/stdlib.h:
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/errno.h:
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/bits/errno.h:
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/unistd.h:
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/bits/fileno.h:
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/sys/types.h:
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/bits/types.h:

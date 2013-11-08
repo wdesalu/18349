@@ -1,0 +1,8 @@
+/home/ubuntu/18349/laura_newStart/tasks/libc/swi/read.o:  \
+ /home/ubuntu/18349/laura_newStart/tasks/libc/swi/read.S \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/asm.h \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/bits/swi.h
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/asm.h:
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/bits/swi.h:

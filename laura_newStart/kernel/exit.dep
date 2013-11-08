@@ -1,0 +1,5 @@
+/home/ubuntu/18349/laura_newStart/kernel/exit.o:  \
+ /home/ubuntu/18349/laura_newStart/kernel/exit.c \
+  /home/ubuntu/18349/laura_newStart/kernel/load_user_prog.h
+
+/home/ubuntu/18349/laura_newStart/kernel/load_user_prog.h:

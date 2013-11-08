@@ -1,0 +1,17 @@
+/home/ubuntu/18349/laura_newStart/tasks/libc/stdio/doprnt.o:  \
+ /home/ubuntu/18349/laura_newStart/tasks/libc/stdio/doprnt.c \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/stdarg.h \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/string.h \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/sys/types.h \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/bits/types.h \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/stdio/doprnt.h
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/stdarg.h:
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/string.h:
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/sys/types.h:
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/bits/types.h:
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/stdio/doprnt.h:

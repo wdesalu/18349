@@ -1,0 +1,17 @@
+/home/ubuntu/18349/laura_newStart/tasks/libc/raise.o:  \
+ /home/ubuntu/18349/laura_newStart/tasks/libc/raise.c \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/stdio.h \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/stdarg.h \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/sys/types.h \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/bits/types.h \
+  /home/ubuntu/18349/laura_newStart/tasks/libc/include/stdlib.h
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/stdio.h:
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/stdarg.h:
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/sys/types.h:
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/bits/types.h:
+
+/home/ubuntu/18349/laura_newStart/tasks/libc/include/stdlib.h:

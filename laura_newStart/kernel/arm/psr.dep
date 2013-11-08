@@ -1,0 +1,11 @@
+/home/ubuntu/18349/laura_newStart/kernel/arm/psr.o:  \
+ /home/ubuntu/18349/laura_newStart/kernel/arm/psr.c \
+  /home/ubuntu/18349/laura_newStart/kernel/include/types.h \
+  /home/ubuntu/18349/laura_newStart/kernel/include/arm/psr.h \
+  /home/ubuntu/18349/laura_newStart/kernel/include/inline.h
+
+/home/ubuntu/18349/laura_newStart/kernel/include/types.h:
+
+/home/ubuntu/18349/laura_newStart/kernel/include/arm/psr.h:
+
+/home/ubuntu/18349/laura_newStart/kernel/include/inline.h:
