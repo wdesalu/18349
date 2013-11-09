@@ -1,4 +1,4 @@
-#include "S_Handler.h"
+#include <S_Handler.h>
 #include <exports.h>
 #include <bits/swi.h>
 
@@ -22,7 +22,9 @@ void C_SWI_Handler(unsigned swi_num, unsigned *regs)
 			regs[0] = write((int)regs[0], (void*)regs[1], (size_t)regs[2]);
 			break;
 		case TIME_SWI:
-			regs[0] = time();
+			printf("time swi\n");
+			//regs[0] = time();
+			printf("time = ");//%d\n", regs[0]);
 			break;
 		case SLEEP_SWI:
 			sleep((int)regs[0]);
@@ -31,4 +33,5 @@ void C_SWI_Handler(unsigned swi_num, unsigned *regs)
 			exit(-1); 
 			 break;
 	}
+	printf("hi");
 }

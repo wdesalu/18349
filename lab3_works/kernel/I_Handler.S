@@ -2,9 +2,7 @@
 	.extern C_IRQ_Handler
 	.text
 
-	@.comm 	saved_lr 4,4
 	.global I_Handler
-	@.global I_Handler_Cleanup
 
 I_Handler:
 	STMFD	sp!, {r0-r7, r9-r12, lr} @set up the stack

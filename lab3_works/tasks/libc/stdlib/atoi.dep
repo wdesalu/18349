@@ -1,11 +1,11 @@
-/home/ubuntu/18349/laura/tasks/libc/stdlib/atoi.o:  \
- /home/ubuntu/18349/laura/tasks/libc/stdlib/atoi.c \
-  /home/ubuntu/18349/laura/tasks/libc/include/stdlib.h \
-  /home/ubuntu/18349/laura/tasks/libc/include/ctype.h \
-  /home/ubuntu/18349/laura/tasks/libc/include/inline.h
+/home/ubuntu/18349/lab3_works/tasks/libc/stdlib/atoi.o:  \
+ /home/ubuntu/18349/lab3_works/tasks/libc/stdlib/atoi.c \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/stdlib.h \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/ctype.h \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/inline.h
 
-/home/ubuntu/18349/laura/tasks/libc/include/stdlib.h:
+/home/ubuntu/18349/lab3_works/tasks/libc/include/stdlib.h:
 
-/home/ubuntu/18349/laura/tasks/libc/include/ctype.h:
+/home/ubuntu/18349/lab3_works/tasks/libc/include/ctype.h:
 
-/home/ubuntu/18349/laura/tasks/libc/include/inline.h:
+/home/ubuntu/18349/lab3_works/tasks/libc/include/inline.h:

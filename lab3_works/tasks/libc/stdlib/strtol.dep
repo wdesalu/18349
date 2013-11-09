@@ -1,20 +1,20 @@
-/home/ubuntu/18349/laura/tasks/libc/stdlib/strtol.o:  \
- /home/ubuntu/18349/laura/tasks/libc/stdlib/strtol.c \
-  /home/ubuntu/18349/laura/tasks/libc/include/stdlib.h \
-  /home/ubuntu/18349/laura/tasks/libc/include/ctype.h \
-  /home/ubuntu/18349/laura/tasks/libc/include/inline.h \
-  /home/ubuntu/18349/laura/tasks/libc/include/string.h \
-  /home/ubuntu/18349/laura/tasks/libc/include/sys/types.h \
-  /home/ubuntu/18349/laura/tasks/libc/include/bits/types.h
+/home/ubuntu/18349/lab3_works/tasks/libc/stdlib/strtol.o:  \
+ /home/ubuntu/18349/lab3_works/tasks/libc/stdlib/strtol.c \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/stdlib.h \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/ctype.h \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/inline.h \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/string.h \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/sys/types.h \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/bits/types.h
 
-/home/ubuntu/18349/laura/tasks/libc/include/stdlib.h:
+/home/ubuntu/18349/lab3_works/tasks/libc/include/stdlib.h:
 
-/home/ubuntu/18349/laura/tasks/libc/include/ctype.h:
+/home/ubuntu/18349/lab3_works/tasks/libc/include/ctype.h:
 
-/home/ubuntu/18349/laura/tasks/libc/include/inline.h:
+/home/ubuntu/18349/lab3_works/tasks/libc/include/inline.h:
 
-/home/ubuntu/18349/laura/tasks/libc/include/string.h:
+/home/ubuntu/18349/lab3_works/tasks/libc/include/string.h:
 
-/home/ubuntu/18349/laura/tasks/libc/include/sys/types.h:
+/home/ubuntu/18349/lab3_works/tasks/libc/include/sys/types.h:
 
-/home/ubuntu/18349/laura/tasks/libc/include/bits/types.h:
+/home/ubuntu/18349/lab3_works/tasks/libc/include/bits/types.h:

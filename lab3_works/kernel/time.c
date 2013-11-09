@@ -3,5 +3,6 @@
 unsigned long time() {
 
   //Gets the time in milliseconds since boot
-  return get_clock();
+  //return get_clock();
+  return 0;
 }

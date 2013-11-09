@@ -1,8 +1,8 @@
-/home/ubuntu/18349/laura/tasks/libc/swi/read.o:  \
- /home/ubuntu/18349/laura/tasks/libc/swi/read.S \
-  /home/ubuntu/18349/laura/tasks/libc/include/asm.h \
-  /home/ubuntu/18349/laura/tasks/libc/include/bits/swi.h
+/home/ubuntu/18349/lab3_works/tasks/libc/swi/read.o:  \
+ /home/ubuntu/18349/lab3_works/tasks/libc/swi/read.S \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/asm.h \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/bits/swi.h
 
-/home/ubuntu/18349/laura/tasks/libc/include/asm.h:
+/home/ubuntu/18349/lab3_works/tasks/libc/include/asm.h:
 
-/home/ubuntu/18349/laura/tasks/libc/include/bits/swi.h:
+/home/ubuntu/18349/lab3_works/tasks/libc/include/bits/swi.h:
