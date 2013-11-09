@@ -1,0 +1,11 @@
+/home/ubuntu/18349/laura/tasks/libc/string/memmove.o:  \
+ /home/ubuntu/18349/laura/tasks/libc/string/memmove.c \
+  /home/ubuntu/18349/laura/tasks/libc/include/string.h \
+  /home/ubuntu/18349/laura/tasks/libc/include/sys/types.h \
+  /home/ubuntu/18349/laura/tasks/libc/include/bits/types.h
+
+/home/ubuntu/18349/laura/tasks/libc/include/string.h:
+
+/home/ubuntu/18349/laura/tasks/libc/include/sys/types.h:
+
+/home/ubuntu/18349/laura/tasks/libc/include/bits/types.h:

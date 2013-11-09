@@ -1,0 +1,11 @@
+/home/ubuntu/18349/laura/kernel/arm/reg.o:  \
+ /home/ubuntu/18349/laura/kernel/arm/reg.c \
+  /home/ubuntu/18349/laura/kernel/include/types.h \
+  /home/ubuntu/18349/laura/kernel/include/arm/reg.h \
+  /home/ubuntu/18349/laura/kernel/include/inline.h
+
+/home/ubuntu/18349/laura/kernel/include/types.h:
+
+/home/ubuntu/18349/laura/kernel/include/arm/reg.h:
+
+/home/ubuntu/18349/laura/kernel/include/inline.h:

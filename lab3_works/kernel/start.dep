@@ -1,0 +1,5 @@
+/home/ubuntu/18349/laura/kernel/start.o:  \
+ /home/ubuntu/18349/laura/kernel/start.S \
+  /home/ubuntu/18349/laura/kernel/include/asm.h
+
+/home/ubuntu/18349/laura/kernel/include/asm.h:

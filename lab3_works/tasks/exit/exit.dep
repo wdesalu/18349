@@ -1,0 +1,5 @@
+/home/ubuntu/18349/laura/tasks/exit/exit.o:  \
+ /home/ubuntu/18349/laura/tasks/exit/exit.S \
+  /home/ubuntu/18349/laura/tasks/libc/include/bits/swi.h
+
+/home/ubuntu/18349/laura/tasks/libc/include/bits/swi.h:

@@ -1,0 +1,8 @@
+/home/ubuntu/18349/laura/tasks/libc/stdlib/ctype.o:  \
+ /home/ubuntu/18349/laura/tasks/libc/stdlib/ctype.c \
+  /home/ubuntu/18349/laura/tasks/libc/include/ctype.h \
+  /home/ubuntu/18349/laura/tasks/libc/include/inline.h
+
+/home/ubuntu/18349/laura/tasks/libc/include/ctype.h:
+
+/home/ubuntu/18349/laura/tasks/libc/include/inline.h:
