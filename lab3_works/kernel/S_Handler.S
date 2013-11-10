@@ -10,7 +10,13 @@ S_Handler:
 	MOV	r1, sp				@pointer to parameters on stack
 	LDR 	r0, [lr, #-4]			@extract the SWI number
 	BIC	r0, r0, #0xff000000		@get SWI # by bit-masking
+	MRS	ip, cpsr			@enable irqs
+	BIC	ip, #0x80
+	MSR	cpsr, ip
 	BL	C_SWI_Handler			@goto handler
+	MRS	ip, cpsr			@disable irqs
+	ORR	ip, #0x80
+	MSR	cpsr, ip
 	LDR 	r2, [sp, #14*4]			@restore SPSR
 	MSR	spsr, r2			@restore SPSR from r2
 	LDMFD	sp!, {r0-r7, r9-r12, lr}	@unstack user's registers

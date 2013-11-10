@@ -24,7 +24,7 @@ int kmain(int argc, char** argv, uint32_t table)
 	unsigned long int *irq_addr, oldIrq, oldIrq2, *ubootIrqAddr;
 	unsigned long int *pointer, *ubootSwiAddr;
 	unsigned long int *irqPointer;
-	uint32_t ICMR, ICLR, OIER;
+	uint32_t ICMR, ICLR, OIER, OSCR, OSMR, OSSR;
 
 
 	pointer = (unsigned long int*) 0x08;
@@ -74,13 +74,16 @@ int kmain(int argc, char** argv, uint32_t table)
 	ICMR = reg_read(INT_ICMR_ADDR);
 	ICLR = reg_read(INT_ICLR_ADDR);
 	OIER = reg_read(OSTMR_OIER_ADDR);
+	OSMR = reg_read(OSTMR_OSMR_ADDR(0));
+	OSCR = reg_read(OSTMR_OSCR_ADDR);
+	OSSR = reg_read(OSTMR_OSSR_ADDR);
 
 	// set osmr match reg bit to 1 for interrupts
 	reg_write(INT_ICMR_ADDR, 0x04000000);
 	//make interrupts irq
 	reg_write(INT_ICLR_ADDR, 0x0);
 	// set match reg
-	reg_write(OSTMR_OSMR_ADDR(0), OSTMR_FREQ_VERDEX/10000);
+	reg_write(OSTMR_OSMR_ADDR(0), OSTMR_FREQ_VERDEX/100);
 	// enable os timer interrupt for match 0 reg
 	reg_write(OSTMR_OIER_ADDR, OSTMR_OIER_E0);
 	//disable all interrupts
@@ -110,6 +113,9 @@ int kmain(int argc, char** argv, uint32_t table)
 	reg_write(INT_ICMR_ADDR, ICMR);
 	reg_write(INT_ICLR_ADDR, ICLR);
 	reg_write(OSTMR_OIER_ADDR, OIER);
+	reg_write(OSTMR_OSSR_ADDR, OSSR);
+	reg_write(OSTMR_OSCR_ADDR, OSCR);
+	reg_write(OSTMR_OSMR_ADDR(0), OSMR);
 	printf("\ncame back to main.c\n");
 	return exitVal;
 }

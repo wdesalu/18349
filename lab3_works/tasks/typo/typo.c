@@ -28,13 +28,12 @@ int main(int argc, char* argv[]) {
 			exit(0);
 		if(numLetters < 0)
 			exit(1);
-		// add a new line to the end of the rotation
-		block[numLetters] = '!'; 
+		// add a new line to the end of the string
+		block[numLetters] = '\n'; 
 		// increase numLetters bc of newline
 		numLetters += 1;
 		// write out the String + newline
 		out = write(STDOUT_FILENO, block, numLetters * sizeof(char));
-	  	//letterCount = ;
 		//write(STDOUT_FILENO, letterCount, sizeof(letterCount) * sizeof(char));	
 		// make sure it wrote properly
 		if(out < 0)
@@ -42,9 +41,9 @@ int main(int argc, char* argv[]) {
 		// if it didn't write everything, keep writing until it's all there
 		while(out < numLetters)
 			out+= write(STDOUT_FILENO, &block[out-1], (numLetters - out) * sizeof(char));	
-	
-		sleep(100);
+		printf("checkthis \n");
+		printf("Systime = %lu\n", time());
 	} 
-	//printf("Systime = %lu\n", time());
+//	printf("Systime = %lu\n", time());
 	return 0;
 }

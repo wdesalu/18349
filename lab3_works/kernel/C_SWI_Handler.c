@@ -24,10 +24,10 @@ void C_SWI_Handler(unsigned swi_num, unsigned *regs)
 			break;
 		case TIME_SWI:
 			//printf("time swi\n");
-			//regs[0] = sys_time;
+			regs[0] = sys_time;
 			//printf("sys_time = %u\n", regs[0]);
-			regs[0] = 12345;
-			printf("time_swi\n");
+			//regs[0] = 12345;
+			//printf("time_swi\n");
 			break;
 		case SLEEP_SWI:
 			sleep((int)regs[0]);

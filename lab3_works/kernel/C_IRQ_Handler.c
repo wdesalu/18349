@@ -8,7 +8,7 @@
 extern volatile unsigned long sys_time;
 
 void C_IRQ_Handler() {
-  	printf("In C_IRQ_Handler\n");
+  	//printf("In C_IRQ_Handler\n");
 	uint32_t next_time;
 
 	//	unsigned int icpInt = reg_read(INT_ICIP_ADDR);
@@ -19,17 +19,17 @@ void C_IRQ_Handler() {
 
 //	printf("OSCR: %d, OSMR: %d, OSSR: %d\n", OSCR, OSMR, OSSR);
 
-	if(reg_read(OSTMR_OSSR_ADDR) == 1)
-	{
+//	if(reg_read(OSTMR_OSSR_ADDR) == 1)
+//	{
 //		printf("\n\n\n\ndo you get here???\n\n\n\n");
 		
 		//Incrementing by 10 milliseconds
 		//addTimer(10);
 		sys_time += 10;
-		printf("sys_time = %lu\n", sys_time);
+		//printf("sys_time = %lu\n", sys_time);
 
 		//Increment Match Register
-		next_time = OSCR + (OSTMR_FREQ_VERDEX/10000);
+		next_time = OSCR + (OSTMR_FREQ_VERDEX/100);
 //		printf("New OSMR: %d\n", next_time);
 
 		//Store incremented value
@@ -37,9 +37,9 @@ void C_IRQ_Handler() {
 		
 		//irq
 		reg_set(OSTMR_OSSR_ADDR, OSTMR_OSSR_M0);
-	}
+//	}
 	//return;
-	printf("\n leaving C_IRQ_handler\n");
+//	printf("\n leaving C_IRQ_handler\n");
 //	I_Handler_Cleanup();
 	return;
 }

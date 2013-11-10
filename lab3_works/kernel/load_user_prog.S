@@ -1,6 +1,5 @@
 .global load_user_prog
 .global exit_to_kernel
-@.global start_user_prog
 
 load_user_prog:
 	STMFD	sp!, {r1-r7,r9-r11, lr}
@@ -8,15 +7,6 @@ load_user_prog:
 	STR	r8, [ip]
 	LDR	ip, =kernel_sp
 	STR	sp, [ip]
-
-	@irq mode
-	@MRS	r3, cpsr
-	@BIC	r3, r3, #0xFF
-	@ADD	r3, r3, #0xD9 @no fucking idea what this should be
-	@MSR	cpsr, r3
-	@MSR	cpsr, #0x12
-	@LDR	sp, =0xA1000000
-	@MSR	cpsr, #0x13
 
 	@user mode
 	MRS	ip, cpsr @change mode
@@ -34,7 +24,6 @@ load_user_prog:
 	STMFD	sp!, {r3}
 	BNE	stack
 	STMFD	sp!, {r4}
-	@B	exit_to_kernel
 	
 start_user_prog:
 	LDR	pc, =0xA0000000
