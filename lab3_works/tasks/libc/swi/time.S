@@ -1,9 +1,9 @@
-/** @file time.S
+/** @file sleep.S
  *
- * @brief time sycall wrapper
- * @authors: adesalu, kafisher, lrbloch
- * @date: 11/3/13
+ * @brief sleep sycall wrapper
  *
+ * @authors adesalu, kafisher, lrbloch
+ * @date 11/3/13
  */
 
 #include <asm.h>
@@ -14,5 +14,7 @@
 	.global time
 
 FUNC(time)
+	stmfd	sp!, {r1-r12, lr}
 	swi	TIME_SWI
+	ldmfd	sp!, {r1-r12, lr}
 	mov	pc, lr

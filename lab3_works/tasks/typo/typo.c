@@ -13,15 +13,17 @@
 int main(int argc, char* argv[]) {
 	char block[256];
 	int numLetters;
-	//char letterCount[50];
+	unsigned long start_time;
+	unsigned long end_time;
 	int out;
 	char introString[40]="\nEnter A String:\n";
-	printf("Started typo\n");
+	//printf("Started typo\n");
 
 	while(1) {
 		// print introString to screen
 		out = write(STDOUT_FILENO, introString, sizeof(introString));
 		// read in the user's characters to rotate
+		start_time = time();
 		numLetters = read(STDIN_FILENO, block, sizeof(block));
 		
 		if(numLetters == 0)
@@ -41,8 +43,10 @@ int main(int argc, char* argv[]) {
 		// if it didn't write everything, keep writing until it's all there
 		while(out < numLetters)
 			out+= write(STDOUT_FILENO, &block[out-1], (numLetters - out) * sizeof(char));	
-		printf("checkthis \n");
-		printf("Systime = %lu\n", time());
+		end_time = time();
+		printf("ending typo\n");
+		printf("write time = %lu\n", (start_time - end_time));
+		//printf("Systime = %lu\n", time());
 	} 
 //	printf("Systime = %lu\n", time());
 	return 0;

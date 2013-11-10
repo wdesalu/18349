@@ -40,11 +40,7 @@
 #ifndef ASSEMBLER
 
 extern volatile unsigned long sys_time;
-/*void addTimer(int a);
-void initializeTimer();
-unsigned int get_clock();
-volatile unsigned int* get_vclock();
-*/
+
 #endif /* ASSEMBLER */
 
 #endif /* _TIMER_H_ */
