@@ -47,7 +47,8 @@ int kmain(int argc, char** argv, uint32_t table)
 	oldIrq = *irqPointer;
 	oldIrq2 = *(irqPointer+1);
 
-	printf("hello");
+	printf("hello\n");
+
 	if((oldIrq & 0xfe1ff000) != 0xe41ff000) {
 		return 0xbadc0de;
 	}
@@ -79,9 +80,9 @@ int kmain(int argc, char** argv, uint32_t table)
 	// set match reg
 	reg_write(OSTMR_OSMR_ADDR(0), OSTMR_FREQ_VERDEX/1000);
 	// enable os timer interrupt for match 0 reg
-	//reg_write(OSTMR_OIER_ADDR, OSTMR_OIER_E0);
+	reg_write(OSTMR_OIER_ADDR, OSTMR_OIER_E0);
 	//disable all interrupts
-	reg_write(OSTMR_OIER_ADDR, 0x0);
+	//reg_write(OSTMR_OIER_ADDR, 0x0);
 	// set clock reg to 0
 	reg_write(OSTMR_OSCR_ADDR, 0x0);
 	//clear status reg

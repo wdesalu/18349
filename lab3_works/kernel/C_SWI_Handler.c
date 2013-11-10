@@ -31,7 +31,7 @@ void C_SWI_Handler(unsigned swi_num, unsigned *regs)
 			break;
 		default: 
 			exit(-1); 
-			 break;
+			break;
 	}
 	printf("hi");
 }
