@@ -45,7 +45,7 @@ int main(int argc, char* argv[]) {
 			out+= write(STDOUT_FILENO, &block[out-1], (numLetters - out) * sizeof(char));	
 		end_time = time();
 		printf("ending typo\n");
-		printf("write time = %lu\n", (start_time - end_time));
+		printf("write time = %d.%d\n", (int) (end_time - start_time)/1000, (int) (end_time - start_time) % 1000);
 		//printf("Systime = %lu\n", time());
 	} 
 //	printf("Systime = %lu\n", time());

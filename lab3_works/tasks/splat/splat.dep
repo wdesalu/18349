@@ -1,2 +1,29 @@
 /home/ubuntu/18349/lab3_works/tasks/splat/splat.o:  \
- /home/ubuntu/18349/lab3_works/tasks/splat/splat.c
+ /home/ubuntu/18349/lab3_works/tasks/splat/splat.c \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/stdlib.h \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/errno.h \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/bits/errno.h \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/unistd.h \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/bits/fileno.h \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/sys/types.h \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/bits/types.h \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/stdio.h \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/stdarg.h
+
+/home/ubuntu/18349/lab3_works/tasks/libc/include/stdlib.h:
+
+/home/ubuntu/18349/lab3_works/tasks/libc/include/errno.h:
+
+/home/ubuntu/18349/lab3_works/tasks/libc/include/bits/errno.h:
+
+/home/ubuntu/18349/lab3_works/tasks/libc/include/unistd.h:
+
+/home/ubuntu/18349/lab3_works/tasks/libc/include/bits/fileno.h:
+
+/home/ubuntu/18349/lab3_works/tasks/libc/include/sys/types.h:
+
+/home/ubuntu/18349/lab3_works/tasks/libc/include/bits/types.h:
+
+/home/ubuntu/18349/lab3_works/tasks/libc/include/stdio.h:
+
+/home/ubuntu/18349/lab3_works/tasks/libc/include/stdarg.h:
