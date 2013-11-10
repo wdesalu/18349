@@ -13,6 +13,7 @@ uint32_t global_data;
 int global_0 = 0;
 int saved_lr = 0;
 int kernel_sp = 0;
+volatile unsigned long sys_time = 0;
 
 int kmain(int argc, char** argv, uint32_t table)
 {
@@ -28,7 +29,8 @@ int kmain(int argc, char** argv, uint32_t table)
 
 	pointer = (unsigned long int*) 0x08;
 	irqPointer = (unsigned long int*) 0x18;
-	initializeTimer();
+	//initializeTimer();
+	printf("sys_time = %lu\n", sys_time);
 
 	oldInstr = *pointer;
 	oldInstr2 = *(pointer+1);
@@ -78,7 +80,7 @@ int kmain(int argc, char** argv, uint32_t table)
 	//make interrupts irq
 	reg_write(INT_ICLR_ADDR, 0x0);
 	// set match reg
-	reg_write(OSTMR_OSMR_ADDR(0), OSTMR_FREQ_VERDEX/1000);
+	reg_write(OSTMR_OSMR_ADDR(0), OSTMR_FREQ_VERDEX/10000);
 	// enable os timer interrupt for match 0 reg
 	reg_write(OSTMR_OIER_ADDR, OSTMR_OIER_E0);
 	//disable all interrupts
@@ -89,7 +91,7 @@ int kmain(int argc, char** argv, uint32_t table)
 	reg_write(OSTMR_OSSR_ADDR, 0x0);
 	//printf("tit");
 	printf("OSCR = %d\n", reg_read(OSTMR_OSCR_ADDR));	
-	printf("loading user program\n");
+	printf("init_irq\n");
 	//load_user_prog(argc, argv);
 	//printf("user program loaded: initializing irq.\n");
 	init_irq();

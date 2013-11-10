@@ -1,9 +1,7 @@
-	
 file "S_Handler.S"
 	.text
 	
 	.global S_Handler
-	.global S_Restore
 
 S_Handler:
 	SUB 	sp, sp, #4		@leave room on stack for SPSR

@@ -5,6 +5,8 @@
 #include <arm/timer.h>
 #include <arm/reg.h>
 
+extern volatile unsigned long sys_time;
+
 void C_IRQ_Handler() {
   	printf("In C_IRQ_Handler\n");
 	uint32_t next_time;
@@ -22,10 +24,12 @@ void C_IRQ_Handler() {
 //		printf("\n\n\n\ndo you get here???\n\n\n\n");
 		
 		//Incrementing by 10 milliseconds
-		addTimer(10);
+		//addTimer(10);
+		sys_time += 10;
+		printf("sys_time = %lu\n", sys_time);
 
 		//Increment Match Register
-		next_time = OSCR + (OSTMR_FREQ_VERDEX/1000);
+		next_time = OSCR + (OSTMR_FREQ_VERDEX/10000);
 //		printf("New OSMR: %d\n", next_time);
 
 		//Store incremented value
@@ -39,4 +43,3 @@ void C_IRQ_Handler() {
 //	I_Handler_Cleanup();
 	return;
 }
-
