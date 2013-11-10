@@ -1,0 +1,16 @@
+#include <arm/timer.h>
+#include <arm/reg.h>
+
+unsigned int addTimer(unsigned int systime timeGiven) {
+	systime += timeGiven;
+}
+
+unsigned int get_clock() {
+	return systime;
+}
+
+volatile unsigned long int* get_vclock() {
+	return &systime;
+}
+
+

@@ -1,11 +1,11 @@
-/home/ubuntu/18349/lab3_works/kernel/arm/reg.o:  \
- /home/ubuntu/18349/lab3_works/kernel/arm/reg.c \
-  /home/ubuntu/18349/lab3_works/kernel/include/types.h \
-  /home/ubuntu/18349/lab3_works/kernel/include/arm/reg.h \
-  /home/ubuntu/18349/lab3_works/kernel/include/inline.h
+/home/wale/Documents/18349/lab3_works/kernel/arm/reg.o:  \
+ /home/wale/Documents/18349/lab3_works/kernel/arm/reg.c \
+  /home/wale/Documents/18349/lab3_works/kernel/include/types.h \
+  /home/wale/Documents/18349/lab3_works/kernel/include/arm/reg.h \
+  /home/wale/Documents/18349/lab3_works/kernel/include/inline.h
 
-/home/ubuntu/18349/lab3_works/kernel/include/types.h:
+/home/wale/Documents/18349/lab3_works/kernel/include/types.h:
 
-/home/ubuntu/18349/lab3_works/kernel/include/arm/reg.h:
+/home/wale/Documents/18349/lab3_works/kernel/include/arm/reg.h:
 
-/home/ubuntu/18349/lab3_works/kernel/include/inline.h:
+/home/wale/Documents/18349/lab3_works/kernel/include/inline.h:

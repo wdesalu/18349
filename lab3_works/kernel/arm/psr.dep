@@ -1,11 +1,11 @@
-/home/ubuntu/18349/lab3_works/kernel/arm/psr.o:  \
- /home/ubuntu/18349/lab3_works/kernel/arm/psr.c \
-  /home/ubuntu/18349/lab3_works/kernel/include/types.h \
-  /home/ubuntu/18349/lab3_works/kernel/include/arm/psr.h \
-  /home/ubuntu/18349/lab3_works/kernel/include/inline.h
+/home/wale/Documents/18349/lab3_works/kernel/arm/psr.o:  \
+ /home/wale/Documents/18349/lab3_works/kernel/arm/psr.c \
+  /home/wale/Documents/18349/lab3_works/kernel/include/types.h \
+  /home/wale/Documents/18349/lab3_works/kernel/include/arm/psr.h \
+  /home/wale/Documents/18349/lab3_works/kernel/include/inline.h
 
-/home/ubuntu/18349/lab3_works/kernel/include/types.h:
+/home/wale/Documents/18349/lab3_works/kernel/include/types.h:
 
-/home/ubuntu/18349/lab3_works/kernel/include/arm/psr.h:
+/home/wale/Documents/18349/lab3_works/kernel/include/arm/psr.h:
 
-/home/ubuntu/18349/lab3_works/kernel/include/inline.h:
+/home/wale/Documents/18349/lab3_works/kernel/include/inline.h:

@@ -1,23 +1,23 @@
-/home/ubuntu/18349/lab3_works/tasks/libc/stdio/printf.o:  \
- /home/ubuntu/18349/lab3_works/tasks/libc/stdio/printf.c \
-  /home/ubuntu/18349/lab3_works/tasks/libc/include/stdio.h \
-  /home/ubuntu/18349/lab3_works/tasks/libc/include/stdarg.h \
-  /home/ubuntu/18349/lab3_works/tasks/libc/include/sys/types.h \
-  /home/ubuntu/18349/lab3_works/tasks/libc/include/bits/types.h \
-  /home/ubuntu/18349/lab3_works/tasks/libc/include/unistd.h \
-  /home/ubuntu/18349/lab3_works/tasks/libc/include/bits/fileno.h \
-  /home/ubuntu/18349/lab3_works/tasks/libc/stdio/doprnt.h
+/home/wale/Documents/18349/lab3_works/tasks/libc/stdio/printf.o:  \
+ /home/wale/Documents/18349/lab3_works/tasks/libc/stdio/printf.c \
+  /home/wale/Documents/18349/lab3_works/tasks/libc/include/stdio.h \
+  /home/wale/Documents/18349/lab3_works/tasks/libc/include/stdarg.h \
+  /home/wale/Documents/18349/lab3_works/tasks/libc/include/sys/types.h \
+  /home/wale/Documents/18349/lab3_works/tasks/libc/include/bits/types.h \
+  /home/wale/Documents/18349/lab3_works/tasks/libc/include/unistd.h \
+  /home/wale/Documents/18349/lab3_works/tasks/libc/include/bits/fileno.h \
+  /home/wale/Documents/18349/lab3_works/tasks/libc/stdio/doprnt.h
 
-/home/ubuntu/18349/lab3_works/tasks/libc/include/stdio.h:
+/home/wale/Documents/18349/lab3_works/tasks/libc/include/stdio.h:
 
-/home/ubuntu/18349/lab3_works/tasks/libc/include/stdarg.h:
+/home/wale/Documents/18349/lab3_works/tasks/libc/include/stdarg.h:
 
-/home/ubuntu/18349/lab3_works/tasks/libc/include/sys/types.h:
+/home/wale/Documents/18349/lab3_works/tasks/libc/include/sys/types.h:
 
-/home/ubuntu/18349/lab3_works/tasks/libc/include/bits/types.h:
+/home/wale/Documents/18349/lab3_works/tasks/libc/include/bits/types.h:
 
-/home/ubuntu/18349/lab3_works/tasks/libc/include/unistd.h:
+/home/wale/Documents/18349/lab3_works/tasks/libc/include/unistd.h:
 
-/home/ubuntu/18349/lab3_works/tasks/libc/include/bits/fileno.h:
+/home/wale/Documents/18349/lab3_works/tasks/libc/include/bits/fileno.h:
 
-/home/ubuntu/18349/lab3_works/tasks/libc/stdio/doprnt.h:
+/home/wale/Documents/18349/lab3_works/tasks/libc/stdio/doprnt.h:

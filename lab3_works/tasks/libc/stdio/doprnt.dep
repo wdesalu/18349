@@ -1,17 +1,17 @@
-/home/ubuntu/18349/lab3_works/tasks/libc/stdio/doprnt.o:  \
- /home/ubuntu/18349/lab3_works/tasks/libc/stdio/doprnt.c \
-  /home/ubuntu/18349/lab3_works/tasks/libc/include/stdarg.h \
-  /home/ubuntu/18349/lab3_works/tasks/libc/include/string.h \
-  /home/ubuntu/18349/lab3_works/tasks/libc/include/sys/types.h \
-  /home/ubuntu/18349/lab3_works/tasks/libc/include/bits/types.h \
-  /home/ubuntu/18349/lab3_works/tasks/libc/stdio/doprnt.h
+/home/wale/Documents/18349/lab3_works/tasks/libc/stdio/doprnt.o:  \
+ /home/wale/Documents/18349/lab3_works/tasks/libc/stdio/doprnt.c \
+  /home/wale/Documents/18349/lab3_works/tasks/libc/include/stdarg.h \
+  /home/wale/Documents/18349/lab3_works/tasks/libc/include/string.h \
+  /home/wale/Documents/18349/lab3_works/tasks/libc/include/sys/types.h \
+  /home/wale/Documents/18349/lab3_works/tasks/libc/include/bits/types.h \
+  /home/wale/Documents/18349/lab3_works/tasks/libc/stdio/doprnt.h
 
-/home/ubuntu/18349/lab3_works/tasks/libc/include/stdarg.h:
+/home/wale/Documents/18349/lab3_works/tasks/libc/include/stdarg.h:
 
-/home/ubuntu/18349/lab3_works/tasks/libc/include/string.h:
+/home/wale/Documents/18349/lab3_works/tasks/libc/include/string.h:
 
-/home/ubuntu/18349/lab3_works/tasks/libc/include/sys/types.h:
+/home/wale/Documents/18349/lab3_works/tasks/libc/include/sys/types.h:
 
-/home/ubuntu/18349/lab3_works/tasks/libc/include/bits/types.h:
+/home/wale/Documents/18349/lab3_works/tasks/libc/include/bits/types.h:
 
-/home/ubuntu/18349/lab3_works/tasks/libc/stdio/doprnt.h:
+/home/wale/Documents/18349/lab3_works/tasks/libc/stdio/doprnt.h:

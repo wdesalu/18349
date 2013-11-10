@@ -1,14 +1,14 @@
-/home/ubuntu/18349/lab3_works/kernel/arm/timer.o:  \
- /home/ubuntu/18349/lab3_works/kernel/arm/timer.c \
-  /home/ubuntu/18349/lab3_works/kernel/include/arm/timer.h \
-  /home/ubuntu/18349/lab3_works/kernel/include/arm/reg.h \
-  /home/ubuntu/18349/lab3_works/kernel/include/inline.h \
-  /home/ubuntu/18349/lab3_works/kernel/include/types.h
+/home/wale/Documents/18349/lab3_works/kernel/arm/timer.o:  \
+ /home/wale/Documents/18349/lab3_works/kernel/arm/timer.c \
+  /home/wale/Documents/18349/lab3_works/kernel/include/arm/timer.h \
+  /home/wale/Documents/18349/lab3_works/kernel/include/arm/reg.h \
+  /home/wale/Documents/18349/lab3_works/kernel/include/inline.h \
+  /home/wale/Documents/18349/lab3_works/kernel/include/types.h
 
-/home/ubuntu/18349/lab3_works/kernel/include/arm/timer.h:
+/home/wale/Documents/18349/lab3_works/kernel/include/arm/timer.h:
 
-/home/ubuntu/18349/lab3_works/kernel/include/arm/reg.h:
+/home/wale/Documents/18349/lab3_works/kernel/include/arm/reg.h:
 
-/home/ubuntu/18349/lab3_works/kernel/include/inline.h:
+/home/wale/Documents/18349/lab3_works/kernel/include/inline.h:
 
-/home/ubuntu/18349/lab3_works/kernel/include/types.h:
+/home/wale/Documents/18349/lab3_works/kernel/include/types.h:
