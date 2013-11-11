@@ -1,7 +1,8 @@
-#include "include/bits/errno.h"
-#include "include/bits/swi.h"
-#include "include/bits/fileno.h"
+#include <bits/errno.h>
+#include <bits/swi.h>
+#include <bits/fileno.h>
 #include <exports.h>
+#include <globals.h>
 
 ssize_t read(int fd, void* buf, size_t c){                                  
 
@@ -10,14 +11,12 @@ ssize_t read(int fd, void* buf, size_t c){
   char newChar;
   int count = (int) c;
                                                                               
-  int SDRAM_start = 0xa0000000;                                                 
-  int SDRAM_end = 0xa3ffffff;                               
-  int SDRAM_size = SDRAM_end - SDRAM_start;                                     
+  int SDRAM_size = SDRAM_END - SDRAM_START; //SDRAM_end - SDRAM_start;                                     
                                                                        
   //Case 1: If fd doesn't match stdin                       
   if(fd != STDIN_FILENO) return EBADF;                                          
                                                             
-  if((count > SDRAM_size) || (buf < (void*)SDRAM_start) || (buf > (void*)SDRAM_end))
+  if((count > SDRAM_size) || (buf < (void*)SDRAM_START) || (buf > (void*)SDRAM_END))
      return EFAULT;                                                             
    
   //Case 3: read into buffer                                    
@@ -55,5 +54,3 @@ ssize_t read(int fd, void* buf, size_t c){
   }                         
   return count;                                                                 
 }                                                                               
-                                                                                
-                              

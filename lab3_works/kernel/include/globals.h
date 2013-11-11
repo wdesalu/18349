@@ -1,13 +1,8 @@
 /**
+ *	adesalu, kafisher, lrbloch
  *	globals.h
  *	defines any global vars used in our program not provided to us
 **/
-
-void exit(int status);
-ssize_t read(int fd, void* buf, size_t count);
-ssize_t write(int fd, void* buf, size_t count);
-void sleep(int s);
-void time();
 
 #define POSITIVE_OFFSET		0x00800000	/* bit mask for positive offset bit */
 #define LDR_PC_OPCODE		0xe51ff004	/* encoding for LDR pc, pc, #-4 */
@@ -22,3 +17,6 @@ void time();
 #define OFFSET_MASK		0xfff		/* masks out lower 12 bits to get offset */
 #define FREQ_MS_FACTOR		100		/* number we must divide FREQ_VERDEX by to get ms */
 #define TIME_INCR		10		/* increment in ms */
+#define SDRAM_START		0xa0000000	/* where SDRAM begins */	
+#define SDRAM_END		0xa3ffffff	/* where it ends */
+#define SDRAM_SIZE		0x03ffffff	/* size of SDRAM */

@@ -2,21 +2,18 @@
 #include "include/bits/swi.h"
 #include "include/bits/fileno.h"
 #include <exports.h>
+#include <globals.h>
 
 ssize_t write(int fd, const void* buf, size_t c){                           
   int i;
   int count = (int) c;
   char* buffer = (char*) buf;
                                                                               
-  int SDRAM_start = 0xa0000000;                                                 
-  int SDRAM_end = 0xa3ffffff;                                                    
-  int SDRAM_size = SDRAM_end-SDRAM_start;                                       
-                                                                               
   //Case 1: If doesnt match stdout                                              
-  if (fd != STDOUT_FILENO) return EBADF; //in errno.h = 9                       
+  if (fd != STDOUT_FILENO) return EBADF;                       
                                                                               
   //Case 2: mem range & size outside range of SDRAM                           
-  if((count > SDRAM_size) || (buf < (void*)SDRAM_start) || (buf > (void*)SDRAM_end))
+  if((count > SDRAM_SIZE) || (buf < (void*)SDRAM_START) || (buf > (void*)SDRAM_END))
    return EFAULT; //in errno.h = 14                                          
   
   //Case 3: write buffer to stdout                                              

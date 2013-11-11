@@ -3,6 +3,7 @@
 #include <bits/swi.h>
 #include <arm/timer.h>
 #include <globals.h>
+#include <syscalls.h>
 
 extern volatile unsigned long sys_time;
 
