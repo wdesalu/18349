@@ -20,3 +20,5 @@ void time();
 #define UBOOT_SWI_PC		0x10		/* pc val when loading swi instruction in vector table */
 #define UBOOT_IRQ_PC		0x20		/* pc when loading irq in vector table */
 #define OFFSET_MASK		0xfff		/* masks out lower 12 bits to get offset */
+#define FREQ_MS_FACTOR		100		/* number we must divide FREQ_VERDEX by to get ms */
+#define TIME_INCR		10		/* increment in ms */

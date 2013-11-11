@@ -19,10 +19,10 @@ void C_IRQ_Handler() {
 	if(OSSR == 1)
 	{
 		//add 10 milliseconds
-		sys_time += 10;
+		sys_time += TIME_INCR;
 
 		//Increment Match Register
-		next_time = OSCR + (OSTMR_FREQ_VERDEX/100);
+		next_time = OSCR + (OSTMR_FREQ_VERDEX/FREQ_MS_FACTOR);
 
 		//Store incremented value
 		reg_write(OSTMR_OSMR_ADDR(0), next_time);

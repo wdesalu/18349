@@ -71,7 +71,7 @@ int kmain(int argc, char** argv, uint32_t table)
 	//make interrupts irq
 	reg_write(INT_ICLR_ADDR, 0x0);
 	// set match reg
-	reg_write(OSTMR_OSMR_ADDR(0), OSTMR_FREQ_VERDEX/100);
+	reg_write(OSTMR_OSMR_ADDR(0), OSTMR_FREQ_VERDEX/FREQ_MS_FACTOR);
 	// enable os timer interrupt for match 0 reg
 	reg_write(OSTMR_OIER_ADDR, OSTMR_OIER_E0);
 	// set clock reg to 0
