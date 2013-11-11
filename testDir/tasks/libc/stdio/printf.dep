@@ -1,0 +1,23 @@
+/home/derek/lab3/tasks/libc/stdio/printf.o:  \
+ /home/derek/lab3/tasks/libc/stdio/printf.c \
+  /home/derek/lab3/tasks/libc/include/stdio.h \
+  /home/derek/lab3/tasks/libc/include/stdarg.h \
+  /home/derek/lab3/tasks/libc/include/sys/types.h \
+  /home/derek/lab3/tasks/libc/include/bits/types.h \
+  /home/derek/lab3/tasks/libc/include/unistd.h \
+  /home/derek/lab3/tasks/libc/include/bits/fileno.h \
+  /home/derek/lab3/tasks/libc/stdio/doprnt.h
+
+/home/derek/lab3/tasks/libc/include/stdio.h:
+
+/home/derek/lab3/tasks/libc/include/stdarg.h:
+
+/home/derek/lab3/tasks/libc/include/sys/types.h:
+
+/home/derek/lab3/tasks/libc/include/bits/types.h:
+
+/home/derek/lab3/tasks/libc/include/unistd.h:
+
+/home/derek/lab3/tasks/libc/include/bits/fileno.h:
+
+/home/derek/lab3/tasks/libc/stdio/doprnt.h:

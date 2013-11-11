@@ -1,0 +1,8 @@
+/home/derek/lab3/tasks/libc/stdlib/ctype.o:  \
+ /home/derek/lab3/tasks/libc/stdlib/ctype.c \
+  /home/derek/lab3/tasks/libc/include/ctype.h \
+  /home/derek/lab3/tasks/libc/include/inline.h
+
+/home/derek/lab3/tasks/libc/include/ctype.h:
+
+/home/derek/lab3/tasks/libc/include/inline.h:

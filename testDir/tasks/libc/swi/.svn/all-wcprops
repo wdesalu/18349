@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/18349-lab/!svn/ver/29/trunk/Lab3/tasks/libc/swi
+END
+sleep.S
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/18349-lab/!svn/ver/29/trunk/Lab3/tasks/libc/swi/sleep.S
+END
+exit.S
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/18349-lab/!svn/ver/29/trunk/Lab3/tasks/libc/swi/exit.S
+END
+write.S
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/18349-lab/!svn/ver/29/trunk/Lab3/tasks/libc/swi/write.S
+END
+read.S
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/18349-lab/!svn/ver/29/trunk/Lab3/tasks/libc/swi/read.S
+END
+libc.mk
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/18349-lab/!svn/ver/29/trunk/Lab3/tasks/libc/swi/libc.mk
+END
+time.S
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/18349-lab/!svn/ver/29/trunk/Lab3/tasks/libc/swi/time.S
+END

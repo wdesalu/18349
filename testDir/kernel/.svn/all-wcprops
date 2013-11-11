@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/18349-lab/!svn/ver/29/trunk/Lab3/kernel
+END
+kernel.mk
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/18349-lab/!svn/ver/30/trunk/Lab3/kernel/kernel.mk
+END
+start.S
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/kernel/start.S
+END
+assert.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/kernel/assert.c
+END
+raise.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/kernel/raise.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/18349-lab/!svn/ver/29/trunk/Lab3/kernel/main.c
+END

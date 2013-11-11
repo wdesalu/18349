@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/include
+END
+inline.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/include/inline.h
+END
+asm.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/include/asm.h
+END
+stdlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/include/stdlib.h
+END
+stdio.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/include/stdio.h
+END
+ctype.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/include/ctype.h
+END
+stdarg.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/include/stdarg.h
+END
+errno.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/include/errno.h
+END
+string.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/include/string.h
+END
+unistd.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/include/unistd.h
+END

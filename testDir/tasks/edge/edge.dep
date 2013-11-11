@@ -1,0 +1,22 @@
+/home/derek/lab3/tasks/edge/edge.o: /home/derek/lab3/tasks/edge/edge.c \
+  /home/derek/lab3/tasks/libc/include/stdlib.h \
+  /home/derek/lab3/tasks/libc/include/unistd.h \
+  /home/derek/lab3/tasks/libc/include/bits/fileno.h \
+  /home/derek/lab3/tasks/libc/include/sys/types.h \
+  /home/derek/lab3/tasks/libc/include/bits/types.h \
+  /home/derek/lab3/tasks/libc/include/stdio.h \
+  /home/derek/lab3/tasks/libc/include/stdarg.h
+
+/home/derek/lab3/tasks/libc/include/stdlib.h:
+
+/home/derek/lab3/tasks/libc/include/unistd.h:
+
+/home/derek/lab3/tasks/libc/include/bits/fileno.h:
+
+/home/derek/lab3/tasks/libc/include/sys/types.h:
+
+/home/derek/lab3/tasks/libc/include/bits/types.h:
+
+/home/derek/lab3/tasks/libc/include/stdio.h:
+
+/home/derek/lab3/tasks/libc/include/stdarg.h:

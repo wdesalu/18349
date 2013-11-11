@@ -1,0 +1,16 @@
+/** @file exit.S
+ *
+ * @ Authors: Sara Roy <slroy@andrew.cmu.edu>
+ * @          Samantha Klonaris <sklonari@andrew.cmu.edu>
+ * @	      Derek Miller <damiller@andrew.cmu.edu>
+ * @ Date: 10/26/12
+ */
+
+#include <asm.h>
+#include <bits/swi.h>
+
+	.file	"exit.S"
+
+FUNC(exit)
+	swi EXIT_SWI		@ invoke syscall EXIT
+
