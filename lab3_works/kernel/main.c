@@ -8,6 +8,7 @@
 #include <I_Handler.h>
 #include <init_irq.h>
 #include <load_user_prog.h>
+#include <globals.h>
 
 uint32_t global_data;
 int global_0 = 0;
@@ -29,8 +30,6 @@ int kmain(int argc, char** argv, uint32_t table)
 
 	pointer = (unsigned long int*) 0x08;
 	irqPointer = (unsigned long int*) 0x18;
-	//initializeTimer();
-	printf("sys_time = %lu\n", sys_time);
 
 	oldInstr = *pointer;
 	oldInstr2 = *(pointer+1);
@@ -49,8 +48,6 @@ int kmain(int argc, char** argv, uint32_t table)
 	oldIrq = *irqPointer;
 	oldIrq2 = *(irqPointer+1);
 
-	printf("hello\n");
-
 	if((oldIrq & 0xfe1ff000) != 0xe41ff000) {
 		return 0xbadc0de;
 	}
@@ -60,17 +57,13 @@ int kmain(int argc, char** argv, uint32_t table)
 	else
 		irq_addr = (unsigned long int*) (0x20 - (oldIrq & 0xfff));
 
-	//irq_addr = (unsigned long int *) 0x34;
 	ubootIrqAddr = (unsigned long int*) *(irq_addr);
-	printf("irqAddr = %x\n", (unsigned int) irq_addr);	
-	printf("ubootIrqAddr = %x\n", (unsigned int) ubootIrqAddr);
 	*(ubootSwiAddr) = 0xe51ff004;
 	*(ubootSwiAddr + 1) = (unsigned) &S_Handler;
 
 	*(ubootIrqAddr) = 0xe51ff004;
 	*(ubootIrqAddr+1) = (unsigned) &I_Handler;
 
-	//printf("hey");
 	ICMR = reg_read(INT_ICMR_ADDR);
 	ICLR = reg_read(INT_ICLR_ADDR);
 	OIER = reg_read(OSTMR_OIER_ADDR);
@@ -86,37 +79,26 @@ int kmain(int argc, char** argv, uint32_t table)
 	reg_write(OSTMR_OSMR_ADDR(0), OSTMR_FREQ_VERDEX/100);
 	// enable os timer interrupt for match 0 reg
 	reg_write(OSTMR_OIER_ADDR, OSTMR_OIER_E0);
-	//disable all interrupts
-	//reg_write(OSTMR_OIER_ADDR, 0x0);
 	// set clock reg to 0
 	reg_write(OSTMR_OSCR_ADDR, 0x0);
 	//clear status reg
 	reg_write(OSTMR_OSSR_ADDR, 0x0);
-	//printf("tit");
-	printf("OSCR = %d\n", reg_read(OSTMR_OSCR_ADDR));	
-	printf("init_irq\n");
-	//load_user_prog(argc, argv);
-	//printf("user program loaded: initializing irq.\n");
 	init_irq();
-	printf("irq initialized, starting user program. \n");
-//	load_user_prog(argc, argv);
 	
 	exitVal = (int)load_user_prog(argc, argv);
-	printf("user program finished. \n");
+	
 	*(ubootSwiAddr) = (unsigned long int) oldInstr;
 	*(ubootSwiAddr + 1) = (unsigned long int) oldInstr2;
 
 	*(ubootIrqAddr) = (unsigned long int) oldIrq;
 	*(ubootIrqAddr+1) = (unsigned long int) oldIrq2;
 
-	// restore interrupt shit
+	// restore interrupt registers
 	reg_write(INT_ICMR_ADDR, ICMR);
 	reg_write(INT_ICLR_ADDR, ICLR);
 	reg_write(OSTMR_OIER_ADDR, OIER);
 	reg_write(OSTMR_OSSR_ADDR, OSSR);
 	reg_write(OSTMR_OSCR_ADDR, OSCR);
 	reg_write(OSTMR_OSMR_ADDR(0), OSMR);
-	printf("\ncame back to main.c\n");
 	return exitVal;
 }
-

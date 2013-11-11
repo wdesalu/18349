@@ -8,7 +8,8 @@
   /home/ubuntu/18349/lab3_works/kernel/include/arm/interrupt.h \
   /home/ubuntu/18349/lab3_works/kernel/include/arm/timer.h \
   /home/ubuntu/18349/lab3_works/kernel/include/arm/reg.h \
-  /home/ubuntu/18349/lab3_works/kernel/include/inline.h
+  /home/ubuntu/18349/lab3_works/kernel/include/inline.h \
+  /home/ubuntu/18349/lab3_works/kernel/include/globals.h
 
 /home/ubuntu/18349/lab3_works/uboot/include/exports.h:
 
@@ -27,3 +28,5 @@
 /home/ubuntu/18349/lab3_works/kernel/include/arm/reg.h:
 
 /home/ubuntu/18349/lab3_works/kernel/include/inline.h:
+
+/home/ubuntu/18349/lab3_works/kernel/include/globals.h:

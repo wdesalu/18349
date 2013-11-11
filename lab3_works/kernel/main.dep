@@ -13,7 +13,8 @@
   /home/ubuntu/18349/lab3_works/kernel/include/S_Handler.h \
   /home/ubuntu/18349/lab3_works/kernel/include/I_Handler.h \
   /home/ubuntu/18349/lab3_works/kernel/include/init_irq.h \
-  /home/ubuntu/18349/lab3_works/kernel/include/load_user_prog.h
+  /home/ubuntu/18349/lab3_works/kernel/include/load_user_prog.h \
+  /home/ubuntu/18349/lab3_works/kernel/include/globals.h
 
 /home/ubuntu/18349/lab3_works/uboot/include/exports.h:
 
@@ -42,3 +43,5 @@
 /home/ubuntu/18349/lab3_works/kernel/include/init_irq.h:
 
 /home/ubuntu/18349/lab3_works/kernel/include/load_user_prog.h:
+
+/home/ubuntu/18349/lab3_works/kernel/include/globals.h:
