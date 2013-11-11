@@ -21,47 +21,42 @@ int kmain(int argc, char** argv, uint32_t table)
 	app_startup(); /* bss is valid after this point */
 	global_data = table;
 
-	unsigned long int oldInstr, oldInstr2, exitVal, *s_addr;
-	unsigned long int *irq_addr, oldIrq, oldIrq2, *ubootIrqAddr;
-	unsigned long int *pointer, *ubootSwiAddr;
-	unsigned long int *irqPointer;
+	unsigned long int oldSwi, oldSwi2, exitVal, *s_addr;
+	unsigned long int *irq_addr, oldIrq, oldIrq2, *ubootIrqAddr, *ubootSwiAddr;
 	uint32_t ICMR, ICLR, OIER, OSCR, OSMR, OSSR;
 
 
-	pointer = (unsigned long int*) 0x08;
-	irqPointer = (unsigned long int*) 0x18;
+	oldSwi = *(unsigned long int *)SWI_PTR;
+	oldSwi2 = *(unsigned long int *)(SWI_PTR+1);
 
-	oldInstr = *pointer;
-	oldInstr2 = *(pointer+1);
-
-	if((oldInstr & 0xfe1ff000) != 0xe41ff000) {
-		return 0xbadc0de;
+	if((oldSwi & LDR_MASK) != GOOD_INSTRUCTION) {
+		return BAD_CODE;
 	}
 
-	if((oldInstr & 0x00800000) == 0x00800000) 
-		s_addr = (unsigned long int*) ((oldInstr & 0xfff) + 0x10);
+	if((oldSwi & POSITIVE_OFFSET) == POSITIVE_OFFSET)
+		s_addr = (unsigned long int*) ((oldSwi & OFFSET_MASK) + UBOOT_SWI_PC);
 	else
-		s_addr = (unsigned long int*) (0x10 - (oldInstr & 0xfff));
+		s_addr = (unsigned long int*) (UBOOT_SWI_PC - (oldSwi & OFFSET_MASK));
 
 	ubootSwiAddr = (unsigned long int*) *(s_addr);
 
-	oldIrq = *irqPointer;
-	oldIrq2 = *(irqPointer+1);
+	oldIrq = * (unsigned long int *) IRQ_PTR;
+	oldIrq2 = *(unsigned long int *)(IRQ_PTR + 1);
 
-	if((oldIrq & 0xfe1ff000) != 0xe41ff000) {
-		return 0xbadc0de;
+	if((oldIrq & LDR_MASK) != GOOD_INSTRUCTION) {
+		return BAD_CODE;
 	}
 
-	if((oldIrq & 0x00800000) == 0x00800000)
-		irq_addr = (unsigned long int*) ((oldIrq & 0xfff) + 0x20);
+	if((oldIrq & POSITIVE_OFFSET) == POSITIVE_OFFSET)
+		irq_addr = (unsigned long int*) ((oldIrq & OFFSET_MASK) + UBOOT_IRQ_PC);
 	else
-		irq_addr = (unsigned long int*) (0x20 - (oldIrq & 0xfff));
+		irq_addr = (unsigned long int*) (UBOOT_IRQ_PC - (oldIrq & OFFSET_MASK));
 
 	ubootIrqAddr = (unsigned long int*) *(irq_addr);
-	*(ubootSwiAddr) = 0xe51ff004;
+	*(ubootSwiAddr) = LDR_PC_OPCODE;
 	*(ubootSwiAddr + 1) = (unsigned) &S_Handler;
 
-	*(ubootIrqAddr) = 0xe51ff004;
+	*(ubootIrqAddr) = LDR_PC_OPCODE;
 	*(ubootIrqAddr+1) = (unsigned) &I_Handler;
 
 	ICMR = reg_read(INT_ICMR_ADDR);
@@ -72,7 +67,7 @@ int kmain(int argc, char** argv, uint32_t table)
 	OSSR = reg_read(OSTMR_OSSR_ADDR);
 
 	// set osmr match reg bit to 1 for interrupts
-	reg_write(INT_ICMR_ADDR, 0x04000000);
+	reg_write(INT_ICMR_ADDR, SET_ICMR_M0_IRQ);
 	//make interrupts irq
 	reg_write(INT_ICLR_ADDR, 0x0);
 	// set match reg
@@ -87,8 +82,8 @@ int kmain(int argc, char** argv, uint32_t table)
 	
 	exitVal = (int)load_user_prog(argc, argv);
 	
-	*(ubootSwiAddr) = (unsigned long int) oldInstr;
-	*(ubootSwiAddr + 1) = (unsigned long int) oldInstr2;
+	*(ubootSwiAddr) = (unsigned long int) oldSwi;
+	*(ubootSwiAddr + 1) = (unsigned long int) oldSwi2;
 
 	*(ubootIrqAddr) = (unsigned long int) oldIrq;
 	*(ubootIrqAddr+1) = (unsigned long int) oldIrq2;
