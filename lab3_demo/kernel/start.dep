@@ -1,0 +1,4 @@
+/home/ubuntu/demo/kernel/start.o: /home/ubuntu/demo/kernel/start.S \
+  /home/ubuntu/demo/kernel/include/asm.h
+
+/home/ubuntu/demo/kernel/include/asm.h:

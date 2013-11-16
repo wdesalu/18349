@@ -1,0 +1,16 @@
+/home/ubuntu/demo/kernel/sleep.o: /home/ubuntu/demo/kernel/sleep.c \
+  /home/ubuntu/demo/kernel/include/arm/timer.h \
+  /home/ubuntu/demo/uboot/include/exports.h \
+  /home/ubuntu/demo/kernel/include/types.h \
+  /home/ubuntu/demo/kernel/include/stdarg.h \
+  /home/ubuntu/demo/uboot/include/_exports.h
+
+/home/ubuntu/demo/kernel/include/arm/timer.h:
+
+/home/ubuntu/demo/uboot/include/exports.h:
+
+/home/ubuntu/demo/kernel/include/types.h:
+
+/home/ubuntu/demo/kernel/include/stdarg.h:
+
+/home/ubuntu/demo/uboot/include/_exports.h:

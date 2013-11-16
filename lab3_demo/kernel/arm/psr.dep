@@ -1,0 +1,10 @@
+/home/ubuntu/demo/kernel/arm/psr.o: /home/ubuntu/demo/kernel/arm/psr.c \
+  /home/ubuntu/demo/kernel/include/types.h \
+  /home/ubuntu/demo/kernel/include/arm/psr.h \
+  /home/ubuntu/demo/kernel/include/inline.h
+
+/home/ubuntu/demo/kernel/include/types.h:
+
+/home/ubuntu/demo/kernel/include/arm/psr.h:
+
+/home/ubuntu/demo/kernel/include/inline.h:

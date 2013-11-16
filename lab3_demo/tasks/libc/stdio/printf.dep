@@ -1,0 +1,23 @@
+/home/ubuntu/demo/tasks/libc/stdio/printf.o:  \
+ /home/ubuntu/demo/tasks/libc/stdio/printf.c \
+  /home/ubuntu/demo/tasks/libc/include/stdio.h \
+  /home/ubuntu/demo/tasks/libc/include/stdarg.h \
+  /home/ubuntu/demo/tasks/libc/include/sys/types.h \
+  /home/ubuntu/demo/tasks/libc/include/bits/types.h \
+  /home/ubuntu/demo/tasks/libc/include/unistd.h \
+  /home/ubuntu/demo/tasks/libc/include/bits/fileno.h \
+  /home/ubuntu/demo/tasks/libc/stdio/doprnt.h
+
+/home/ubuntu/demo/tasks/libc/include/stdio.h:
+
+/home/ubuntu/demo/tasks/libc/include/stdarg.h:
+
+/home/ubuntu/demo/tasks/libc/include/sys/types.h:
+
+/home/ubuntu/demo/tasks/libc/include/bits/types.h:
+
+/home/ubuntu/demo/tasks/libc/include/unistd.h:
+
+/home/ubuntu/demo/tasks/libc/include/bits/fileno.h:
+
+/home/ubuntu/demo/tasks/libc/stdio/doprnt.h:

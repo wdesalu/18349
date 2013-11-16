@@ -1,0 +1,20 @@
+/home/ubuntu/demo/tasks/libc/stdlib/strtol.o:  \
+ /home/ubuntu/demo/tasks/libc/stdlib/strtol.c \
+  /home/ubuntu/demo/tasks/libc/include/stdlib.h \
+  /home/ubuntu/demo/tasks/libc/include/ctype.h \
+  /home/ubuntu/demo/tasks/libc/include/inline.h \
+  /home/ubuntu/demo/tasks/libc/include/string.h \
+  /home/ubuntu/demo/tasks/libc/include/sys/types.h \
+  /home/ubuntu/demo/tasks/libc/include/bits/types.h
+
+/home/ubuntu/demo/tasks/libc/include/stdlib.h:
+
+/home/ubuntu/demo/tasks/libc/include/ctype.h:
+
+/home/ubuntu/demo/tasks/libc/include/inline.h:
+
+/home/ubuntu/demo/tasks/libc/include/string.h:
+
+/home/ubuntu/demo/tasks/libc/include/sys/types.h:
+
+/home/ubuntu/demo/tasks/libc/include/bits/types.h:
