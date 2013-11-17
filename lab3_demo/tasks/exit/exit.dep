@@ -1,0 +1,4 @@
+/home/ubuntu/demo/tasks/exit/exit.o: /home/ubuntu/demo/tasks/exit/exit.S \
+  /home/ubuntu/demo/tasks/libc/include/bits/swi.h
+
+/home/ubuntu/demo/tasks/libc/include/bits/swi.h:

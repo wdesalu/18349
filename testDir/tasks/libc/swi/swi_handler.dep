@@ -1,0 +1,5 @@
+/home/derek/lab3/tasks/libc/swi/swi_handler.o:  \
+ /home/derek/lab3/tasks/libc/swi/swi_handler.S \
+  /home/derek/lab3/tasks/libc/include/bits/swi.h
+
+/home/derek/lab3/tasks/libc/include/bits/swi.h:

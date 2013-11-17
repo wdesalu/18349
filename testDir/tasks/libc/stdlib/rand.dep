@@ -1,0 +1,5 @@
+/home/derek/lab3/tasks/libc/stdlib/rand.o:  \
+ /home/derek/lab3/tasks/libc/stdlib/rand.c \
+  /home/derek/lab3/tasks/libc/include/stdlib.h
+
+/home/derek/lab3/tasks/libc/include/stdlib.h:

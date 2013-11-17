@@ -1,0 +1,17 @@
+/home/derek/lab3/tasks/libc/stdio/doprnt.o:  \
+ /home/derek/lab3/tasks/libc/stdio/doprnt.c \
+  /home/derek/lab3/tasks/libc/include/stdarg.h \
+  /home/derek/lab3/tasks/libc/include/string.h \
+  /home/derek/lab3/tasks/libc/include/sys/types.h \
+  /home/derek/lab3/tasks/libc/include/bits/types.h \
+  /home/derek/lab3/tasks/libc/stdio/doprnt.h
+
+/home/derek/lab3/tasks/libc/include/stdarg.h:
+
+/home/derek/lab3/tasks/libc/include/string.h:
+
+/home/derek/lab3/tasks/libc/include/sys/types.h:
+
+/home/derek/lab3/tasks/libc/include/bits/types.h:
+
+/home/derek/lab3/tasks/libc/stdio/doprnt.h:

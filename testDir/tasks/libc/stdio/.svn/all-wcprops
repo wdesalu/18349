@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdio
+END
+sprintf.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdio/sprintf.c
+END
+doprnt.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdio/doprnt.c
+END
+putchar.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdio/putchar.c
+END
+doscan.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdio/doscan.c
+END
+hexdump.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdio/hexdump.c
+END
+doprnt.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdio/doprnt.h
+END
+puts.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdio/puts.c
+END
+doscan.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdio/doscan.h
+END
+sscanf.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdio/sscanf.c
+END
+libc.mk
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdio/libc.mk
+END
+printf.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdio/printf.c
+END

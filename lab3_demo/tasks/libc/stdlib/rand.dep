@@ -1,0 +1,5 @@
+/home/ubuntu/demo/tasks/libc/stdlib/rand.o:  \
+ /home/ubuntu/demo/tasks/libc/stdlib/rand.c \
+  /home/ubuntu/demo/tasks/libc/include/stdlib.h
+
+/home/ubuntu/demo/tasks/libc/include/stdlib.h:

@@ -1,0 +1,51 @@
+/** @file rot13.c
+ *
+ * @Authors: Sara Roy <slroy@andrew.cmu.edu>
+ *          Samantha Klonaris <sklonari@andrew.cmu.edu>
+ *  	    Derek Miller <damiller@andrew.cmu.edu>
+ * @Date: 11/4/20 
+ */
+
+#include <stdlib.h>
+#include <unistd.h>
+#include <stdio.h>
+
+int main(int argc, char** argv){
+	int i;
+	for(i = 1; i < argc; i++){	
+		printf("%s\n",argv[i]);
+	}
+	char inputText[256];
+	int count = 0;
+	
+	while(count < 5){
+		ssize_t n = read(0, inputText, sizeof(inputText));
+		char outputText[n];
+		
+		if(n == 0)
+			return 0;
+		
+
+		// loop through each character and add or subtract 13 from it
+		// store new characters in output buffer
+		for(i = 0; i<n; i++){
+			if((65 <= (int)inputText[i] && (int)inputText[i] <=77) ||
+					(97 <= (int)inputText[i] && (int)inputText[i] <=109)){
+				outputText[i] = (char)((int)inputText[i] + 13);
+			}
+
+			else if((78 <= (int)inputText[i] && (int)inputText[i] <=90) || 
+					(110 <= (int)inputText[i] && (int)inputText[i] <=122)){
+				outputText[i] = (char)((int)inputText[i] - 13);
+			}
+			else{
+				outputText[i] = inputText[i];
+			}
+		}
+		write(1,outputText,n);	
+		count++;
+	}
+	exit(0);
+	return 1;
+
+}

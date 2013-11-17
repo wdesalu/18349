@@ -1,0 +1,11 @@
+/home/derek/lab3/tasks/libc/stdlib/atoi.o:  \
+ /home/derek/lab3/tasks/libc/stdlib/atoi.c \
+  /home/derek/lab3/tasks/libc/include/stdlib.h \
+  /home/derek/lab3/tasks/libc/include/ctype.h \
+  /home/derek/lab3/tasks/libc/include/inline.h
+
+/home/derek/lab3/tasks/libc/include/stdlib.h:
+
+/home/derek/lab3/tasks/libc/include/ctype.h:
+
+/home/derek/lab3/tasks/libc/include/inline.h:

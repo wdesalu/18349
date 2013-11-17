@@ -1,0 +1,10 @@
+/home/ubuntu/demo/kernel/arm/reg.o: /home/ubuntu/demo/kernel/arm/reg.c \
+  /home/ubuntu/demo/kernel/include/types.h \
+  /home/ubuntu/demo/kernel/include/arm/reg.h \
+  /home/ubuntu/demo/kernel/include/inline.h
+
+/home/ubuntu/demo/kernel/include/types.h:
+
+/home/ubuntu/demo/kernel/include/arm/reg.h:
+
+/home/ubuntu/demo/kernel/include/inline.h:

@@ -1,0 +1,10 @@
+/home/derek/lab3/kernel/arm/reg.o: /home/derek/lab3/kernel/arm/reg.c \
+  /home/derek/lab3/kernel/include/types.h \
+  /home/derek/lab3/kernel/include/arm/reg.h \
+  /home/derek/lab3/kernel/include/inline.h
+
+/home/derek/lab3/kernel/include/types.h:
+
+/home/derek/lab3/kernel/include/arm/reg.h:
+
+/home/derek/lab3/kernel/include/inline.h:
