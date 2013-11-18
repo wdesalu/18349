@@ -1,0 +1,26 @@
+task request (from where> user_proj?)
+|--> put task request into a FIFO
+
+P1 = user process
+______________________
+	--> load TCB
+	     load P1's register & status
+	     	  change sp, pc, psr
+	     run P1
+
+P2 request comes along (interrupt>)
+_____________________________________
+	--> store P1 & P1's TCB, registers, etc on stack
+	--> P1 => interrupted?
+
+load & start P2
+________________
+	--> P2 ready --> running (context switch)
+
+P2 finishes
+____________
+	-->delete task P2  --> dormant?
+	--> resume P1 (context switch: stack --> TCB, regs, etc)
+
+Waiting for mutex?
+Ask more questions????? TA Office Hours
