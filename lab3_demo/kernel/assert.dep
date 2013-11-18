@@ -1,25 +1,26 @@
-/home/ubuntu/demo/kernel/assert.o: /home/ubuntu/demo/kernel/assert.c \
-  /home/ubuntu/demo/kernel/include/assert.h \
-  /home/ubuntu/demo/kernel/include/stdarg.h \
-  /home/ubuntu/demo/uboot/include/exports.h \
-  /home/ubuntu/demo/kernel/include/types.h \
-  /home/ubuntu/demo/uboot/include/_exports.h \
-  /home/ubuntu/demo/kernel/include/arm/psr.h \
-  /home/ubuntu/demo/kernel/include/inline.h \
-  /home/ubuntu/demo/kernel/include/arm/exception.h
+/home/wale/Documents/18349/lab3_demo/kernel/assert.o:  \
+ /home/wale/Documents/18349/lab3_demo/kernel/assert.c \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/assert.h \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/stdarg.h \
+  /home/wale/Documents/18349/lab3_demo/uboot/include/exports.h \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/types.h \
+  /home/wale/Documents/18349/lab3_demo/uboot/include/_exports.h \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/arm/psr.h \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/inline.h \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/arm/exception.h
 
-/home/ubuntu/demo/kernel/include/assert.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/assert.h:
 
-/home/ubuntu/demo/kernel/include/stdarg.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/stdarg.h:
 
-/home/ubuntu/demo/uboot/include/exports.h:
+/home/wale/Documents/18349/lab3_demo/uboot/include/exports.h:
 
-/home/ubuntu/demo/kernel/include/types.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/types.h:
 
-/home/ubuntu/demo/uboot/include/_exports.h:
+/home/wale/Documents/18349/lab3_demo/uboot/include/_exports.h:
 
-/home/ubuntu/demo/kernel/include/arm/psr.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/arm/psr.h:
 
-/home/ubuntu/demo/kernel/include/inline.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/inline.h:
 
-/home/ubuntu/demo/kernel/include/arm/exception.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/arm/exception.h:

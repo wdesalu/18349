@@ -1,17 +1,17 @@
-/home/ubuntu/demo/tasks/libc/stdio/sprintf.o:  \
- /home/ubuntu/demo/tasks/libc/stdio/sprintf.c \
-  /home/ubuntu/demo/tasks/libc/include/stdio.h \
-  /home/ubuntu/demo/tasks/libc/include/stdarg.h \
-  /home/ubuntu/demo/tasks/libc/include/sys/types.h \
-  /home/ubuntu/demo/tasks/libc/include/bits/types.h \
-  /home/ubuntu/demo/tasks/libc/stdio/doprnt.h
+/home/wale/Documents/18349/lab3_demo/tasks/libc/stdio/sprintf.o:  \
+ /home/wale/Documents/18349/lab3_demo/tasks/libc/stdio/sprintf.c \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/stdio.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/stdarg.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/sys/types.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/bits/types.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/stdio/doprnt.h
 
-/home/ubuntu/demo/tasks/libc/include/stdio.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/stdio.h:
 
-/home/ubuntu/demo/tasks/libc/include/stdarg.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/stdarg.h:
 
-/home/ubuntu/demo/tasks/libc/include/sys/types.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/sys/types.h:
 
-/home/ubuntu/demo/tasks/libc/include/bits/types.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/bits/types.h:
 
-/home/ubuntu/demo/tasks/libc/stdio/doprnt.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/stdio/doprnt.h:

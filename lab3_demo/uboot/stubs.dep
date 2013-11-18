@@ -1,13 +1,14 @@
-/home/ubuntu/demo/uboot/stubs.o: /home/ubuntu/demo/uboot/stubs.c \
-  /home/ubuntu/demo/uboot/include/exports.h \
-  /home/ubuntu/demo/kernel/include/types.h \
-  /home/ubuntu/demo/kernel/include/stdarg.h \
-  /home/ubuntu/demo/uboot/include/_exports.h
+/home/wale/Documents/18349/lab3_demo/uboot/stubs.o:  \
+ /home/wale/Documents/18349/lab3_demo/uboot/stubs.c \
+  /home/wale/Documents/18349/lab3_demo/uboot/include/exports.h \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/types.h \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/stdarg.h \
+  /home/wale/Documents/18349/lab3_demo/uboot/include/_exports.h
 
-/home/ubuntu/demo/uboot/include/exports.h:
+/home/wale/Documents/18349/lab3_demo/uboot/include/exports.h:
 
-/home/ubuntu/demo/kernel/include/types.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/types.h:
 
-/home/ubuntu/demo/kernel/include/stdarg.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/stdarg.h:
 
-/home/ubuntu/demo/uboot/include/_exports.h:
+/home/wale/Documents/18349/lab3_demo/uboot/include/_exports.h:

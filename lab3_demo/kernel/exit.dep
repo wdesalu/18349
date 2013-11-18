@@ -1,4 +1,5 @@
-/home/ubuntu/demo/kernel/exit.o: /home/ubuntu/demo/kernel/exit.c \
-  /home/ubuntu/demo/kernel/include/load_user_prog.h
+/home/wale/Documents/18349/lab3_demo/kernel/exit.o:  \
+ /home/wale/Documents/18349/lab3_demo/kernel/exit.c \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/load_user_prog.h
 
-/home/ubuntu/demo/kernel/include/load_user_prog.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/load_user_prog.h:

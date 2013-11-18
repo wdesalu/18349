@@ -1,20 +1,20 @@
-/home/ubuntu/demo/tasks/libc/stdio/hexdump.o:  \
- /home/ubuntu/demo/tasks/libc/stdio/hexdump.c \
-  /home/ubuntu/demo/tasks/libc/include/ctype.h \
-  /home/ubuntu/demo/tasks/libc/include/inline.h \
-  /home/ubuntu/demo/tasks/libc/include/stdio.h \
-  /home/ubuntu/demo/tasks/libc/include/stdarg.h \
-  /home/ubuntu/demo/tasks/libc/include/sys/types.h \
-  /home/ubuntu/demo/tasks/libc/include/bits/types.h
+/home/wale/Documents/18349/lab3_demo/tasks/libc/stdio/hexdump.o:  \
+ /home/wale/Documents/18349/lab3_demo/tasks/libc/stdio/hexdump.c \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/ctype.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/inline.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/stdio.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/stdarg.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/sys/types.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/bits/types.h
 
-/home/ubuntu/demo/tasks/libc/include/ctype.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/ctype.h:
 
-/home/ubuntu/demo/tasks/libc/include/inline.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/inline.h:
 
-/home/ubuntu/demo/tasks/libc/include/stdio.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/stdio.h:
 
-/home/ubuntu/demo/tasks/libc/include/stdarg.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/stdarg.h:
 
-/home/ubuntu/demo/tasks/libc/include/sys/types.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/sys/types.h:
 
-/home/ubuntu/demo/tasks/libc/include/bits/types.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/bits/types.h:

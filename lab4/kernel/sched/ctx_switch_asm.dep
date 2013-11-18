@@ -1,0 +1,8 @@
+/home/ubuntu/Downloads/lab4/kernel/sched/ctx_switch_asm.o:  \
+ /home/ubuntu/Downloads/lab4/kernel/sched/ctx_switch_asm.S \
+  /home/ubuntu/Downloads/lab4/kernel/include/asm.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/arm/psr.h
+
+/home/ubuntu/Downloads/lab4/kernel/include/asm.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/arm/psr.h:

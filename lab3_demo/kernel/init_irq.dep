@@ -1,1 +1,2 @@
-/home/ubuntu/demo/kernel/init_irq.o: /home/ubuntu/demo/kernel/init_irq.S
+/home/wale/Documents/18349/lab3_demo/kernel/init_irq.o:  \
+ /home/wale/Documents/18349/lab3_demo/kernel/init_irq.S

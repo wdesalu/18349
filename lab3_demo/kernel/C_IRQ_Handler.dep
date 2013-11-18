@@ -1,32 +1,32 @@
-/home/ubuntu/demo/kernel/C_IRQ_Handler.o:  \
- /home/ubuntu/demo/kernel/C_IRQ_Handler.c \
-  /home/ubuntu/demo/uboot/include/exports.h \
-  /home/ubuntu/demo/kernel/include/types.h \
-  /home/ubuntu/demo/kernel/include/stdarg.h \
-  /home/ubuntu/demo/uboot/include/_exports.h \
-  /home/ubuntu/demo/kernel/include/I_Handler.h \
-  /home/ubuntu/demo/kernel/include/arm/interrupt.h \
-  /home/ubuntu/demo/kernel/include/arm/timer.h \
-  /home/ubuntu/demo/kernel/include/arm/reg.h \
-  /home/ubuntu/demo/kernel/include/inline.h \
-  /home/ubuntu/demo/kernel/include/globals.h
+/home/wale/Documents/18349/lab3_demo/kernel/C_IRQ_Handler.o:  \
+ /home/wale/Documents/18349/lab3_demo/kernel/C_IRQ_Handler.c \
+  /home/wale/Documents/18349/lab3_demo/uboot/include/exports.h \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/types.h \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/stdarg.h \
+  /home/wale/Documents/18349/lab3_demo/uboot/include/_exports.h \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/I_Handler.h \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/arm/interrupt.h \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/arm/timer.h \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/arm/reg.h \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/inline.h \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/globals.h
 
-/home/ubuntu/demo/uboot/include/exports.h:
+/home/wale/Documents/18349/lab3_demo/uboot/include/exports.h:
 
-/home/ubuntu/demo/kernel/include/types.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/types.h:
 
-/home/ubuntu/demo/kernel/include/stdarg.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/stdarg.h:
 
-/home/ubuntu/demo/uboot/include/_exports.h:
+/home/wale/Documents/18349/lab3_demo/uboot/include/_exports.h:
 
-/home/ubuntu/demo/kernel/include/I_Handler.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/I_Handler.h:
 
-/home/ubuntu/demo/kernel/include/arm/interrupt.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/arm/interrupt.h:
 
-/home/ubuntu/demo/kernel/include/arm/timer.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/arm/timer.h:
 
-/home/ubuntu/demo/kernel/include/arm/reg.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/arm/reg.h:
 
-/home/ubuntu/demo/kernel/include/inline.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/inline.h:
 
-/home/ubuntu/demo/kernel/include/globals.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/globals.h:

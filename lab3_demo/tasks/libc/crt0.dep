@@ -1,4 +1,5 @@
-/home/ubuntu/demo/tasks/libc/crt0.o: /home/ubuntu/demo/tasks/libc/crt0.S \
-  /home/ubuntu/demo/tasks/libc/include/asm.h
+/home/wale/Documents/18349/lab3_demo/tasks/libc/crt0.o:  \
+ /home/wale/Documents/18349/lab3_demo/tasks/libc/crt0.S \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/asm.h
 
-/home/ubuntu/demo/tasks/libc/include/asm.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/asm.h:

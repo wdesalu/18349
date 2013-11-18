@@ -1,29 +1,29 @@
-/home/ubuntu/demo/tasks/splat/splat.o:  \
- /home/ubuntu/demo/tasks/splat/splat.c \
-  /home/ubuntu/demo/tasks/libc/include/stdlib.h \
-  /home/ubuntu/demo/tasks/libc/include/errno.h \
-  /home/ubuntu/demo/tasks/libc/include/bits/errno.h \
-  /home/ubuntu/demo/tasks/libc/include/unistd.h \
-  /home/ubuntu/demo/tasks/libc/include/bits/fileno.h \
-  /home/ubuntu/demo/tasks/libc/include/sys/types.h \
-  /home/ubuntu/demo/tasks/libc/include/bits/types.h \
-  /home/ubuntu/demo/tasks/libc/include/stdio.h \
-  /home/ubuntu/demo/tasks/libc/include/stdarg.h
+/home/wale/Documents/18349/lab3_demo/tasks/splat/splat.o:  \
+ /home/wale/Documents/18349/lab3_demo/tasks/splat/splat.c \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/stdlib.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/errno.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/bits/errno.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/unistd.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/bits/fileno.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/sys/types.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/bits/types.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/stdio.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/stdarg.h
 
-/home/ubuntu/demo/tasks/libc/include/stdlib.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/stdlib.h:
 
-/home/ubuntu/demo/tasks/libc/include/errno.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/errno.h:
 
-/home/ubuntu/demo/tasks/libc/include/bits/errno.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/bits/errno.h:
 
-/home/ubuntu/demo/tasks/libc/include/unistd.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/unistd.h:
 
-/home/ubuntu/demo/tasks/libc/include/bits/fileno.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/bits/fileno.h:
 
-/home/ubuntu/demo/tasks/libc/include/sys/types.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/sys/types.h:
 
-/home/ubuntu/demo/tasks/libc/include/bits/types.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/bits/types.h:
 
-/home/ubuntu/demo/tasks/libc/include/stdio.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/stdio.h:
 
-/home/ubuntu/demo/tasks/libc/include/stdarg.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/stdarg.h:

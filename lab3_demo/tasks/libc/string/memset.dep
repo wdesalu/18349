@@ -1,11 +1,11 @@
-/home/ubuntu/demo/tasks/libc/string/memset.o:  \
- /home/ubuntu/demo/tasks/libc/string/memset.c \
-  /home/ubuntu/demo/tasks/libc/include/string.h \
-  /home/ubuntu/demo/tasks/libc/include/sys/types.h \
-  /home/ubuntu/demo/tasks/libc/include/bits/types.h
+/home/wale/Documents/18349/lab3_demo/tasks/libc/string/memset.o:  \
+ /home/wale/Documents/18349/lab3_demo/tasks/libc/string/memset.c \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/string.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/sys/types.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/bits/types.h
 
-/home/ubuntu/demo/tasks/libc/include/string.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/string.h:
 
-/home/ubuntu/demo/tasks/libc/include/sys/types.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/sys/types.h:
 
-/home/ubuntu/demo/tasks/libc/include/bits/types.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/bits/types.h:

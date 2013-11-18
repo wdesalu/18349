@@ -1,4 +1,5 @@
-/home/ubuntu/demo/tasks/exit/exit.o: /home/ubuntu/demo/tasks/exit/exit.S \
-  /home/ubuntu/demo/tasks/libc/include/bits/swi.h
+/home/wale/Documents/18349/lab3_demo/tasks/exit/exit.o:  \
+ /home/wale/Documents/18349/lab3_demo/tasks/exit/exit.S \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/bits/swi.h
 
-/home/ubuntu/demo/tasks/libc/include/bits/swi.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/bits/swi.h:

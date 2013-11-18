@@ -1,0 +1,32 @@
+/home/ubuntu/Downloads/lab4/kernel/arm/C_IRQ_Handler.o:  \
+ /home/ubuntu/Downloads/lab4/kernel/arm/C_IRQ_Handler.c \
+  /home/ubuntu/Downloads/lab4/uboot/include/exports.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/types.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/stdarg.h \
+  /home/ubuntu/Downloads/lab4/uboot/include/_exports.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/I_Handler.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/arm/interrupt.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/arm/timer.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/arm/reg.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/inline.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/globals.h
+
+/home/ubuntu/Downloads/lab4/uboot/include/exports.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/types.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/stdarg.h:
+
+/home/ubuntu/Downloads/lab4/uboot/include/_exports.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/I_Handler.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/arm/interrupt.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/arm/timer.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/arm/reg.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/inline.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/globals.h:

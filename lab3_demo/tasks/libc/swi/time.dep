@@ -1,8 +1,8 @@
-/home/ubuntu/demo/tasks/libc/swi/time.o:  \
- /home/ubuntu/demo/tasks/libc/swi/time.S \
-  /home/ubuntu/demo/tasks/libc/include/asm.h \
-  /home/ubuntu/demo/tasks/libc/include/bits/swi.h
+/home/wale/Documents/18349/lab3_demo/tasks/libc/swi/time.o:  \
+ /home/wale/Documents/18349/lab3_demo/tasks/libc/swi/time.S \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/asm.h \
+  /home/wale/Documents/18349/lab3_demo/tasks/libc/include/bits/swi.h
 
-/home/ubuntu/demo/tasks/libc/include/asm.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/asm.h:
 
-/home/ubuntu/demo/tasks/libc/include/bits/swi.h:
+/home/wale/Documents/18349/lab3_demo/tasks/libc/include/bits/swi.h:

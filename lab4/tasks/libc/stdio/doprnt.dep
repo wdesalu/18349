@@ -1,0 +1,17 @@
+/home/ubuntu/Downloads/lab4/tasks/libc/stdio/doprnt.o:  \
+ /home/ubuntu/Downloads/lab4/tasks/libc/stdio/doprnt.c \
+  /home/ubuntu/Downloads/lab4/tasks/libc/include/stdarg.h \
+  /home/ubuntu/Downloads/lab4/tasks/libc/include/string.h \
+  /home/ubuntu/Downloads/lab4/tasks/libc/include/sys/types.h \
+  /home/ubuntu/Downloads/lab4/tasks/libc/include/bits/types.h \
+  /home/ubuntu/Downloads/lab4/tasks/libc/stdio/doprnt.h
+
+/home/ubuntu/Downloads/lab4/tasks/libc/include/stdarg.h:
+
+/home/ubuntu/Downloads/lab4/tasks/libc/include/string.h:
+
+/home/ubuntu/Downloads/lab4/tasks/libc/include/sys/types.h:
+
+/home/ubuntu/Downloads/lab4/tasks/libc/include/bits/types.h:
+
+/home/ubuntu/Downloads/lab4/tasks/libc/stdio/doprnt.h:

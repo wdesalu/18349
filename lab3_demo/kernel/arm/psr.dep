@@ -1,10 +1,11 @@
-/home/ubuntu/demo/kernel/arm/psr.o: /home/ubuntu/demo/kernel/arm/psr.c \
-  /home/ubuntu/demo/kernel/include/types.h \
-  /home/ubuntu/demo/kernel/include/arm/psr.h \
-  /home/ubuntu/demo/kernel/include/inline.h
+/home/wale/Documents/18349/lab3_demo/kernel/arm/psr.o:  \
+ /home/wale/Documents/18349/lab3_demo/kernel/arm/psr.c \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/types.h \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/arm/psr.h \
+  /home/wale/Documents/18349/lab3_demo/kernel/include/inline.h
 
-/home/ubuntu/demo/kernel/include/types.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/types.h:
 
-/home/ubuntu/demo/kernel/include/arm/psr.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/arm/psr.h:
 
-/home/ubuntu/demo/kernel/include/inline.h:
+/home/wale/Documents/18349/lab3_demo/kernel/include/inline.h:

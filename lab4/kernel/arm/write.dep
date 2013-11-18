@@ -1,0 +1,26 @@
+/home/ubuntu/Downloads/lab4/kernel/arm/write.o:  \
+ /home/ubuntu/Downloads/lab4/kernel/arm/write.c \
+  /home/ubuntu/Downloads/lab4/kernel/arm/include/bits/errno.h \
+  /home/ubuntu/Downloads/lab4/kernel/arm/include/bits/swi.h \
+  /home/ubuntu/Downloads/lab4/kernel/arm/include/bits/fileno.h \
+  /home/ubuntu/Downloads/lab4/uboot/include/exports.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/types.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/stdarg.h \
+  /home/ubuntu/Downloads/lab4/uboot/include/_exports.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/globals.h
+
+/home/ubuntu/Downloads/lab4/kernel/arm/include/bits/errno.h:
+
+/home/ubuntu/Downloads/lab4/kernel/arm/include/bits/swi.h:
+
+/home/ubuntu/Downloads/lab4/kernel/arm/include/bits/fileno.h:
+
+/home/ubuntu/Downloads/lab4/uboot/include/exports.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/types.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/stdarg.h:
+
+/home/ubuntu/Downloads/lab4/uboot/include/_exports.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/globals.h:
