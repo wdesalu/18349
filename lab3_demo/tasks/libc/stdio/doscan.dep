@@ -1,0 +1,20 @@
+/home/ubuntu/demo/tasks/libc/stdio/doscan.o:  \
+ /home/ubuntu/demo/tasks/libc/stdio/doscan.c \
+  /home/ubuntu/demo/tasks/libc/include/stdarg.h \
+  /home/ubuntu/demo/tasks/libc/include/sys/types.h \
+  /home/ubuntu/demo/tasks/libc/include/bits/types.h \
+  /home/ubuntu/demo/tasks/libc/include/ctype.h \
+  /home/ubuntu/demo/tasks/libc/include/inline.h \
+  /home/ubuntu/demo/tasks/libc/stdio/doscan.h
+
+/home/ubuntu/demo/tasks/libc/include/stdarg.h:
+
+/home/ubuntu/demo/tasks/libc/include/sys/types.h:
+
+/home/ubuntu/demo/tasks/libc/include/bits/types.h:
+
+/home/ubuntu/demo/tasks/libc/include/ctype.h:
+
+/home/ubuntu/demo/tasks/libc/include/inline.h:
+
+/home/ubuntu/demo/tasks/libc/stdio/doscan.h:

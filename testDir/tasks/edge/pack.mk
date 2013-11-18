@@ -1,0 +1,6 @@
+PROGS_EDGE_OBJS := edge.o
+PROGS_EDGE_OBJS := $(PROGS_EDGE_OBJS:%=$(TDIR)/edge/%)
+ALL_OBJS += $(PROGS_EDGE_OBJS)
+
+$(TDIR)/bin/edge : $(TSTART) $(PROGS_EDGE_OBJS) $(TLIBC)
+

@@ -1,0 +1,34 @@
+/home/derek/lab3/kernel/main.o: /home/derek/lab3/kernel/main.c \
+  /home/derek/lab3/uboot/include/exports.h \
+  /home/derek/lab3/kernel/include/types.h \
+  /home/derek/lab3/kernel/include/stdarg.h \
+  /home/derek/lab3/uboot/include/_exports.h \
+  /home/derek/lab3/kernel/include/arm/psr.h \
+  /home/derek/lab3/kernel/include/inline.h \
+  /home/derek/lab3/kernel/include/arm/exception.h \
+  /home/derek/lab3/kernel/include/arm/interrupt.h \
+  /home/derek/lab3/kernel/include/arm/timer.h \
+  /home/derek/lab3/kernel/include/arm/reg.h \
+  /home/derek/lab3/kernel/irq_handler.h
+
+/home/derek/lab3/uboot/include/exports.h:
+
+/home/derek/lab3/kernel/include/types.h:
+
+/home/derek/lab3/kernel/include/stdarg.h:
+
+/home/derek/lab3/uboot/include/_exports.h:
+
+/home/derek/lab3/kernel/include/arm/psr.h:
+
+/home/derek/lab3/kernel/include/inline.h:
+
+/home/derek/lab3/kernel/include/arm/exception.h:
+
+/home/derek/lab3/kernel/include/arm/interrupt.h:
+
+/home/derek/lab3/kernel/include/arm/timer.h:
+
+/home/derek/lab3/kernel/include/arm/reg.h:
+
+/home/derek/lab3/kernel/irq_handler.h:

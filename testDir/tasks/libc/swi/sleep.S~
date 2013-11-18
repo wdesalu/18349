@@ -1,0 +1,18 @@
+/** @file sleep.S
+ *
+ * @brief read sycall wrapper
+ *
+ * @ Authors: Sara Roy <slroy@andrew.cmu.edu>
+ * @          Samantha Klonaris <sklonari@andrew.cmu.edu>
+ * @	      Derek Miller <damiller@andrew.cmu.edu>
+ * @ Date: 10/26/12
+ */
+
+#include <asm.h>
+#include <bits/swi.h>
+
+	.file "sleep.S"
+
+FUNC(sleep)
+	SWI 	SLEEP_SWI
+	MOV	pc, lr

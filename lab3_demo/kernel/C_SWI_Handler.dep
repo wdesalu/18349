@@ -1,0 +1,29 @@
+/home/ubuntu/demo/kernel/C_SWI_Handler.o:  \
+ /home/ubuntu/demo/kernel/C_SWI_Handler.c \
+  /home/ubuntu/demo/kernel/include/S_Handler.h \
+  /home/ubuntu/demo/uboot/include/exports.h \
+  /home/ubuntu/demo/kernel/include/types.h \
+  /home/ubuntu/demo/kernel/include/stdarg.h \
+  /home/ubuntu/demo/uboot/include/_exports.h \
+  /home/ubuntu/demo/kernel/include/bits/swi.h \
+  /home/ubuntu/demo/kernel/include/arm/timer.h \
+  /home/ubuntu/demo/kernel/include/globals.h \
+  /home/ubuntu/demo/kernel/include/syscalls.h
+
+/home/ubuntu/demo/kernel/include/S_Handler.h:
+
+/home/ubuntu/demo/uboot/include/exports.h:
+
+/home/ubuntu/demo/kernel/include/types.h:
+
+/home/ubuntu/demo/kernel/include/stdarg.h:
+
+/home/ubuntu/demo/uboot/include/_exports.h:
+
+/home/ubuntu/demo/kernel/include/bits/swi.h:
+
+/home/ubuntu/demo/kernel/include/arm/timer.h:
+
+/home/ubuntu/demo/kernel/include/globals.h:
+
+/home/ubuntu/demo/kernel/include/syscalls.h:

@@ -1,0 +1,5 @@
+/home/derek/lab3/kernel/setup_program.o:  \
+ /home/derek/lab3/kernel/setup_program.S \
+  /home/derek/lab3/kernel/include/bits/swi.h
+
+/home/derek/lab3/kernel/include/bits/swi.h:

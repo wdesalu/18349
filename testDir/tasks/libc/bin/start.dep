@@ -1,0 +1,4 @@
+/home/derek/lab3/kernel/start.o: /home/derek/lab3/kernel/start.S \
+  /home/derek/lab3/kernel/include/asm.h
+
+/home/derek/lab3/kernel/include/asm.h:

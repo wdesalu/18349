@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/include/bits
+END
+swi.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/include/bits/swi.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/include/bits/types.h
+END
+errno.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/include/bits/errno.h
+END
+fileno.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/include/bits/fileno.h
+END

@@ -1,0 +1,28 @@
+/home/ubuntu/demo/tasks/typo/typo.o: /home/ubuntu/demo/tasks/typo/typo.c \
+  /home/ubuntu/demo/tasks/libc/include/stdlib.h \
+  /home/ubuntu/demo/tasks/libc/include/errno.h \
+  /home/ubuntu/demo/tasks/libc/include/bits/errno.h \
+  /home/ubuntu/demo/tasks/libc/include/unistd.h \
+  /home/ubuntu/demo/tasks/libc/include/bits/fileno.h \
+  /home/ubuntu/demo/tasks/libc/include/sys/types.h \
+  /home/ubuntu/demo/tasks/libc/include/bits/types.h \
+  /home/ubuntu/demo/tasks/libc/include/stdio.h \
+  /home/ubuntu/demo/tasks/libc/include/stdarg.h
+
+/home/ubuntu/demo/tasks/libc/include/stdlib.h:
+
+/home/ubuntu/demo/tasks/libc/include/errno.h:
+
+/home/ubuntu/demo/tasks/libc/include/bits/errno.h:
+
+/home/ubuntu/demo/tasks/libc/include/unistd.h:
+
+/home/ubuntu/demo/tasks/libc/include/bits/fileno.h:
+
+/home/ubuntu/demo/tasks/libc/include/sys/types.h:
+
+/home/ubuntu/demo/tasks/libc/include/bits/types.h:
+
+/home/ubuntu/demo/tasks/libc/include/stdio.h:
+
+/home/ubuntu/demo/tasks/libc/include/stdarg.h:

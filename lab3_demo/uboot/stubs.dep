@@ -1,0 +1,13 @@
+/home/ubuntu/demo/uboot/stubs.o: /home/ubuntu/demo/uboot/stubs.c \
+  /home/ubuntu/demo/uboot/include/exports.h \
+  /home/ubuntu/demo/kernel/include/types.h \
+  /home/ubuntu/demo/kernel/include/stdarg.h \
+  /home/ubuntu/demo/uboot/include/_exports.h
+
+/home/ubuntu/demo/uboot/include/exports.h:
+
+/home/ubuntu/demo/kernel/include/types.h:
+
+/home/ubuntu/demo/kernel/include/stdarg.h:
+
+/home/ubuntu/demo/uboot/include/_exports.h:
