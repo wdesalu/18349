@@ -1,0 +1,6 @@
+PROGS_DATE_OBJS := date.o
+PROGS_DATE_OBJS := $(PROGS_DATE_OBJS:%=$(TDIR)/date/%)
+ALL_OBJS += $(PROGS_DATE_OBJS)
+
+$(TDIR)/bin/date : $(TSTART) $(PROGS_DATE_OBJS) $(TLIBC)
+

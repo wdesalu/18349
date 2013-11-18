@@ -1,0 +1,8 @@
+/home/derek/lab3/tasks/libc/swi/exit.o:  \
+ /home/derek/lab3/tasks/libc/swi/exit.S \
+  /home/derek/lab3/tasks/libc/include/asm.h \
+  /home/derek/lab3/tasks/libc/include/bits/swi.h
+
+/home/derek/lab3/tasks/libc/include/asm.h:
+
+/home/derek/lab3/tasks/libc/include/bits/swi.h:

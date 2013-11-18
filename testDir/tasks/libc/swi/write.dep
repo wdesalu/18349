@@ -1,0 +1,8 @@
+/home/derek/lab3/tasks/libc/swi/write.o:  \
+ /home/derek/lab3/tasks/libc/swi/write.S \
+  /home/derek/lab3/tasks/libc/include/asm.h \
+  /home/derek/lab3/tasks/libc/include/bits/swi.h
+
+/home/derek/lab3/tasks/libc/include/asm.h:
+
+/home/derek/lab3/tasks/libc/include/bits/swi.h:

@@ -1,0 +1,37 @@
+18-349
+Lab 3 Grading
+Group 7
+TA: Nick Mazurek
+
+
+Correctness testing: 29/40
+- Failed to preserve cpsr -1
+- Failed to restore handlers -3
+- failed to pass argc/argv to usermode -3
+
+with the write syscall
+  - User registers not preserved across SWI -3
+  - Failed to write a string from readonly memory -1
+
+
+Code Check: 14/15
+  -Need to account for timer overflow: -1
+
+typo: 7/7
+  -Well done! 
+
+
+splat: 8/8
+  -Well done!
+
+
+Style: 7/10
+  - Use #defines instead of hard coded values: -3
+
+Completeness: 10/10
+
+Extra Credit: +5
+  - Date 
+  - Edge
+
+Total: 80/90

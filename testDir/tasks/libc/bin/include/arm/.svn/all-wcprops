@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/kernel/include/arm
+END
+timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/kernel/include/arm/timer.h
+END
+psr.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/kernel/include/arm/psr.h
+END
+interrupt.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/kernel/include/arm/interrupt.h
+END
+reg.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/kernel/include/arm/reg.h
+END
+exception.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/kernel/include/arm/exception.h
+END

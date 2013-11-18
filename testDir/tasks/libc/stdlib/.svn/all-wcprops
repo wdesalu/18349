@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdlib
+END
+ctype.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdlib/ctype.c
+END
+rand.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdlib/rand.c
+END
+errno.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdlib/errno.c
+END
+strtol.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdlib/strtol.c
+END
+atoi.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdlib/atoi.c
+END
+strtoul.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdlib/strtoul.c
+END
+libc.mk
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/stdlib/libc.mk
+END

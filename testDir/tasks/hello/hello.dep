@@ -1,0 +1,14 @@
+/home/derek/lab3/tasks/hello/hello.o:  \
+ /home/derek/lab3/tasks/hello/hello.c \
+  /home/derek/lab3/tasks/libc/include/unistd.h \
+  /home/derek/lab3/tasks/libc/include/bits/fileno.h \
+  /home/derek/lab3/tasks/libc/include/sys/types.h \
+  /home/derek/lab3/tasks/libc/include/bits/types.h
+
+/home/derek/lab3/tasks/libc/include/unistd.h:
+
+/home/derek/lab3/tasks/libc/include/bits/fileno.h:
+
+/home/derek/lab3/tasks/libc/include/sys/types.h:
+
+/home/derek/lab3/tasks/libc/include/bits/types.h:

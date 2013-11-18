@@ -1,0 +1,11 @@
+/home/ubuntu/demo/tasks/libc/string/memmove.o:  \
+ /home/ubuntu/demo/tasks/libc/string/memmove.c \
+  /home/ubuntu/demo/tasks/libc/include/string.h \
+  /home/ubuntu/demo/tasks/libc/include/sys/types.h \
+  /home/ubuntu/demo/tasks/libc/include/bits/types.h
+
+/home/ubuntu/demo/tasks/libc/include/string.h:
+
+/home/ubuntu/demo/tasks/libc/include/sys/types.h:
+
+/home/ubuntu/demo/tasks/libc/include/bits/types.h:

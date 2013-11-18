@@ -1,0 +1,4 @@
+/home/ubuntu/demo/kernel/exit.o: /home/ubuntu/demo/kernel/exit.c \
+  /home/ubuntu/demo/kernel/include/load_user_prog.h
+
+/home/ubuntu/demo/kernel/include/load_user_prog.h:

@@ -1,0 +1,10 @@
+/home/derek/lab3/kernel/arm/psr.o: /home/derek/lab3/kernel/arm/psr.c \
+  /home/derek/lab3/kernel/include/types.h \
+  /home/derek/lab3/kernel/include/arm/psr.h \
+  /home/derek/lab3/kernel/include/inline.h
+
+/home/derek/lab3/kernel/include/types.h:
+
+/home/derek/lab3/kernel/include/arm/psr.h:
+
+/home/derek/lab3/kernel/include/inline.h:

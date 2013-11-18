@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/wale/Documents/18349/lab3_works/kernel/read.o:  \
  /home/wale/Documents/18349/lab3_works/kernel/read.c \
   /home/wale/Documents/18349/lab3_works/kernel/include/bits/errno.h \
@@ -7,6 +8,18 @@
   /home/wale/Documents/18349/lab3_works/kernel/include/types.h \
   /home/wale/Documents/18349/lab3_works/kernel/include/stdarg.h \
   /home/wale/Documents/18349/lab3_works/uboot/include/_exports.h
+=======
+/home/ubuntu/18349/lab3_works/kernel/read.o:  \
+ /home/ubuntu/18349/lab3_works/kernel/read.c \
+  /home/ubuntu/18349/lab3_works/kernel/include/bits/errno.h \
+  /home/ubuntu/18349/lab3_works/kernel/include/bits/swi.h \
+  /home/ubuntu/18349/lab3_works/kernel/include/bits/fileno.h \
+  /home/ubuntu/18349/lab3_works/uboot/include/exports.h \
+  /home/ubuntu/18349/lab3_works/kernel/include/types.h \
+  /home/ubuntu/18349/lab3_works/kernel/include/stdarg.h \
+  /home/ubuntu/18349/lab3_works/uboot/include/_exports.h \
+  /home/ubuntu/18349/lab3_works/kernel/include/globals.h
+>>>>>>> upstream/master
 
 /home/wale/Documents/18349/lab3_works/kernel/include/bits/errno.h:
 
@@ -20,4 +33,10 @@
 
 /home/wale/Documents/18349/lab3_works/kernel/include/stdarg.h:
 
+<<<<<<< HEAD
 /home/wale/Documents/18349/lab3_works/uboot/include/_exports.h:
+=======
+/home/ubuntu/18349/lab3_works/uboot/include/_exports.h:
+
+/home/ubuntu/18349/lab3_works/kernel/include/globals.h:
+>>>>>>> upstream/master

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/kernel/include
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/kernel/include/config.h
+END
+inline.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/kernel/include/inline.h
+END
+asm.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/kernel/include/asm.h
+END
+assert.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/kernel/include/assert.h
+END
+stdarg.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/kernel/include/stdarg.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/kernel/include/types.h
+END

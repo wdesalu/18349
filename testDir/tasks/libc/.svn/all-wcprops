@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/18349-lab/!svn/ver/29/trunk/Lab3/tasks/libc
+END
+crt0.S
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/18349-lab/!svn/ver/29/trunk/Lab3/tasks/libc/crt0.S
+END
+libc.mk
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/18349-lab/!svn/ver/29/trunk/Lab3/tasks/libc/libc.mk
+END
+raise.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/18349-lab/!svn/ver/26/trunk/Lab3/tasks/libc/raise.c
+END

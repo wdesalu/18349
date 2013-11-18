@@ -1,0 +1,26 @@
+/home/derek/lab3/tasks/twister/twister.o:  \
+ /home/derek/lab3/tasks/twister/twister.c \
+  /home/derek/lab3/tasks/libc/include/stdio.h \
+  /home/derek/lab3/tasks/libc/include/stdarg.h \
+  /home/derek/lab3/tasks/libc/include/sys/types.h \
+  /home/derek/lab3/tasks/libc/include/bits/types.h \
+  /home/derek/lab3/tasks/libc/include/stdlib.h \
+  /home/derek/lab3/tasks/libc/include/string.h \
+  /home/derek/lab3/tasks/libc/include/ctype.h \
+  /home/derek/lab3/tasks/libc/include/inline.h
+
+/home/derek/lab3/tasks/libc/include/stdio.h:
+
+/home/derek/lab3/tasks/libc/include/stdarg.h:
+
+/home/derek/lab3/tasks/libc/include/sys/types.h:
+
+/home/derek/lab3/tasks/libc/include/bits/types.h:
+
+/home/derek/lab3/tasks/libc/include/stdlib.h:
+
+/home/derek/lab3/tasks/libc/include/string.h:
+
+/home/derek/lab3/tasks/libc/include/ctype.h:
+
+/home/derek/lab3/tasks/libc/include/inline.h:

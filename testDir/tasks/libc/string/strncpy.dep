@@ -1,0 +1,11 @@
+/home/derek/lab3/tasks/libc/string/strncpy.o:  \
+ /home/derek/lab3/tasks/libc/string/strncpy.c \
+  /home/derek/lab3/tasks/libc/include/string.h \
+  /home/derek/lab3/tasks/libc/include/sys/types.h \
+  /home/derek/lab3/tasks/libc/include/bits/types.h
+
+/home/derek/lab3/tasks/libc/include/string.h:
+
+/home/derek/lab3/tasks/libc/include/sys/types.h:
+
+/home/derek/lab3/tasks/libc/include/bits/types.h:
