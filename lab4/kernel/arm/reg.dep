@@ -1,0 +1,11 @@
+/home/ubuntu/Downloads/lab4/kernel/arm/reg.o:  \
+ /home/ubuntu/Downloads/lab4/kernel/arm/reg.c \
+  /home/ubuntu/Downloads/lab4/kernel/include/types.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/arm/reg.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/inline.h
+
+/home/ubuntu/Downloads/lab4/kernel/include/types.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/arm/reg.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/inline.h:

@@ -1,0 +1,8 @@
+/home/ubuntu/Downloads/lab4/kernel/math.o:  \
+ /home/ubuntu/Downloads/lab4/kernel/math.c \
+  /home/ubuntu/Downloads/lab4/kernel/include/types.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/math.h
+
+/home/ubuntu/Downloads/lab4/kernel/include/types.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/math.h:

@@ -1,8 +1,0 @@
-/home/ubuntu/18349/lab3_works/tasks/libc/swi/write.o:  \
- /home/ubuntu/18349/lab3_works/tasks/libc/swi/write.S \
-  /home/ubuntu/18349/lab3_works/tasks/libc/include/asm.h \
-  /home/ubuntu/18349/lab3_works/tasks/libc/include/bits/swi.h
-
-/home/ubuntu/18349/lab3_works/tasks/libc/include/asm.h:
-
-/home/ubuntu/18349/lab3_works/tasks/libc/include/bits/swi.h:

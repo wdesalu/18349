@@ -1,0 +1,5 @@
+/home/ubuntu/Downloads/lab4/kernel/start.o:  \
+ /home/ubuntu/Downloads/lab4/kernel/start.S \
+  /home/ubuntu/Downloads/lab4/kernel/include/asm.h
+
+/home/ubuntu/Downloads/lab4/kernel/include/asm.h:

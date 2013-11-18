@@ -1,0 +1,35 @@
+/home/ubuntu/Downloads/lab4/kernel/syscall/io.o:  \
+ /home/ubuntu/Downloads/lab4/kernel/syscall/io.c \
+  /home/ubuntu/Downloads/lab4/kernel/include/types.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/bits/errno.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/bits/fileno.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/arm/physmem.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/syscall.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/task.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/config.h \
+  /home/ubuntu/Downloads/lab4/uboot/include/exports.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/stdarg.h \
+  /home/ubuntu/Downloads/lab4/uboot/include/_exports.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/kernel.h
+
+/home/ubuntu/Downloads/lab4/kernel/include/types.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/bits/errno.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/bits/fileno.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/arm/physmem.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/syscall.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/task.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/config.h:
+
+/home/ubuntu/Downloads/lab4/uboot/include/exports.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/stdarg.h:
+
+/home/ubuntu/Downloads/lab4/uboot/include/_exports.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/kernel.h:

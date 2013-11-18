@@ -1,0 +1,17 @@
+/home/ubuntu/Downloads/lab4/kernel/arm/sleep.o:  \
+ /home/ubuntu/Downloads/lab4/kernel/arm/sleep.c \
+  /home/ubuntu/Downloads/lab4/kernel/include/arm/timer.h \
+  /home/ubuntu/Downloads/lab4/uboot/include/exports.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/types.h \
+  /home/ubuntu/Downloads/lab4/kernel/include/stdarg.h \
+  /home/ubuntu/Downloads/lab4/uboot/include/_exports.h
+
+/home/ubuntu/Downloads/lab4/kernel/include/arm/timer.h:
+
+/home/ubuntu/Downloads/lab4/uboot/include/exports.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/types.h:
+
+/home/ubuntu/Downloads/lab4/kernel/include/stdarg.h:
+
+/home/ubuntu/Downloads/lab4/uboot/include/_exports.h:

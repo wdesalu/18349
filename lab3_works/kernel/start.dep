@@ -1,5 +1,0 @@
-/home/ubuntu/18349/lab3_works/kernel/start.o:  \
- /home/ubuntu/18349/lab3_works/kernel/start.S \
-  /home/ubuntu/18349/lab3_works/kernel/include/asm.h
-
-/home/ubuntu/18349/lab3_works/kernel/include/asm.h:

@@ -1,0 +1,23 @@
+/home/ubuntu/Downloads/lab4/tasks/libc/stdio/puts.o:  \
+ /home/ubuntu/Downloads/lab4/tasks/libc/stdio/puts.c \
+  /home/ubuntu/Downloads/lab4/tasks/libc/include/stdio.h \
+  /home/ubuntu/Downloads/lab4/tasks/libc/include/stdarg.h \
+  /home/ubuntu/Downloads/lab4/tasks/libc/include/sys/types.h \
+  /home/ubuntu/Downloads/lab4/tasks/libc/include/bits/types.h \
+  /home/ubuntu/Downloads/lab4/tasks/libc/include/string.h \
+  /home/ubuntu/Downloads/lab4/tasks/libc/include/unistd.h \
+  /home/ubuntu/Downloads/lab4/tasks/libc/include/bits/fileno.h
+
+/home/ubuntu/Downloads/lab4/tasks/libc/include/stdio.h:
+
+/home/ubuntu/Downloads/lab4/tasks/libc/include/stdarg.h:
+
+/home/ubuntu/Downloads/lab4/tasks/libc/include/sys/types.h:
+
+/home/ubuntu/Downloads/lab4/tasks/libc/include/bits/types.h:
+
+/home/ubuntu/Downloads/lab4/tasks/libc/include/string.h:
+
+/home/ubuntu/Downloads/lab4/tasks/libc/include/unistd.h:
+
+/home/ubuntu/Downloads/lab4/tasks/libc/include/bits/fileno.h:
