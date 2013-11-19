@@ -8,10 +8,10 @@ ______________________
 	     	  change sp, pc, psr
 	     run P1
 
-P2 request comes along (interrupt>)
+P2 request comes along
 _____________________________________
 	--> store P1 & P1's TCB, registers, etc on stack
-	--> P1 => interrupted?
+	--> P1 interrupt if swi happens, or wait if mutex and wait for P2 or anything else
 
 load & start P2
 ________________
@@ -20,7 +20,14 @@ ________________
 P2 finishes
 ____________
 	-->delete task P2  --> dormant?
-	--> resume P1 (context switch: stack --> TCB, regs, etc)
+	--> resume P1 if mutex called or swi over(context switch: stack --> TCB, regs, etc)
 
-Waiting for mutex?
-Ask more questions????? TA Office Hours
+For Part 1 (from what Gauthum said)
+____________
+
+--> Have an idle task working for sure (basically a while(1) loop)
+--> ready state has a runnable queue
+--> waiting state has a waiting queue
+--> this makes it easier for scheduling later
+--> pre-emptive
+--> can be all written in C (Thats what Gauthum said he did)
