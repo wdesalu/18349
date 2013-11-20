@@ -24,14 +24,32 @@
 
 int task_create(task_t* tasks  __attribute__((unused)), size_t num_tasks  __attribute__((unused)))
 {
+	// take ptr to task_t array
+	// takes num_tasks
+	// returns int:
+	/*
+		-EINVAL: #tasks > max_tasks - 2
+		-EFAULT: tasks outside valid address space
+		-ESCHED: task not schedulable (part 2?)
+	init mutexes, run UB test (????), sort tasks (part 2?)
+	set up tasks/schedule them
+	*/
   return 1; /* remove this line after adding your code */
 }
 
 int event_wait(unsigned int dev  __attribute__((unused)))
 {
+  /*
+	check if mutex is already acquired
+	check for invalid device
+	disable_interrupts();
+	dev_wait();
+	enable_interrupts();
+  */
   return 1; /* remove this line after adding your code */	
 }
 
+// no need to change this:
 /* An invalid syscall causes the kernel to exit. */
 void invalid_syscall(unsigned int call_num  __attribute__((unused)))
 {
