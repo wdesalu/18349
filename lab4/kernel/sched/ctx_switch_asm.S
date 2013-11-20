@@ -42,8 +42,10 @@ FUNC(launch_task)
 /* add your code to perform a full context switch */
 
 FUNC(ctx_switch_full)
-
+	stmia 	r1, {r4-r11,sp,lr}
 
 /*add your code to perform a half context switch */	
 /* don't have to save all the registers??? Don't have to clobber information*/
 FUNC(ctx_switch_half)
+	ldmia	r0, {r4-r11,sp,lr}
+	mov	pc, lr
