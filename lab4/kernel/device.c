@@ -47,6 +47,12 @@ void dev_init(void)
 {
    /* the following line is to get rid of the warning and should not be needed */	
    devices[0]=devices[0];
+/*
+   for(int i = 0; i < NUM_DEVICES; i++){
+	dev.sleep_queue = ?
+	dev.next_match = dev_freq[i];
+}
+*/
 }
 
 
@@ -58,7 +64,9 @@ void dev_init(void)
  */
 void dev_wait(unsigned int dev __attribute__((unused)))
 {
-	
+	// get current task (+tcb)
+	// put task in front of sleep queue
+	// run next task (ctx_switch)
 }
 
 
@@ -71,6 +79,14 @@ void dev_wait(unsigned int dev __attribute__((unused)))
  */
 void dev_update(unsigned long millis __attribute__((unused)))
 {
-	
+	// called on timer interrupts, checks matches on all devices
+	/*
+	loop thru devices, check if it's triggered (time >= its match reg),
+	if device is triggered:
+		update its match reg
+		pull tcb_t* task from sleep queue (list of dev's tasks)
+		add tasks to run_queue
+		reset device's sleep queue
+	*/
 }
 

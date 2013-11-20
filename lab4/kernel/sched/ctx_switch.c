@@ -28,7 +28,7 @@ static __attribute__((unused)) tcb_t* cur_tcb; /* use this if needed */
  */
 void dispatch_init(tcb_t* idle __attribute__((unused)))
 {
-	
+	//init TCB, set its priority to idle
 }
 
 
@@ -42,7 +42,10 @@ void dispatch_init(tcb_t* idle __attribute__((unused)))
  */
 void dispatch_save(void)
 {
-	
+	// save cur_tcb
+	// if upcoming task is lower pri than cur, return
+
+	// else, add cur tcb to run_queue, pull out hi pri task from runqueue
 }
 
 /**
@@ -53,7 +56,11 @@ void dispatch_save(void)
  */
 void dispatch_nosave(void)
 {
+	//remove new hi_pri from runqueue
+	//grab its tcb
 
+	//switch old tcb out for new one
+	// ctx_switch_half
 }
 
 
@@ -65,7 +72,7 @@ void dispatch_nosave(void)
  */
 void dispatch_sleep(void)
 {
-	
+	//like dispatch_save, but don't add it to run_queue
 }
 
 /**
@@ -73,6 +80,7 @@ void dispatch_sleep(void)
  */
 uint8_t get_cur_prio(void)
 {
+	// change the below code to return the priority of current task
 	return 1; //fix this; dummy return to prevent compiler warning
 }
 
@@ -81,5 +89,6 @@ uint8_t get_cur_prio(void)
  */
 tcb_t* get_cur_tcb(void)
 {
+	// change the below code to return the tcb of the current task
 	return (tcb_t *) 0; //fix this; dummy return to prevent compiler warning
 }
