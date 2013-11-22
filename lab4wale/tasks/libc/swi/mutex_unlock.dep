@@ -1,0 +1,5 @@
+/home/ubuntu/Downloads/lab4/tasks/libc/swi/mutex_unlock.o:  \
+ /home/ubuntu/Downloads/lab4/tasks/libc/swi/mutex_unlock.S \
+  /home/ubuntu/Downloads/lab4/tasks/libc/include/asm.h
+
+/home/ubuntu/Downloads/lab4/tasks/libc/include/asm.h:
