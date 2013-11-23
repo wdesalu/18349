@@ -1,0 +1,8 @@
+/home/ubuntu/18349/lab3_works/tasks/libc/swi/exit.o:  \
+ /home/ubuntu/18349/lab3_works/tasks/libc/swi/exit.S \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/asm.h \
+  /home/ubuntu/18349/lab3_works/tasks/libc/include/bits/swi.h
+
+/home/ubuntu/18349/lab3_works/tasks/libc/include/asm.h:
+
+/home/ubuntu/18349/lab3_works/tasks/libc/include/bits/swi.h:
