@@ -1,0 +1,11 @@
+/home/ubuntu/0_new/lab4/kernel/arm/psr.o:  \
+ /home/ubuntu/0_new/lab4/kernel/arm/psr.c \
+  /home/ubuntu/0_new/lab4/kernel/include/types.h \
+  /home/ubuntu/0_new/lab4/kernel/include/arm/psr.h \
+  /home/ubuntu/0_new/lab4/kernel/include/inline.h
+
+/home/ubuntu/0_new/lab4/kernel/include/types.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/arm/psr.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/inline.h:

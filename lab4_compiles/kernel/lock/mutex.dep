@@ -1,0 +1,29 @@
+/home/ubuntu/0_new/lab4/kernel/lock/mutex.o:  \
+ /home/ubuntu/0_new/lab4/kernel/lock/mutex.c \
+  /home/ubuntu/0_new/lab4/kernel/include/lock.h \
+  /home/ubuntu/0_new/lab4/kernel/include/types.h \
+  /home/ubuntu/0_new/lab4/kernel/include/task.h \
+  /home/ubuntu/0_new/lab4/kernel/include/config.h \
+  /home/ubuntu/0_new/lab4/kernel/include/sched.h \
+  /home/ubuntu/0_new/lab4/kernel/include/bits/errno.h \
+  /home/ubuntu/0_new/lab4/kernel/include/arm/psr.h \
+  /home/ubuntu/0_new/lab4/kernel/include/inline.h \
+  /home/ubuntu/0_new/lab4/kernel/include/arm/exception.h
+
+/home/ubuntu/0_new/lab4/kernel/include/lock.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/types.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/task.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/config.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/sched.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/bits/errno.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/arm/psr.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/inline.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/arm/exception.h:

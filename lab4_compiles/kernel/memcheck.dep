@@ -1,0 +1,8 @@
+/home/ubuntu/0_new/lab4/kernel/memcheck.o:  \
+ /home/ubuntu/0_new/lab4/kernel/memcheck.c \
+  /home/ubuntu/0_new/lab4/kernel/include/kernel.h \
+  /home/ubuntu/0_new/lab4/kernel/include/types.h
+
+/home/ubuntu/0_new/lab4/kernel/include/kernel.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/types.h:

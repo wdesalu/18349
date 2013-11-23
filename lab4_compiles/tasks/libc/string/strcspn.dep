@@ -1,0 +1,11 @@
+/home/ubuntu/0_new/lab4/tasks/libc/string/strcspn.o:  \
+ /home/ubuntu/0_new/lab4/tasks/libc/string/strcspn.c \
+  /home/ubuntu/0_new/lab4/tasks/libc/include/string.h \
+  /home/ubuntu/0_new/lab4/tasks/libc/include/sys/types.h \
+  /home/ubuntu/0_new/lab4/tasks/libc/include/bits/types.h
+
+/home/ubuntu/0_new/lab4/tasks/libc/include/string.h:
+
+/home/ubuntu/0_new/lab4/tasks/libc/include/sys/types.h:
+
+/home/ubuntu/0_new/lab4/tasks/libc/include/bits/types.h:

@@ -1,0 +1,5 @@
+/home/ubuntu/0_new/lab4/tasks/libc/swi/event_wait.o:  \
+ /home/ubuntu/0_new/lab4/tasks/libc/swi/event_wait.S \
+  /home/ubuntu/0_new/lab4/tasks/libc/include/asm.h
+
+/home/ubuntu/0_new/lab4/tasks/libc/include/asm.h:

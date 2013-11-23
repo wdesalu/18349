@@ -1,0 +1,5 @@
+/home/ubuntu/0_new/lab4/tasks/libc/swi/write.o:  \
+ /home/ubuntu/0_new/lab4/tasks/libc/swi/write.S \
+  /home/ubuntu/0_new/lab4/tasks/libc/include/asm.h
+
+/home/ubuntu/0_new/lab4/tasks/libc/include/asm.h:

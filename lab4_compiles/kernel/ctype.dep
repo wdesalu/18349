@@ -1,0 +1,8 @@
+/home/ubuntu/0_new/lab4/kernel/ctype.o:  \
+ /home/ubuntu/0_new/lab4/kernel/ctype.c \
+  /home/ubuntu/0_new/lab4/kernel/include/ctype.h \
+  /home/ubuntu/0_new/lab4/kernel/include/inline.h
+
+/home/ubuntu/0_new/lab4/kernel/include/ctype.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/inline.h:

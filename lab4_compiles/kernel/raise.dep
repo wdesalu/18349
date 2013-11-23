@@ -1,0 +1,14 @@
+/home/ubuntu/0_new/lab4/kernel/raise.o:  \
+ /home/ubuntu/0_new/lab4/kernel/raise.c \
+  /home/ubuntu/0_new/lab4/uboot/include/exports.h \
+  /home/ubuntu/0_new/lab4/kernel/include/types.h \
+  /home/ubuntu/0_new/lab4/kernel/include/stdarg.h \
+  /home/ubuntu/0_new/lab4/uboot/include/_exports.h
+
+/home/ubuntu/0_new/lab4/uboot/include/exports.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/types.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/stdarg.h:
+
+/home/ubuntu/0_new/lab4/uboot/include/_exports.h:

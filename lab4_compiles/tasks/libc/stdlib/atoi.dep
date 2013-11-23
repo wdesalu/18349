@@ -1,0 +1,11 @@
+/home/ubuntu/0_new/lab4/tasks/libc/stdlib/atoi.o:  \
+ /home/ubuntu/0_new/lab4/tasks/libc/stdlib/atoi.c \
+  /home/ubuntu/0_new/lab4/tasks/libc/include/stdlib.h \
+  /home/ubuntu/0_new/lab4/tasks/libc/include/ctype.h \
+  /home/ubuntu/0_new/lab4/tasks/libc/include/inline.h
+
+/home/ubuntu/0_new/lab4/tasks/libc/include/stdlib.h:
+
+/home/ubuntu/0_new/lab4/tasks/libc/include/ctype.h:
+
+/home/ubuntu/0_new/lab4/tasks/libc/include/inline.h:

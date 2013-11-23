@@ -1,0 +1,38 @@
+/home/ubuntu/0_new/lab4/kernel/sched/sched.o:  \
+ /home/ubuntu/0_new/lab4/kernel/sched/sched.c \
+  /home/ubuntu/0_new/lab4/kernel/include/types.h \
+  /home/ubuntu/0_new/lab4/kernel/include/assert.h \
+  /home/ubuntu/0_new/lab4/kernel/include/kernel.h \
+  /home/ubuntu/0_new/lab4/kernel/include/config.h \
+  /home/ubuntu/0_new/lab4/kernel/sched/sched_i.h \
+  /home/ubuntu/0_new/lab4/kernel/include/sched.h \
+  /home/ubuntu/0_new/lab4/kernel/include/task.h \
+  /home/ubuntu/0_new/lab4/kernel/include/arm/reg.h \
+  /home/ubuntu/0_new/lab4/kernel/include/inline.h \
+  /home/ubuntu/0_new/lab4/kernel/include/arm/psr.h \
+  /home/ubuntu/0_new/lab4/kernel/include/arm/exception.h \
+  /home/ubuntu/0_new/lab4/kernel/include/arm/physmem.h
+
+/home/ubuntu/0_new/lab4/kernel/include/types.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/assert.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/kernel.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/config.h:
+
+/home/ubuntu/0_new/lab4/kernel/sched/sched_i.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/sched.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/task.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/arm/reg.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/inline.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/arm/psr.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/arm/exception.h:
+
+/home/ubuntu/0_new/lab4/kernel/include/arm/physmem.h:

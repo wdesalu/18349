@@ -1,0 +1,5 @@
+/home/ubuntu/0_new/lab4/tasks/libc/swi/sleep.o:  \
+ /home/ubuntu/0_new/lab4/tasks/libc/swi/sleep.S \
+  /home/ubuntu/0_new/lab4/tasks/libc/include/asm.h
+
+/home/ubuntu/0_new/lab4/tasks/libc/include/asm.h:
