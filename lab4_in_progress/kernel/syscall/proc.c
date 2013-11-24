@@ -24,36 +24,43 @@
 
 int task_create(task_t* tasks  __attribute__((unused)), size_t num_tasks  __attribute__((unused)))
 {
-        /*
-                -ESCHED: task not schedulable (part 2?)
-        init mutexes, run UB test (????), sort tasks (part 2?)
-        set up tasks/schedule them
-        */
-	uint8_t pri[num_tasks];
-	size_t i;
+	size_t i, j;
 
-	// make sure we're not allocating too many tasks
-	if(num_tasks > OS_MAX_TASKS - 1)
+	// make sure we're not allocating too many tasks, avoid 0 priority and 
+	// idle task
+	if(num_tasks > OS_MAX_TASKS - 2)
 		return EINVAL;
 	// no tasks outside valid address range
 	if(!valid_addr(&tasks, sizeof(task_t) * num_tasks, USR_START_ADDR, USR_END_ADDR))
 		return EFAULT;
-	//no two tasks have the same priority
+	//check T, C of each task
 	for (i = 0; i < num_tasks; i++){
-		for (j = 0; j < i; j++){
-			if(pri[j] == tasks[i].cur_prio)
-				return EINVAL;
-		}
-		pri[i] = tasks[i].cur_prio;
+		if(tasks[i].T < tasks[i].C || tasks[i].T == 0)
+			return ESCHED;
 	}
+
+	// initialize mutices
+	mutex_init();
+	// sort tasks
+	if(!assign_schedule(&tasks, num_tasks))
+		return ESCHED;
+	disable_interrupts();
 	allocate_tasks(&tasks, num_tasks);
+	dispatch_nosave();
+
 	// won't make it here:
 	return -1;
 }
 
 int event_wait(unsigned int dev  __attribute__((unused)))
 {
-  return 1; /* remove this line after adding your code */	
+	//get tcb of current task
+	//check for mutex
+	// check that dev is valid
+	// disable interrupts
+	//dev_wait
+	// enable interrupts  
+	return 0;
 }
 
 /* An invalid syscall causes the kernel to exit. */
