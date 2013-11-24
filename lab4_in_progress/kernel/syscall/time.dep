@@ -1,0 +1,20 @@
+/home/ubuntu/18349/lab4_compiles/kernel/syscall/time.o:  \
+ /home/ubuntu/18349/lab4_compiles/kernel/syscall/time.c \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/types.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/config.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/bits/errno.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/arm/timer.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/syscall.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/task.h
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/types.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/config.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/bits/errno.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/arm/timer.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/syscall.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/task.h:

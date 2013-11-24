@@ -1,0 +1,38 @@
+/home/ubuntu/18349/lab4_compiles/kernel/sched/sched.o:  \
+ /home/ubuntu/18349/lab4_compiles/kernel/sched/sched.c \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/types.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/assert.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/kernel.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/config.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/sched/sched_i.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/sched.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/task.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/arm/reg.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/inline.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/arm/psr.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/arm/exception.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/arm/physmem.h
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/types.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/assert.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/kernel.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/config.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/sched/sched_i.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/sched.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/task.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/arm/reg.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/inline.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/arm/psr.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/arm/exception.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/arm/physmem.h:

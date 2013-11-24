@@ -1,0 +1,11 @@
+/home/ubuntu/18349/lab4_compiles/kernel/arm/reg.o:  \
+ /home/ubuntu/18349/lab4_compiles/kernel/arm/reg.c \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/types.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/arm/reg.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/inline.h
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/types.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/arm/reg.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/inline.h:

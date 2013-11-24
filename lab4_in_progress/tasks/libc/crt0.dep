@@ -1,0 +1,5 @@
+/home/ubuntu/18349/lab4_compiles/tasks/libc/crt0.o:  \
+ /home/ubuntu/18349/lab4_compiles/tasks/libc/crt0.S \
+  /home/ubuntu/18349/lab4_compiles/tasks/libc/include/asm.h
+
+/home/ubuntu/18349/lab4_compiles/tasks/libc/include/asm.h:

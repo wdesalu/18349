@@ -1,0 +1,14 @@
+/home/ubuntu/18349/lab4_compiles/kernel/sched/ub_test.o:  \
+ /home/ubuntu/18349/lab4_compiles/kernel/sched/ub_test.c \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/sched.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/task.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/types.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/config.h
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/sched.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/task.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/types.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/config.h:

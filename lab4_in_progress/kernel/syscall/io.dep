@@ -1,0 +1,38 @@
+/home/ubuntu/18349/lab4_compiles/kernel/syscall/io.o:  \
+ /home/ubuntu/18349/lab4_compiles/kernel/syscall/io.c \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/types.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/bits/errno.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/bits/fileno.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/arm/physmem.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/syscall.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/task.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/config.h \
+  /home/ubuntu/18349/lab4_compiles/uboot/include/exports.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/stdarg.h \
+  /home/ubuntu/18349/lab4_compiles/uboot/include/_exports.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/kernel.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/globals.h
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/types.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/bits/errno.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/bits/fileno.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/arm/physmem.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/syscall.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/task.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/config.h:
+
+/home/ubuntu/18349/lab4_compiles/uboot/include/exports.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/stdarg.h:
+
+/home/ubuntu/18349/lab4_compiles/uboot/include/_exports.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/kernel.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/globals.h:

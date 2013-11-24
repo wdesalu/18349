@@ -1,0 +1,32 @@
+/home/ubuntu/18349/lab4_compiles/kernel/device.o:  \
+ /home/ubuntu/18349/lab4_compiles/kernel/device.c \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/types.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/assert.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/task.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/config.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/sched.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/device.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/arm/reg.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/inline.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/arm/psr.h \
+  /home/ubuntu/18349/lab4_compiles/kernel/include/arm/exception.h
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/types.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/assert.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/task.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/config.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/sched.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/device.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/arm/reg.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/inline.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/arm/psr.h:
+
+/home/ubuntu/18349/lab4_compiles/kernel/include/arm/exception.h:

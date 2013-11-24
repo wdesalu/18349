@@ -1,0 +1,5 @@
+/home/ubuntu/18349/lab4_compiles/tasks/libc/swi/task_create.o:  \
+ /home/ubuntu/18349/lab4_compiles/tasks/libc/swi/task_create.S \
+  /home/ubuntu/18349/lab4_compiles/tasks/libc/include/asm.h
+
+/home/ubuntu/18349/lab4_compiles/tasks/libc/include/asm.h:
