@@ -65,7 +65,7 @@ void allocate_tasks(task_t** tasks  __attribute__((unused)), size_t num_tasks  _
         system_tcb[IDLE_PRI0].context.r6 = (uint32_t) tasks[IDLE_PRI0]->stack_pos;
         system_tcb[IDLE_PRI0].context.r8 = global_data;
         system_tcb[IDLE_PRI0].context.sp = system_tcb[IDLE_PRI0].kstack_high;
-        system_tcb[IDLE_PRI0].context.lr = launch_task;
+        system_tcb[IDLE_PRI0].context.lr = idle;
 
 	// new tasks don't hold locks or have initialized sleepqueues
 	system_tcb[IDLE_PRI0].holds_lock = 0;
