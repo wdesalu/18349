@@ -29,9 +29,18 @@
  */
 int assign_schedule(task_t** tasks  __attribute__((unused)), size_t num_tasks  __attribute__((unused)))
 {
+	//Constants
+	task_t temp_task;
+	size_t i;
 
-	return 1; // fix this; dummy return to prevent compiler warnings	
+	// bubble sort
+	for(i = 0; i < num_tasks; i++){
+		for(j = 0; j < num_tasks; j++){
+			if((*task)[j].T > (*task)[j+1].T){
+				temp_task = (*task)[j];
+				(*task)[j] = (*task)[j+1];
+				(*task)[j+1] = temp_task;
+			}
+		}	
+	}
 }
-	
-
-
