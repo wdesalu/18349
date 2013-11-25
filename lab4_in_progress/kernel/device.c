@@ -31,8 +31,10 @@
 
 struct dev
 {
-	tcb_t* sleep_queue;
-	unsigned long   next_match;
+  tcb_t* sleep_queue;
+  
+  //Does not overflow, and used to match when device tasks are run
+  unsigned long   next_match;
 };
 typedef struct dev dev_t;
 
@@ -46,7 +48,19 @@ static dev_t devices[NUM_DEVICES];
 void dev_init(void)
 {
    /* the following line is to get rid of the warning and should not be needed */	
-   devices[0]=devices[0];
+   //devices[0]=devices[0];
+  
+  //Constants
+  uint8_t index;
+  
+  //Initialize each device independently
+  for(index = 0; index < NUM_DEVICES; i++){
+    //set initialized frequencies
+    devices[index].next_match = dev_freq[index];
+    
+    //set sleep queues to 0
+    devices[index].sleep_queue = 0;
+  }
 }
 
 
@@ -58,7 +72,18 @@ void dev_init(void)
  */
 void dev_wait(unsigned int dev __attribute__((unused)))
 {
-	
+  unsigned int index = dev;
+  
+  //Get currenttask
+  tcb_t* cur_tcb = get_cur_tcb;
+  
+  //Add to front of sleep queue
+  tcb_t* temp = dev.sleep_queue;
+  cur_tcb->sleep_queue = temp;
+  devices[index].sleep_queue = cur_tcb
+  
+  //Run sleep & go to next task
+  dispatch_sleep();
 }
 
 
@@ -71,6 +96,33 @@ void dev_wait(unsigned int dev __attribute__((unused)))
  */
 void dev_update(unsigned long millis __attribute__((unused)))
 {
-	
+  //Constants
+  uint8_t index;
+  tcb_t* task;
+
+  //Device Update
+  //Check each device independently
+  for(index = 0; i < NUM_DEVICES; i++){
+    //Check if millis matches a device next_match
+    if(millis == devices[index].next_match){
+      
+      for(task = devices[index].sleep_queue; lIndex != NULL; task = task->sleep_queue){
+	//Remove from task sleepqueue
+	task->sleep_queue = 0;
+
+	//Add to runqueue
+	runqueue_add(task, task->cur_prio);
+      }
+
+      //Remove from device sleepqueue
+      devices[index].sleep_queue = 0;
+      
+      //Update next_match
+      devices[index].next_match = devices[index].next_match + millis;
+    }
+  }
+
+  //Start running task
+  dispatch_save();
 }
 
