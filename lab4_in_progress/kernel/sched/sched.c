@@ -58,20 +58,20 @@ void allocate_tasks(task_t** tasks  __attribute__((unused)), size_t num_tasks  _
 	*/
 	size_t i;
 	//set up tcb for idle task
-        system_tcb[IDLE_PRI0].native_prio = IDLE_PRI0;
-        system_tcb[IDLE_PRI0].cur_prio = IDLE_PRI0;
-	system_tcb[IDLE_PRI0].context.r4 = (uint32_t) tasks[IDLE_PRI0]->lambda;
-        system_tcb[IDLE_PRI0].context.r5 = (uint32_t) tasks[IDLE_PRI0]->data;
-        system_tcb[IDLE_PRI0].context.r6 = (uint32_t) tasks[IDLE_PRI0]->stack_pos;
-        system_tcb[IDLE_PRI0].context.r8 = global_data;
-        system_tcb[IDLE_PRI0].context.sp = system_tcb[IDLE_PRI0].kstack_high;
-        system_tcb[IDLE_PRI0].context.lr = idle;
+        system_tcb[IDLE_PRIO].native_prio = IDLE_PRIO;
+        system_tcb[IDLE_PRIO].cur_prio = IDLE_PRIO;
+	system_tcb[IDLE_PRIO].context.r4 = (uint32_t) tasks[IDLE_PRIO]->lambda;
+        system_tcb[IDLE_PRIO].context.r5 = (uint32_t) tasks[IDLE_PRIO]->data;
+        system_tcb[IDLE_PRIO].context.r6 = (uint32_t) tasks[IDLE_PRIO]->stack_pos;
+        system_tcb[IDLE_PRIO].context.r8 = global_data;
+        system_tcb[IDLE_PRIO].context.sp = system_tcb[IDLE_PRIO].kstack_high;
+        system_tcb[IDLE_PRIO].context.lr = idle;
 
 	// new tasks don't hold locks or have initialized sleepqueues
-	system_tcb[IDLE_PRI0].holds_lock = 0;
-	system_tcb[IDLE_PRI0].sleep_queue = 0;
+	system_tcb[IDLE_PRIO].holds_lock = 0;
+	system_tcb[IDLE_PRIO].sleep_queue = 0;
 	runqueue_init();
-	runqueue_add(&system_tcb[IDLE_PRI0], IDLE_PRI0);
+	runqueue_add(&system_tcb[IDLE_PRIO], IDLE_PRIO);
 	
 	for(i = 0; i < num_tasks; i++){
 		//don't use pri 0: that's for mutices
@@ -91,7 +91,7 @@ void allocate_tasks(task_t** tasks  __attribute__((unused)), size_t num_tasks  _
 	}
 	
 	//schedule idle task
-	dispatch_init(&system_tcb[IDLE_PRI0]);
+	dispatch_init(&system_tcb[IDLE_PRIO]);
 	
 }
 
