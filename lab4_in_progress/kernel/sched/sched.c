@@ -22,7 +22,7 @@ tcb_t system_tcb[OS_MAX_TASKS]; /*allocate memory for system TCBs */
 
 void sched_init(task_t* main_task  __attribute__((unused)))
 {
-	
+	allocate_tasks(&main_task, 1);
 }
 
 /**
@@ -60,20 +60,29 @@ void allocate_tasks(task_t** tasks  __attribute__((unused)), size_t num_tasks  _
 	//set up tcb for idle task
         system_tcb[IDLE_PRI0].native_prio = IDLE_PRI0;
         system_tcb[IDLE_PRI0].cur_prio = IDLE_PRI0;
-	//system_tcb[0].sched_context_t.	
+	system_tcb[IDLE_PRI0].context.r4 = (uint32_t) tasks[IDLE_PRI0]->lambda;
+        system_tcb[IDLE_PRI0].context.r5 = (uint32_t) tasks[IDLE_PRI0]->data;
+        system_tcb[IDLE_PRI0].context.r6 = (uint32_t) tasks[IDLE_PRI0]->stack_pos;
+        system_tcb[IDLE_PRI0].context.r8 = global_data;
+        system_tcb[IDLE_PRI0].context.sp = system_tcb[IDLE_PRI0].kstack_high;
+        system_tcb[IDLE_PRI0].context.lr = idle;
+
 	// new tasks don't hold locks or have initialized sleepqueues
 	system_tcb[IDLE_PRI0].holds_lock = 0;
 	system_tcb[IDLE_PRI0].sleep_queue = 0;
 	runqueue_init();
-	runqueue_add(&system_tcb[i], i);
+	runqueue_add(&system_tcb[IDLE_PRI0], IDLE_PRI0);
 	
 	for(i = 0; i < num_tasks; i++){
-		//don't use pri 0: that's for mutii
+		//don't use pri 0: that's for mutices
 		system_tcb[i].native_prio = i+1;
 		system_tcb[i].cur_prio = i+1;
-		//system_tcb[i].sched_context_t.
-		//add task to runqueue
-		//system_tcb[0].sched_context_t.        
+		system_tcb[i].context.r4 = (uint32_t) tasks[i]->lambda;
+		system_tcb[i].context.r5 = (uint32_t) tasks[i]->data;
+		system_tcb[i].context.r6 = (uint32_t) tasks[i]->stack_pos;
+		system_tcb[i].context.r8 = global_data;
+		system_tcb[i].context.sp = system_tcb[i].kstack_high;
+		system_tcb[i].context.lr = launch_task; 
 	        // new tasks don't hold locks or have initialized sleepqueues
         	system_tcb[i].holds_lock = 0;
        	 	system_tcb[i].sleep_queue = 0;
