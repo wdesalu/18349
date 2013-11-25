@@ -1,0 +1,8 @@
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/memcheck.o:  \
+ /home/wale/Documents/18349/lab4_in_progress_wale/kernel/memcheck.c \
+  /home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/kernel.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/types.h
+
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/kernel.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/types.h:

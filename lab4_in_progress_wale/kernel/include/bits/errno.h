@@ -39,4 +39,5 @@
 #define ERANGE        34    /* Math result not representable */
 
 #define ESCHED        100   /* Unable to schedule */
+#define EDEADLOCK     58    /* File locking deadlock error */
 #endif /* BITS_ERRNO_H */

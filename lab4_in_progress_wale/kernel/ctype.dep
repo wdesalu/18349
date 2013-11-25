@@ -1,0 +1,8 @@
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/ctype.o:  \
+ /home/wale/Documents/18349/lab4_in_progress_wale/kernel/ctype.c \
+  /home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/ctype.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/inline.h
+
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/ctype.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/inline.h:

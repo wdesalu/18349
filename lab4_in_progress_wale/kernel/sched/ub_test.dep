@@ -1,0 +1,14 @@
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/sched/ub_test.o:  \
+ /home/wale/Documents/18349/lab4_in_progress_wale/kernel/sched/ub_test.c \
+  /home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/sched.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/task.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/types.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/config.h
+
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/sched.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/task.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/types.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/config.h:

@@ -1,0 +1,27 @@
+ \
+ /home/wale/Documents/18349/lab4_in_progress_wale/kernel/sched/run_queue.o:  \
+ /home/wale/Documents/18349/lab4_in_progress_wale/kernel/sched/run_queue.c \
+  /home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/types.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/assert.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/kernel.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/sched.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/task.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/config.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/kernel/sched/sched_i.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/bits/errno.h
+
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/types.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/assert.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/kernel.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/sched.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/task.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/config.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/sched/sched_i.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/kernel/include/bits/errno.h:

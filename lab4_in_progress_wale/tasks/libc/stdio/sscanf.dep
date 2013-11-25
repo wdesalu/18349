@@ -1,0 +1,18 @@
+ \
+ /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/stdio/sscanf.o:  \
+ /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/stdio/sscanf.c \
+  /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/stdio.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/stdarg.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/sys/types.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/bits/types.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/stdio/doscan.h
+
+/home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/stdio.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/stdarg.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/sys/types.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/bits/types.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/stdio/doscan.h:

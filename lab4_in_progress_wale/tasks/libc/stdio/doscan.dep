@@ -1,0 +1,21 @@
+ \
+ /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/stdio/doscan.o:  \
+ /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/stdio/doscan.c \
+  /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/stdarg.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/sys/types.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/bits/types.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/ctype.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/inline.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/stdio/doscan.h
+
+/home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/stdarg.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/sys/types.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/bits/types.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/ctype.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/inline.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/stdio/doscan.h:

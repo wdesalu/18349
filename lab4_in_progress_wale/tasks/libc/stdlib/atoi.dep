@@ -1,0 +1,12 @@
+ \
+ /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/stdlib/atoi.o:  \
+ /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/stdlib/atoi.c \
+  /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/stdlib.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/ctype.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/inline.h
+
+/home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/stdlib.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/ctype.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/inline.h:

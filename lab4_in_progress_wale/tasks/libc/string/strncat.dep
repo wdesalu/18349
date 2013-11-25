@@ -1,0 +1,12 @@
+ \
+ /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/string/strncat.o:  \
+ /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/string/strncat.c \
+  /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/string.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/sys/types.h \
+  /home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/bits/types.h
+
+/home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/string.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/sys/types.h:
+
+/home/wale/Documents/18349/lab4_in_progress_wale/tasks/libc/include/bits/types.h:

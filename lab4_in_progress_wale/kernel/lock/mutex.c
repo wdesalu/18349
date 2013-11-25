@@ -58,7 +58,7 @@ int mutex_create(void)
       gtMutex[index].bAvailable = 1;
 
     //Return index of available mutex
-    return i;
+    return index;
   }
 
   //Enable Interrupts
@@ -72,7 +72,7 @@ int mutex_lock(int mutex  __attribute__((unused)))
 { 
   // Get the current task
   tcb_t* cur_tcb = get_cur_tcb();
-  mutex_t* cut_mutex = &(gtMutex[mutex]);
+  mutex_t* cur_mutex = &(gtMutex[mutex]);
  
   // Check if mutex is in range
   if((mutex <0) || (mutex >= OS_NUM_MUTEX)) return EINVAL;
@@ -84,7 +84,7 @@ int mutex_lock(int mutex  __attribute__((unused)))
   disable_interrupts();
 
   // If mutex is locked (blocked), wait until freed up by sleeping
-  while(cur_mutex->block == 1){
+  while(cur_mutex->bLock == 1){
     // Enable interrupts
     enable_interrupts();
     
@@ -95,7 +95,7 @@ int mutex_lock(int mutex  __attribute__((unused)))
   }
   
   // Set holding Tcb to current task, set bLock = TRUE, give curr\ent task highest priority, set cur tasks's "holds_lock" val to 1
-  cur_mutex->block = 1;
+  cur_mutex->bLock = 1;
     cur_mutex->pHolding_Tcb = cur_tcb;
     cur_tcb->cur_prio = highest_prio();
     cur_tcb->holds_lock = 1;
@@ -104,25 +104,20 @@ int mutex_lock(int mutex  __attribute__((unused)))
     enable_interrupts();
 
     return 0;
-  }
-    // If the mutex is already locked: wait for it to free up, then do v. but enable interrupts
-  else{
-    
-	return 1; // fix this to return the correct value
 }
 
 int mutex_unlock(int mutex  __attribute__((unused)))
 {
 	
   // Get current task & mutex 
-  tcb_t* cur_tcb = get_cur_tcb();
-  mutex_t* cut_mutex = &(gtMutex[mutex]);
+  //tcb_t* cur_tcb = get_cur_tcb();
+  mutex_t* cur_mutex = &(gtMutex[mutex]);
 
   // Disable interrupts
   disable_interrupts();
 
   // Make sure mutex param is valid (if not, return -EINVAL)
-  if((mutex <0) || (mutex >= OS_NUM_MUTEX) || (cur_mutex->block != 1)) return EINVAL;
+  if((mutex <0) || (mutex >= OS_NUM_MUTEX) || (cur_mutex->bLock != 1)) return EINVAL;
 
 
   //current task doesn't hold mutex, enable interrupts (return -EPERM)
@@ -138,7 +133,7 @@ int mutex_unlock(int mutex  __attribute__((unused)))
   cur_mutex->pHolding_Tcb = 0;
    	  
   //enable interrupts
-  enable_interrupts()
+  enable_interrupts();
 	
   return 1; // fix this to return the correct value
 }
