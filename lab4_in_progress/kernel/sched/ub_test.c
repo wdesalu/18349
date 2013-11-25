@@ -32,9 +32,12 @@ int assign_schedule(task_t** tasks  __attribute__((unused)), size_t num_tasks  _
 	//Constants
 	task_t temp_task;
 	size_t i;
-
+	uint8_t ub_val = 0;
+	uint8_t max_ub = num_tasks*(2 << (1/num_tasks) - 1);
+	
 	// bubble sort
 	for(i = 0; i < num_tasks; i++){
+		ub_val += ((*task)[i].C) / ((*task)[i].T)
 		for(j = 0; j < num_tasks; j++){
 			if((*task)[j].T > (*task)[j+1].T){
 				temp_task = (*task)[j];
@@ -43,4 +46,7 @@ int assign_schedule(task_t** tasks  __attribute__((unused)), size_t num_tasks  _
 			}
 		}	
 	}
+	if(ub_val <= max_ub) //ub test
+		return 1;
+	else return 0;
 }
