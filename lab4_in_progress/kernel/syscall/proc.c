@@ -15,7 +15,7 @@
 #include <kernel.h>
 #include <syscall.h>
 #include <sched.h>
-
+#include <lock.h>
 #include <arm/reg.h>
 #include <arm/psr.h>
 #include <arm/exception.h>
