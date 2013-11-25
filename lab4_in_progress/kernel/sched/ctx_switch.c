@@ -28,7 +28,7 @@ static __attribute__((unused)) tcb_t* cur_tcb; /* use this if needed */
  */
 void dispatch_init(tcb_t* idle __attribute__((unused)))
 {
-	
+  cur_tcb = idle;
 }
 
 
@@ -42,7 +42,17 @@ void dispatch_init(tcb_t* idle __attribute__((unused)))
  */
 void dispatch_save(void)
 {
-	
+  uint8_t prio = highest_prio();
+
+  //cur ctx = removed from the front of the run queue
+  tcb_t cur_ctx = runqueue_remove(prio);
+
+  //old ctx = added to the run queue
+  tcb_t old_ctx = cur_tcb;
+  runqueue_add(old_ctx,old_ctx->cur_prio);
+
+  //call a context switch
+  ctx_switch_full(cur_ctx,old_ctx);
 }
 
 /**
@@ -56,6 +66,13 @@ void dispatch_nosave(void)
 	/*
 		context switch to the highest priority task without worrying about saving current task's context ("half switch")
 	*/
+  uint8_t prio = highest_prio();
+  
+  //cur ctx = removed from cront of the run queue
+  tcb_t cur_ctx = runqueue_remove(prio);
+
+  //call a context switch
+  ctx_switch_half(cur_ctx);
 }
 
 
@@ -67,7 +84,17 @@ void dispatch_nosave(void)
  */
 void dispatch_sleep(void)
 {
-	
+  uint8_t prio = highest_prio();
+
+  //cur ctx = removed from the front of the run queue                                         
+  tcb_t cur_ctx = runqueue_remove(prio);
+
+  //old ctx = added to the run queue                                                          
+  tcb_t old_ctx = cur_tcb;
+
+  //call a context switch                                                                     
+  ctx_switch_full(cur_ctx,old_ctx);
+
 }
 
 /**
@@ -75,7 +102,7 @@ void dispatch_sleep(void)
  */
 uint8_t get_cur_prio(void)
 {
-	return 1; //fix this; dummy return to prevent compiler warning
+  return cur_tcb->cur_prio;
 }
 
 /**
@@ -83,5 +110,5 @@ uint8_t get_cur_prio(void)
  */
 tcb_t* get_cur_tcb(void)
 {
-	return (tcb_t *) 0; //fix this; dummy return to prevent compiler warning
+  return cur_tcb;
 }
